@@ -1,0 +1,21 @@
+{
+  "name": "sorb-demo",
+  "version": "0.0.0",
+  "private": true,
+  "description": "Reference app wiring showing how to consume the Sorb packages",
+  "type": "module",
+  "scripts": {
+    "sorb": "sorb dev",
+    "tokens": "style-dictionary build --config ./sd.config.js",
+    "build": "npm run tokens"
+  },
+  "dependencies": {
+    "@metatoy/sorb-leaf": "^1.2.0",
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0"
+  },
+  "devDependencies": {
+    "@metatoy/sorb-juice": "^1.2.0",
+    "style-dictionary": "^4.0.0"
+  }
+}
