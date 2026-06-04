@@ -1,5 +1,5 @@
 import React from 'react'
-import { SorbProvider } from '@metatoy/sorb-leaf'
+import { SorbProvider } from '@sorb/leaf'
 import { sorbConfig } from '../sorb.config'
 
 // The same SorbProvider that wraps the real app also wraps every

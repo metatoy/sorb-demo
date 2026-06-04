@@ -16,7 +16,7 @@ DTCG token sets (`tokens/*.json`) → Style Dictionary (`sd.config.js` +
 
 - **JavaScript only — never TypeScript.**
 - **Not published** (`private: true`). Cross-repo local dev: `npm link
-  @metatoy/sorb-leaf` and `@metatoy/sorb-juice` against the sibling repos until
+  @sorb/leaf` and `@sorb/juice` against the sibling repos until
   they're published (polyrepo — there's no workspace to hoist them).
 - **Don't commit generated outputs:** `.sorb/` and `src/tokens/generated/` are
   built by `npm run tokens` (Style Dictionary) and gitignored.

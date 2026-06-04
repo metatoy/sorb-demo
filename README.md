@@ -2,8 +2,8 @@
 
 Reference wiring for consuming the published Sorb packages in a React
 app. Not a workspace member — it depends on
-[`@metatoy/sorb-leaf`](https://www.npmjs.com/package/@metatoy/sorb-leaf)
-and [`@metatoy/sorb-juice`](https://www.npmjs.com/package/@metatoy/sorb-juice)
+[`@sorb/leaf`](https://www.npmjs.com/package/@sorb/leaf)
+and [`@sorb/juice`](https://www.npmjs.com/package/@sorb/juice)
 straight from npm, exactly as a real consumer would.
 
 ## Files
@@ -44,7 +44,7 @@ only the `tokens/*.json` sources, never the generated outputs.
 ## Run it
 
 ```bash
-npm install            # pulls @metatoy/sorb-leaf + @metatoy/sorb-juice + style-dictionary
+npm install            # pulls @sorb/leaf + @sorb/juice + style-dictionary
 npm run tokens         # build tokens (also runs automatically under `sorb dev`)
 npm run sorb        # starts the local token bridge (sorb dev)
 ```

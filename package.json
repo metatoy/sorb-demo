@@ -10,12 +10,12 @@
     "build": "npm run tokens"
   },
   "dependencies": {
-    "@metatoy/sorb-leaf": "^1.2.0",
+    "@sorb/leaf": "^0.1.0",
     "react": "^18.0.0",
     "react-dom": "^18.0.0"
   },
   "devDependencies": {
-    "@metatoy/sorb-juice": "^1.2.0",
+    "@sorb/juice": "^0.1.0",
     "style-dictionary": "^4.0.0"
   }
 }
