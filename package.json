@@ -7,7 +7,8 @@
   "scripts": {
     "sorb": "sorb dev",
     "tokens": "style-dictionary build --config ./sd.config.js",
-    "build": "npm run tokens"
+    "build": "npm run tokens",
+    "test": "node --test sd/"
   },
   "dependencies": {
     "@sorb/leaf": "^0.1.0",
