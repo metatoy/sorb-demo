@@ -32,8 +32,43 @@ npm run tokens         # style-dictionary build → all outputs below
 | `src/tokens/generated/variables.css` | the app (imported globally) |
 | `src/tokens/generated/aliases.css` | the app, during migration — `--primaryAction: var(--color-action-primary)` |
 | `src/tokens/generated/theme.js` | styled-components theme (`var(--…, fallback)`) |
+| `src/tokens/generated/tailwind-theme.css` | Tailwind v4 `@theme inline` of `var(--token)` refs (see below) |
+| `src/tokens/generated/tailwind-sorb-preset.cjs` | Tailwind v3 preset (`theme.extend` of `var(--token)` refs) |
 | `.sorb/resolved.json` | bridge `/tokens/resolved`, capture annotator, plugin Sync Variables |
 | `.sorb/versions.json` | per-set `$version` (drift detection) |
+
+### Tailwind v4
+
+`tailwind-theme.css` lets a Tailwind v4 app theme off Sorb tokens **and keep live
+preview**. It emits one `@theme inline` entry per resolved token, each value a
+`var(--token)` reference into `variables.css` — so Tailwind utilities
+(`bg-action-primary`, `rounded-button`, `border-border-default`, …) resolve
+through the exact CSS vars the bridge swaps at runtime. Import order in your entry
+CSS:
+
+```css
+@import "tailwindcss";
+@import "./tokens/generated/variables.css";       /* sorb tokens — bridge swaps these live */
+@import "./tokens/generated/tailwind-theme.css";  /* maps them into the Tailwind theme */
+```
+
+Because `@theme inline` makes utilities reference `var(--token)` directly (rather
+than baking the value in), a `POST /preview` recolors Tailwind-classed elements
+with **no Tailwind-specific bridge code**. Mapping: color tokens → `--color-*`
+(`bg-`/`text-`/`border-`), `radius.*`+`button.radius` → `--radius-*` (`rounded-*`),
+`space.*` → `--spacing-*`, `font.size.*` → `--text-*`, `font.weight.*` →
+`--font-weight-*`.
+
+**Tailwind v3** apps use the generated **preset** instead — same `var(--token)`
+refs, grouped into v3 `theme.extend` categories, so the same utilities
+(`bg-action-primary`, `rounded-button`, …) and the same live preview work:
+
+```js
+// tailwind.config.js
+module.exports = { presets: [require('./src/tokens/generated/tailwind-sorb-preset.cjs')] }
+```
+
+Import `variables.css` globally either way so the vars resolve.
 
 `sorb dev` runs this build on startup and re-runs it whenever a
 `tokenSources` file changes — so the resolved map the plugin/seed consume is
