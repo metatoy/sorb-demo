@@ -1,6 +1,6 @@
 import React from 'react'
 import { SorbProvider } from '@sorb/leaf'
-import { sorbConfig } from '../sorb.config'
+import { sorbConfig } from '../src/sorbConfig'
 
 // The same SorbProvider that wraps the real app also wraps every
 // Storybook story. Token behaviour is identical in both contexts.

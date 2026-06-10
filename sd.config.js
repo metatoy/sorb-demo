@@ -8,6 +8,7 @@ import {
   SORB_SET_META,
   SORB_TAILWIND,
   SORB_TAILWIND_V3,
+  SORB_TOKENSET,
   sorbResolved,
   sorbThemeNested,
   sorbAliases,
@@ -15,6 +16,7 @@ import {
   sorbSetMeta,
   sorbTailwind,
   sorbTailwindV3,
+  sorbTokenSet,
 } from './sd/sorb-format.js'
 
 // Register Sorb's custom parser + formats before building.
@@ -25,6 +27,7 @@ StyleDictionary.registerFormat({ name: SORB_ALIASES, format: sorbAliases })
 StyleDictionary.registerFormat({ name: SORB_VERSIONS, format: sorbVersions })
 StyleDictionary.registerFormat({ name: SORB_TAILWIND, format: sorbTailwind })
 StyleDictionary.registerFormat({ name: SORB_TAILWIND_V3, format: sorbTailwindV3 })
+StyleDictionary.registerFormat({ name: SORB_TOKENSET, format: sorbTokenSet })
 
 // Legacy CSS-var name → new DTCG id. Read here (NOT a token source) and handed
 // to the aliases format. Delete the file + the `aliases` platform post-migration.
@@ -54,7 +57,11 @@ export default {
     js: {
       transformGroup: 'css', // kebab names so the var() matches the css platform
       buildPath: 'src/tokens/generated/',
-      files: [{ destination: 'theme.js', format: SORB_THEME_NESTED }],
+      files: [
+        { destination: 'theme.js', format: SORB_THEME_NESTED },
+        // Flat TokenSet for @sorb/leaf's SorbProvider (the committed token set).
+        { destination: 'tokens.js', format: SORB_TOKENSET },
+      ],
     },
 
     // The Sorb resolved bindable map — { id, cssVar, value, tier, type }.

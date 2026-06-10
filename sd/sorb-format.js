@@ -23,6 +23,7 @@ export const SORB_VERSIONS = 'sorb/versions'
 export const SORB_SET_META = 'sorb/set-meta'
 export const SORB_TAILWIND = 'sorb/tailwind-theme'
 export const SORB_TAILWIND_V3 = 'sorb/tailwind-v3-preset'
+export const SORB_TOKENSET = 'sorb/tokenset-esm'
 
 // ─── set-level metadata parser ───────────────────────────────────────────────
 // Per-set `$version` lives at each token file's root. SD merges all sources
@@ -56,6 +57,23 @@ const cssNameOf = (id) => '--' + String(id).split('.').join('-')
  * Emits the bindable map: one entry per token. Schema:
  * { id, cssVar, value, tier, type } plus { deprecated, replacedBy } when set.
  */
+/**
+ * Flat **TokenSet** ESM module for `@sorb/leaf`'s `SorbProvider` — one entry per
+ * token, keyed by the CSS-var name WITHOUT the leading `--` (leaf's `applyTokens`
+ * re-adds it via `setProperty('--' + key, value)`). This is the committed token
+ * set bundled into the app at build time:
+ *   export const tokens = { 'color-action-primary': '#0f65ef', ... }
+ * Same names/values as `variables.css` and `resolved.json` (one source, many
+ * surfaces). Consumed by `main.jsx` / `src/sorbConfig.js`.
+ */
+export const sorbTokenSet = ({ dictionary }) => {
+  const out = {}
+  for (const t of dictionary.allTokens) {
+    out[t.path.join('-')] = t.$value ?? t.value
+  }
+  return 'export const tokens = ' + JSON.stringify(out, null, 2) + '\n'
+}
+
 export const sorbResolved = ({ dictionary }) => {
   const deprecated = []
   const out = dictionary.allTokens.map((t) => {
