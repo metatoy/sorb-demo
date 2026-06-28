@@ -10,17 +10,21 @@
     "dev": "npm run tokens && vite",
     "build": "npm run tokens && vite build",
     "preview": "vite preview",
-    "storybook": "storybook dev -p 6006",
+    "storybook": "npm run tokens && storybook dev -p 6006",
+    "build-storybook": "npm run tokens && storybook build",
     "test": "node --test sd/"
   },
   "dependencies": {
-    "@sorb/leaf": "^0.1.0",
+    "@sorb/leaf": "^0.2.0",
     "react": "^18.0.0",
     "react-dom": "^18.0.0"
   },
   "devDependencies": {
     "@sorb/juice": "^0.1.0",
+    "@storybook/react": "^8.6.0",
+    "@storybook/react-vite": "^8.6.0",
     "@vitejs/plugin-react": "^4.3.0",
+    "storybook": "^8.6.0",
     "style-dictionary": "^4.0.0",
     "vite": "^5.4.0"
   }

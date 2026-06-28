@@ -4,3 +4,5 @@ node_modules/
 .sorb/
 src/tokens/generated/
 dist/
+storybook-static/
+pnpm-lock.yaml
