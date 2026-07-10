@@ -25,8 +25,12 @@ export const App = () => {
   const runVerify = async () => {
     setVerify({ pending: true })
     // Asserts the RUNNING app resolves to the committed token values (W2).
-    // Reuse the same bridge origin the provider previews against.
-    const result = await verifyResolved(BOUND_TOKENS, { origin: sorbConfig.preview.origin })
+    // Reuse the same bridge origin + bearer key the provider previews against
+    // (key is undefined for local dev → no Authorization header sent).
+    const result = await verifyResolved(BOUND_TOKENS, {
+      origin: sorbConfig.preview.origin,
+      key: sorbConfig.preview.key,
+    })
     setVerify(result)
   }
 
