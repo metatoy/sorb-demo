@@ -2,7 +2,7 @@
   "name": "sorb-demo",
   "version": "0.0.0",
   "private": true,
-  "description": "Reference app wiring showing how to consume the Sorb packages",
+  "description": "Reference app for Sorb, the design-token bridge for your running app — every control renders from a CSS custom property.",
   "type": "module",
   "scripts": {
     "sorb": "sorb dev",
