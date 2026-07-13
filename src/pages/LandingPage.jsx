@@ -33,9 +33,9 @@ import { DISPLAY_STACK } from '../sorbBsTheme'
 // push re-skins the whole page with the rest of the site. Imagery = real
 // free-stock jeans photography (Unsplash direct CDN); curl-verified 200 image/*.
 
-// Lifestyle hero: a person wearing a blue denim jacket + blue jeans (Unsplash).
+// Lifestyle hero: founder-selected blue-jeans shot (Unsplash, hero-res w=1600).
 const HERO_IMAGE =
-  'https://images.unsplash.com/photo-1598978192227-08faca0eff3a?auto=format&fit=crop&w=1600&q=80'
+  'https://images.unsplash.com/photo-1529391409740-59f2cea08bc6?auto=format&fit=crop&w=1600&q=80'
 
 const VALUE_PROPS = [
   {
