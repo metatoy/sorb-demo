@@ -1,7 +1,7 @@
 # Sorb example
 
-Reference wiring for consuming the published Sorb packages in a React
-app. Not a workspace member — it depends on
+Reference app for Sorb, the design-token bridge for your running app — every
+control renders from a CSS custom property. Not a workspace member — it depends on
 [`@sorb/leaf`](https://www.npmjs.com/package/@sorb/leaf)
 and [`@sorb/juice`](https://www.npmjs.com/package/@sorb/juice)
 straight from npm, exactly as a real consumer would.

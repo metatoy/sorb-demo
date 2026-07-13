@@ -2,7 +2,7 @@
   "name": "sorb-demo",
   "version": "0.0.0",
   "private": true,
-  "description": "Reference app wiring showing how to consume the Sorb packages",
+  "description": "Reference app for Sorb, the design-token bridge for your running app — every control renders from a CSS custom property.",
   "type": "module",
   "scripts": {
     "sorb": "sorb dev",
@@ -15,9 +15,11 @@
     "test": "node --test sd/"
   },
   "dependencies": {
+    "@metatoy/bootstrap-styled": "file:../../misc/bootstrap-styled",
     "@sorb/leaf": "^0.2.0",
     "react": "^18.0.0",
-    "react-dom": "^18.0.0"
+    "react-dom": "^18.0.0",
+    "styled-components": "^6.1.0"
   },
   "devDependencies": {
     "@sorb/juice": "^0.2.0",

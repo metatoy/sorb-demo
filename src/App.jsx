@@ -3,6 +3,7 @@ import { useIsPreview, verifyResolved } from '@sorb/leaf'
 import { sorbConfig } from './sorbConfig'
 import { Button } from './components/Button'
 import { Card } from './components/Card'
+import { BootstrapStyledDemo } from './BootstrapStyledDemo'
 
 // The tokens the primary Button binds — what "verify the running app" checks.
 const BOUND_TOKENS = [
@@ -25,8 +26,12 @@ export const App = () => {
   const runVerify = async () => {
     setVerify({ pending: true })
     // Asserts the RUNNING app resolves to the committed token values (W2).
-    // Reuse the same bridge origin the provider previews against.
-    const result = await verifyResolved(BOUND_TOKENS, { origin: sorbConfig.preview.origin })
+    // Reuse the same bridge origin + bearer key the provider previews against
+    // (key is undefined for local dev → no Authorization header sent).
+    const result = await verifyResolved(BOUND_TOKENS, {
+      origin: sorbConfig.preview.origin,
+      key: sorbConfig.preview.key,
+    })
     setVerify(result)
   }
 
@@ -79,6 +84,10 @@ export const App = () => {
           </span>
         ) : null}
       </div>
+
+      {/* P7 — live re-skin proof: real @metatoy/bootstrap-styled components that
+          recolor when a bs-*-keyed token set is pushed through the Sorb bridge. */}
+      <BootstrapStyledDemo />
     </main>
   )
 }
