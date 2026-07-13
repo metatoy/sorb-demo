@@ -11,6 +11,7 @@ straight from npm, exactly as a real consumer would.
 | File | Purpose |
 |---|---|
 | `main.jsx` | Wraps the app in `SorbProvider` + `PreviewBanner` |
+| `.storybook/main.js` | Storybook config — loads the addon (`addons: ['@sorb/storybook']`) |
 | `.storybook/preview.jsx` | Applies the same provider to every story |
 | `sorb.config.json` | Config read by the `sorb` CLI |
 | `sd.config.js` | Style Dictionary config (3-tier DTCG → all outputs) |
@@ -82,6 +83,21 @@ only the `tokens/*.json` sources, never the generated outputs.
 npm install            # pulls @sorb/leaf + @sorb/juice + style-dictionary
 npm run tokens         # build tokens (also runs automatically under `sorb dev`)
 npm run sorb        # starts the local token bridge (sorb dev)
+```
+
+## Storybook + capture
+
+This app is also the capture target and the host for the
+[`@sorb/storybook`](../sorb-storybook) addon (wired via
+`.storybook/main.js` → `addons: ['@sorb/storybook']`):
+
+```bash
+npm run storybook          # storybook dev -p 6006 (Sorb panel + Token Explorer)
+npm run build-storybook    # static build → storybook-static/
+
+# populate the bound-token data the addon shows (needs a chromium browser:
+#   npx playwright install chromium  — one-time, separate from the package)
+sorb-seed capture          # walk the Storybook → .sorb/ map + *.sorb.json
 ```
 
 > These files are an integration reference, not a full runnable app — they

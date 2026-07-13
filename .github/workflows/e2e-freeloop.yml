@@ -1,0 +1,73 @@
+# GFP RC1 Part 2 · P3 — end-to-end FREE-LOOP gate (MANUAL / NIGHTLY, not per-PR)
+#
+# HONEST STATUS: this is a READY-TO-ENABLE STUB, not an active per-PR gate.
+# The E2E free loop is inherently CROSS-REPO and multi-server, so it cannot run
+# from a single-repo checkout the way the per-repo unit CIs do. It needs, as
+# sibling checkouts under one WS root:
+#   sorb-juice (gfp-p2-juice-cli) · sorb-seed (gfp-p2-seed-cli) ·
+#   sorb-storybook (main) · sorb-demo (this) · sorb-test-ui (harness)
+# plus: python3 (serves the static Storybook), a Playwright chromium browser,
+# and 3 local servers (bridge 7777 · Storybook 6006 · vite app 5178).
+#
+# The driver — spec/sorb/gfp/p3/part2-e2e-freeloop.sh — is already CI-shaped:
+#   • repo root is parameterized via the WS env var (defaults to local layout)
+#   • the loopback fix is baked in (vite `--host 127.0.0.1`, http.server
+#     `--bind 127.0.0.1`, all curls hit 127.0.0.1) so it is IPv6-safe
+#   • STEP -1 installs the fixed juice/seed deps, builds the juice dist, and
+#     runs `npx playwright install chromium`
+#
+# WHY MANUAL/NIGHTLY, NOT PER-PR: it clones 5 repos, builds a full Storybook +
+# a vite app, drives a real browser, and takes minutes — too heavy and too
+# coupled to gate every PR. Run it on demand (workflow_dispatch) or nightly.
+#
+# TO ENABLE: (1) uncomment the `schedule` trigger below (or trigger manually),
+# (2) provide the five sibling checkouts (the multiple-checkout steps are
+# sketched below and commented because they need the real repo URLs/refs the
+# founder controls), (3) `chmod +x` + run the driver. Left commented so pushing
+# this file never silently starts spinning up a broken heavy job.
+
+name: E2E free-loop (manual/nightly)
+
+on:
+  workflow_dispatch:
+  # Nightly gate — uncomment to activate once the multi-checkout below is filled in:
+  # schedule:
+  #   - cron: '0 7 * * *'  # 07:00 UTC daily
+
+jobs:
+  freeloop:
+    runs-on: ubuntu-latest
+    # Guarded off by default so the stub can't run half-configured. Flip to
+    # `if: ${{ true }}` (and fill in the checkouts) to actually enable.
+    if: ${{ false }}
+    steps:
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      # --- The five sibling checkouts the loop needs (fill in refs) ---
+      # - uses: actions/checkout@v4
+      #   with: { repository: metatoy/sorb-juice,     ref: gfp-p2-juice-cli,     path: ws/sorb-juice }
+      # - uses: actions/checkout@v4
+      #   with: { repository: metatoy/sorb-seed,      ref: gfp-p2-seed-cli,      path: ws/sorb-seed }
+      # - uses: actions/checkout@v4
+      #   with: { repository: metatoy/sorb-storybook, ref: main,                 path: ws/sorb-storybook }
+      # - uses: actions/checkout@v4
+      #   with: { repository: metatoy/sorb-demo,      ref: gfp-p2-storybook-addon, path: ws/sorb-demo }
+      # - uses: actions/checkout@v4
+      #   with: { repository: metatoy/sorb-test-ui,   ref: main,                 path: ws/sorb-test-ui }
+
+      - name: Enable corepack (pnpm)
+        run: corepack enable
+
+      - name: Run the cold end-to-end free loop
+        # WS points at the root holding the sibling checkouts above. The driver
+        # installs deps, builds the juice dist, installs chromium, then runs the
+        # full init → capture → dev → preview → revert path and exits non-zero
+        # on any failure.
+        env:
+          WS: ${{ github.workspace }}/ws
+          CI_PREP: '1'
+        run: |
+          chmod +x "$WS/../spec/sorb/gfp/p3/part2-e2e-freeloop.sh" 2>/dev/null || true
+          bash "$WS/sorb-demo/../spec/sorb/gfp/p3/part2-e2e-freeloop.sh"
