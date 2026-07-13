@@ -23,7 +23,7 @@
   },
   "devDependencies": {
     "@sorb/juice": "^0.2.0",
-    "@sorb/storybook": "file:../sorb-storybook",
+    "@sorb/storybook": "^0.1.0",
     "@storybook/react": "^8.6.0",
     "@storybook/react-vite": "^8.6.0",
     "@vitejs/plugin-react": "^4.3.0",

@@ -1,0 +1,15 @@
+# syntax=docker/dockerfile:1
+# Build sorb-demo's Storybook (with the published @sorb/storybook addon) → static → nginx.
+# Separate from ./Dockerfile (which builds the Vite app for demo.sorbcloud.com).
+FROM node:20-alpine AS build
+WORKDIR /app
+COPY . .
+# Drop workspace lockfiles so @sorb/{leaf,juice,storybook} resolve from the npm registry.
+# `build-storybook` = `npm run tokens` (Style Dictionary) + `storybook build` → storybook-static/.
+RUN rm -f pnpm-lock.yaml package-lock.json && npm install --no-audit --no-fund && npm run build-storybook
+
+FROM nginx:alpine
+RUN apk add --no-cache curl        # Coolify healthcheck exec's curl in-container
+COPY --from=build /app/storybook-static /usr/share/nginx/html
+COPY nginx-storybook.conf /etc/nginx/conf.d/default.conf
+EXPOSE 80
