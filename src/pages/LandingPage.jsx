@@ -79,7 +79,7 @@ export const LandingPage = () => (
         borderBottom: '1px solid var(--bs-border-color)',
       }}
     >
-      <Container style={{ padding: '4.5rem 0' }}>
+      <Container style={{ paddingTop: '4.5rem', paddingBottom: '4.5rem' }}>
         <Row g={5} style={{ alignItems: 'center' }}>
           <Col md={6}>
             <Badge variant="primary" style={{ marginBottom: '1rem' }}>
@@ -145,7 +145,7 @@ export const LandingPage = () => (
 
     {/* ── Value / feature grid ─────────────────────────────────────────── */}
     <section style={{ background: 'var(--bs-body-bg)' }}>
-      <Container style={{ padding: '4rem 0' }}>
+      <Container style={{ paddingTop: '4rem', paddingBottom: '4rem' }}>
         <Row g={4}>
           {VALUE_PROPS.map(({ Icon, title, body }) => (
             <Col key={title} md={3} sm={6}>
@@ -192,7 +192,7 @@ export const LandingPage = () => (
         borderTop: '1px solid var(--bs-border-color)',
       }}
     >
-      <Container style={{ padding: '4rem 0' }}>
+      <Container style={{ paddingTop: '4rem', paddingBottom: '4rem' }}>
         <div style={{ marginBottom: '2rem', maxWidth: 620 }}>
           <span style={sectionEyebrow}>The collection</span>
           <Heading

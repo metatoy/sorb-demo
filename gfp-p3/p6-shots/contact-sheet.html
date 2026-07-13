@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>GFP Part 3 · P6 — one-token cross-page re-skin proof</title>
+<style>
+  :root { --ink:#14161a; --muted:#667085; --denim:#2f5c9e; --terra:#c2582f; --line:#dde3ec; }
+  * { box-sizing:border-box; }
+  body { margin:0; font:15px/1.5 ui-sans-serif,system-ui,-apple-system,'Segoe UI',Helvetica,Arial,sans-serif; color:var(--ink); background:#fafbfc; }
+  header { padding:2rem 1.5rem 1rem; max-width:1200px; margin:0 auto; }
+  h1 { font-size:1.6rem; margin:0 0 .35rem; letter-spacing:-.01em; }
+  p.sub { color:var(--muted); margin:.25rem 0; }
+  .chips { margin:.75rem 0 0; display:flex; gap:.5rem; flex-wrap:wrap; }
+  .chip { font-size:.82rem; padding:.25rem .6rem; border-radius:1rem; border:1px solid var(--line); background:#fff; }
+  .chip b { font-weight:600; }
+  .sw { display:inline-block; width:.8em; height:.8em; border-radius:2px; vertical-align:-1px; margin-right:.35em; }
+  main { max-width:1200px; margin:0 auto; padding:1rem 1.5rem 3rem; }
+  .row { margin:2rem 0; }
+  .row h2 { font-size:1.05rem; margin:0 0 .75rem; }
+  .pair { display:grid; grid-template-columns:1fr 1fr; gap:1rem; }
+  figure { margin:0; border:1px solid var(--line); border-radius:.6rem; overflow:hidden; background:#fff; }
+  figcaption { font-size:.82rem; padding:.5rem .7rem; border-bottom:1px solid var(--line); font-weight:600; display:flex; align-items:center; gap:.4rem; }
+  .cap-denim { color:var(--denim); }
+  .cap-terra { color:var(--terra); }
+  img { display:block; width:100%; height:auto; }
+  .bonus { margin-top:2rem; padding-top:1.5rem; border-top:1px dashed var(--line); }
+  .bonus .pair { grid-template-columns:1fr; max-width:600px; }
+  @media (max-width:720px){ .pair{ grid-template-columns:1fr; } }
+</style>
+</head>
+<body>
+<header>
+  <h1>GFP Part 3 · P6 — one-token cross-page re-skin proof</h1>
+  <p class="sub"><b>Jane's Jeans</b> demo store · 4 routes · 100% token-bound.
+  A single <code>--bs-primary</code> push on the running app (the <code>@sorb/leaf</code> preview
+  mechanism — one inline custom property on <code>document.documentElement</code>) re-skins every page at once.
+  <b>No reload, no per-page code change.</b> Routes below were navigated via in-app SPA links after a single push,
+  proving the override persists across pages.</p>
+  <div class="chips">
+    <span class="chip"><span class="sw" style="background:#2f5c9e"></span><b>Denim baseline</b> #2f5c9e</span>
+    <span class="chip"><span class="sw" style="background:#c2582f"></span><b>Terracotta re-skin</b> #c2582f</span>
+    <span class="chip">Held: <b>success/danger/warning/info</b> + form valid/invalid</span>
+  </div>
+</header>
+<main>
+  <div class="row">
+    <h2>1 · Landing <code>/</code></h2>
+    <div class="pair">
+      <figure><figcaption class="cap-denim">Denim baseline</figcaption><img src="denim-home.png" alt="landing denim"></figure>
+      <figure><figcaption class="cap-terra">Terracotta re-skin</figcaption><img src="reskin-home.png" alt="landing reskin"></figure>
+    </div>
+  </div>
+  <div class="row">
+    <h2>2 · Product detail <code>/product/classic-straight-blue-jeans</code></h2>
+    <div class="pair">
+      <figure><figcaption class="cap-denim">Denim baseline</figcaption><img src="denim-product.png" alt="product denim"></figure>
+      <figure><figcaption class="cap-terra">Terracotta re-skin</figcaption><img src="reskin-product.png" alt="product reskin"></figure>
+    </div>
+  </div>
+  <div class="row">
+    <h2>3 · Checkout <code>/checkout</code></h2>
+    <div class="pair">
+      <figure><figcaption class="cap-denim">Denim baseline</figcaption><img src="denim-checkout.png" alt="checkout denim"></figure>
+      <figure><figcaption class="cap-terra">Terracotta re-skin</figcaption><img src="reskin-checkout.png" alt="checkout reskin"></figure>
+    </div>
+  </div>
+  <div class="row">
+    <h2>4 · Kitchen sink <code>/components</code> — the semantic-hold test</h2>
+    <div class="pair">
+      <figure><figcaption class="cap-denim">Denim baseline</figcaption><img src="denim-components.png" alt="components denim"></figure>
+      <figure><figcaption class="cap-terra">Terracotta re-skin</figcaption><img src="reskin-components.png" alt="components reskin"></figure>
+    </div>
+  </div>
+  <div class="bonus">
+    <h2>Bonus · a second independent token also re-skins live (<code>--bs-body-bg</code>)</h2>
+    <p class="sub">Same running app, no reload — pushing <code>--bs-body-bg</code> (#fdf3ec) + <code>--bs-tertiary-bg</code>
+    + <code>--bs-border-color</code> shifts every surface's paper while the accent holds terracotta. Proves the
+    bridge is not just the accent.</p>
+    <div class="pair">
+      <figure><figcaption class="cap-terra">+ body-bg push</figcaption><img src="reskin-bonus-bodybg-home.png" alt="body-bg reskin"></figure>
+    </div>
+  </div>
+</main>
+</body>
+</html>

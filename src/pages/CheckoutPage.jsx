@@ -208,7 +208,7 @@ export const CheckoutPage = () => {
   // ── Success state ───────────────────────────────────────────────────────────
   if (placed) {
     return (
-      <Container data-testid="page-checkout" style={{ padding: '3.5rem 0', maxWidth: 720 }}>
+      <Container data-testid="page-checkout" style={{ paddingTop: '3.5rem', paddingBottom: '3.5rem', maxWidth: 720 }}>
         <Alert
           variant="success"
           data-testid="co-order-success"

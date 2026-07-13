@@ -5,7 +5,7 @@ import { DISPLAY_STACK } from '../sorbBsTheme'
 
 // Catch-all — reuses the shared shell. All var(--bs-*).
 export const NotFound = () => (
-  <Container data-testid="page-notfound" style={{ padding: '5rem 0', textAlign: 'center' }}>
+  <Container data-testid="page-notfound" style={{ paddingTop: '5rem', paddingBottom: '5rem', textAlign: 'center' }}>
     <Heading as="h1" size={1} style={{ fontFamily: DISPLAY_STACK }}>
       404
     </Heading>

@@ -94,7 +94,7 @@ export const ProductDetailPage = () => {
 
   return (
     <div data-testid="page-product">
-      <Container style={{ padding: '2rem 0 3.5rem' }}>
+      <Container style={{ paddingTop: '2rem', paddingBottom: '3.5rem' }}>
         {/* ── Breadcrumb ───────────────────────────────────────────────── */}
         <Breadcrumb style={{ marginBottom: '1.5rem' }} data-testid="pdp-breadcrumb">
           <BreadcrumbItem>

@@ -14,6 +14,12 @@ export const SiteLayout = () => (
       flexDirection: 'column',
       background: 'var(--bs-body-bg)',
       color: 'var(--bs-body-color)',
+      // Guard against the Bootstrap gutter-overflow: top-level Rows use large
+      // gutters (g={4}/g={5} → negative -24px margins) that exceed the
+      // Container's horizontal padding, poking a few px past the viewport at
+      // narrow widths. Clip it here so no route ever scrolls horizontally; the
+      // columns themselves render identically. (P6 responsive fix.)
+      overflowX: 'hidden',
     }}
   >
     <Navbar />
