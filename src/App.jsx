@@ -3,6 +3,7 @@ import { useIsPreview, verifyResolved } from '@sorb/leaf'
 import { sorbConfig } from './sorbConfig'
 import { Button } from './components/Button'
 import { Card } from './components/Card'
+import { BootstrapStyledDemo } from './BootstrapStyledDemo'
 
 // The tokens the primary Button binds — what "verify the running app" checks.
 const BOUND_TOKENS = [
@@ -83,6 +84,10 @@ export const App = () => {
           </span>
         ) : null}
       </div>
+
+      {/* P7 — live re-skin proof: real @metatoy/bootstrap-styled components that
+          recolor when a bs-*-keyed token set is pushed through the Sorb bridge. */}
+      <BootstrapStyledDemo />
     </main>
   )
 }

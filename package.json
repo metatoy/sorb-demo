@@ -15,9 +15,11 @@
     "test": "node --test sd/"
   },
   "dependencies": {
+    "@metatoy/bootstrap-styled": "file:../../misc/bootstrap-styled",
     "@sorb/leaf": "^0.2.0",
     "react": "^18.0.0",
-    "react-dom": "^18.0.0"
+    "react-dom": "^18.0.0",
+    "styled-components": "^6.1.0"
   },
   "devDependencies": {
     "@sorb/juice": "^0.2.0",
