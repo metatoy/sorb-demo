@@ -5,6 +5,7 @@ import { LandingPage } from './pages/LandingPage'
 import { ProductDetailPage } from './pages/ProductDetailPage'
 import { CheckoutPage } from './pages/CheckoutPage'
 import { KitchenSinkPage } from './pages/KitchenSinkPage'
+import { AboutPage } from './pages/AboutPage'
 import { NotFound } from './pages/NotFound'
 import { HERO_SLUG } from './data/catalog'
 
@@ -23,6 +24,7 @@ export const App = () => (
         <Route path="product/:slug" element={<ProductDetailPage />} />
         <Route path="checkout" element={<CheckoutPage />} />
         <Route path="components" element={<KitchenSinkPage />} />
+        <Route path="about" element={<AboutPage />} />
         <Route path="*" element={<NotFound />} />
       </Route>
     </Routes>

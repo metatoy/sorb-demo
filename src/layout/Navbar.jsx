@@ -18,7 +18,7 @@ import { DISPLAY_STACK } from '../sorbBsTheme'
 const NAV_LINKS = [
   { label: 'Shop', to: '/' },
   { label: 'Journal', to: '/#journal' },
-  { label: 'About', to: '/#about' },
+  { label: 'About', to: '/about' },
   { label: 'Components', to: '/components' },
 ]
 
