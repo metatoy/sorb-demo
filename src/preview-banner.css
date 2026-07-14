@@ -1,0 +1,17 @@
+/* GFP RC1 Part 4 · B4 — token-bound styling for @sorb/leaf's PreviewBanner
+ * vocabulary-mismatch warning state.
+ *
+ * When a preview loads but carries zero `bs-*` keys, leaf flags `previewMismatch`
+ * and renders the banner in a warning state whose colours read from these generic
+ * `--sorb-preview-warning-*` custom properties. We bind them to this store's own
+ * Bootstrap `--bs-*` warning tokens (emitted at runtime by BootstrapStyledProvider)
+ * so the warning is on-brand and re-skins with the rest of the shell. Amber
+ * fallbacks keep it readable before the theme mounts. Minimal by design — no
+ * banner redesign; just a token binding. Inert until the demo repins a leaf build
+ * that ships the B4 guard (currently @sorb/leaf@0.2.0). */
+:root {
+  /* dark amber → readable white text; --bs-warning-text-emphasis ≈ #997404 */
+  --sorb-preview-warning-bg: var(--bs-warning-text-emphasis, #b54708);
+  /* bright bs-warning accent stripe along the top edge */
+  --sorb-preview-warning-accent: var(--bs-warning, #f59e0b);
+}
