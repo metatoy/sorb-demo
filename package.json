@@ -6,6 +6,7 @@
   "type": "module",
   "scripts": {
     "sorb": "sorb dev",
+    "demo": "node scripts/demo.mjs",
     "tokens": "style-dictionary build --config ./sd.config.js",
     "dev": "npm run tokens && vite",
     "build": "npm run tokens && vite build",
