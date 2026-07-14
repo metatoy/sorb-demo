@@ -14,6 +14,10 @@ export const tierOfFile = (filePath = '') =>
   /primitive\./.test(filePath) ? 'primitive'
   : /semantic\./.test(filePath) ? 'semantic'
   : /component\./.test(filePath) ? 'component'
+  // bs.json — the bootstrap-styled brand overlay. Classified as `semantic` (a
+  // core-valid tier) so its `--bs-*` roles group + bind alongside the other
+  // semantic roles rather than falling through to an unranked `unknown` tier.
+  : /bs\./.test(filePath) ? 'semantic'
   : 'unknown'
 
 export const SORB_RESOLVED = 'sorb/resolved-map'

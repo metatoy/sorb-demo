@@ -4,6 +4,7 @@
     "tokens/primitive.json",
     "tokens/semantic.json",
     "tokens/component.json",
+    "tokens/bs.json",
     "tokens/aliases.json"
   ],
   "styleDictionaryConfig": "sd.config.js",

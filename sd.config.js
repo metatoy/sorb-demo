@@ -35,8 +35,11 @@ const aliases = JSON.parse(readFileSync(new URL('./tokens/aliases.json', import.
 
 /** @type {import('style-dictionary').Config} */
 export default {
-  // Three DTCG tiers merge into one tree; refs resolve across all three.
-  source: ['tokens/primitive.json', 'tokens/semantic.json', 'tokens/component.json'],
+  // Three DTCG tiers merge into one tree; refs resolve across all three. `bs.json`
+  // is the brand overlay: the bootstrap-styled `--bs-*` vocabulary the Part-3 store
+  // actually renders from, so the committed/loadable token set (resolved.json + the
+  // generated CSS) matches what the app consumes (GFP RC1 Part 4 · B8).
+  source: ['tokens/primitive.json', 'tokens/semantic.json', 'tokens/component.json', 'tokens/bs.json'],
   parsers: [SORB_SET_META],
   platforms: {
     // CSS custom properties the app reads — --color-action-primary, etc.
