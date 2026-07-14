@@ -1,0 +1,19 @@
+{
+  "$comment": "Jane's Jeans brand theme as bootstrap-styled --bs-* custom properties (GFP RC1 Part 4 · B8). This is the vocabulary the Part-3 store ACTUALLY renders from (bootstrap-styled emits these on :root; @sorb/leaf overrides them inline during a preview). Mirrors the denim values in src/sorbBsTheme.js so the committed/loadable token set the bridge serves matches what the store consumes — a plugin 'load committed → edit → preview' now re-skins the store. The old color-*/button-*/radius-* sets (primitive/semantic/component.json) remain for the Storybook stories that still read them; this file is additive. No $version: these are a brand overlay, not a versioned tier, and omitting it keeps semantic.json's $version out of collision.",
+  "bs": {
+    "primary":          { "$value": "#2f5c9e",  "$type": "color" },
+    "primary-rgb":      { "$value": "47, 92, 158", "$type": "other" },
+    "secondary":        { "$value": "#667085",  "$type": "color" },
+    "body-bg":          { "$value": "#ffffff",  "$type": "color" },
+    "body-color":       { "$value": "#22252a",  "$type": "color" },
+    "secondary-color":  { "$value": "#667085",  "$type": "color" },
+    "tertiary-bg":      { "$value": "#f2f5fa",  "$type": "color" },
+    "border-color":     { "$value": "#dde3ec",  "$type": "color" },
+    "link-color":       { "$value": "#2f5c9e",  "$type": "color" },
+    "link-hover-color": { "$value": "#244a80",  "$type": "color" },
+    "danger":           { "$value": "#dc3545",  "$type": "color" },
+    "border-radius":    { "$value": "0.5rem",   "$type": "dimension" },
+    "body-font-size":   { "$value": "1rem",     "$type": "dimension" },
+    "font-sans-serif":  { "$value": "ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif", "$type": "fontFamily" }
+  }
+}
