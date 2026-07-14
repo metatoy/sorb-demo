@@ -50,5 +50,11 @@ export const sorbConfig = {
     // Extra trusted bridge origins (hosted bridge + demo origin); empty for local dev.
     allowedOrigins,
     pollInterval: 1500,
+    // Vocabulary/contract guard (GFP RC1 Part 4 · B4). This store re-skins
+    // exclusively from `--bs-*` custom properties (Part-3 Jane's Jeans theme),
+    // so a preview with zero `bs-*` keys lights the banner but changes nothing
+    // on screen. Declaring the expected prefix makes that silent no-op LOUD:
+    // leaf console.warns and flags `previewMismatch`, which PreviewBanner shows.
+    expectPrefixes: ['bs-'],
   },
 }
