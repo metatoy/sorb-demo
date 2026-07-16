@@ -120,8 +120,9 @@ export const Footer = () => (
         <Text muted style={{ fontSize: '0.85rem' }}>
           © 2026 Jane&apos;s Jeans
         </Text>
-        <Text muted style={{ fontSize: '0.85rem' }}>
-          Demo site for Sorb — token-driven theming.
+        <Text muted style={{ fontSize: '0.85rem', textAlign: 'right' }}>
+          <span style={{ display: 'block' }}>Demo site for Sorb™ — token-driven theming.</span>
+          <span style={{ display: 'block' }}>Sorb™ is a trademark of Metatoy LLC.</span>
         </Text>
       </div>
     </Container>
