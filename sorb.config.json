@@ -8,5 +8,6 @@
     "tokens/aliases.json"
   ],
   "styleDictionaryConfig": "sd.config.js",
-  "port": 7777
+  "port": 7777,
+  "appUrl": "http://localhost:5173"
 }
