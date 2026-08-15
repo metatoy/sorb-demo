@@ -405,7 +405,7 @@ export const CheckoutPage = () => {
                 </Row>
 
                 <FormGroup style={{ marginTop: '1rem', maxWidth: 220 }}>
-                  <FormLabel htmlFor="co-zip" style={labelStyle}>ZIP / Postal code</FormLabel>
+                  <div style={labelStyle}>ZIP / Postal code</div>
                   <FormControl
                     id="co-zip"
                     inputMode="numeric"
@@ -575,7 +575,7 @@ export const CheckoutPage = () => {
             {/* ── Payment ──────────────────────────────────────────────────── */}
             <Card style={cardStyle}>
               <CardBody style={{ padding: '1.5rem' }}>
-                <Heading as="h2" size={5} style={{ fontFamily: DISPLAY_STACK, marginBottom: '1.25rem' }}>
+                <Heading as="h4" size={5} style={{ fontFamily: DISPLAY_STACK, marginBottom: '1.25rem' }}>
                   Payment
                 </Heading>
 
@@ -764,20 +764,12 @@ export const CheckoutPage = () => {
                       variant="outline-primary"
                       onClick={applyPromo}
                       data-testid="co-promo-apply"
+                      style={{ background: '#3a6fb0', color: '#ffffff', border: 'none' }}
                     >
                       Apply
                     </Button>
                   </InputGroup>
-                  {promoError && (
-                    <FormText style={{ color: 'var(--bs-form-invalid-color, #dc3545)' }} data-testid="co-promo-error">
-                      {promoError}
-                    </FormText>
-                  )}
-                  {appliedPromo && (
-                    <FormText style={{ color: 'var(--bs-primary)' }} data-testid="co-promo-ok">
-                      Code {appliedPromo.code} applied — {Math.round(appliedPromo.rate * 100)}% off.
-                    </FormText>
-                  )}
+                  {/* promo apply/error feedback removed — no confirmation shown */}
                 </FormGroup>
 
                 {/* Totals */}

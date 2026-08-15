@@ -66,7 +66,7 @@ const sectionEyebrow = {
   letterSpacing: '0.08em',
   fontSize: '0.78rem',
   fontWeight: 600,
-  color: 'var(--bs-primary)',
+  color: '#2f5c9e',
   marginBottom: '0.5rem',
 }
 
@@ -79,7 +79,7 @@ export const LandingPage = () => (
         borderBottom: '1px solid var(--bs-border-color)',
       }}
     >
-      <Container style={{ paddingTop: '4.5rem', paddingBottom: '4.5rem' }}>
+      <Container style={{ paddingTop: '37px', paddingBottom: '52px' }}>
         <Row g={5} style={{ alignItems: 'center' }}>
           <Col md={6}>
             <Badge variant="primary" style={{ marginBottom: '1rem' }}>
@@ -117,7 +117,7 @@ export const LandingPage = () => (
               >
                 Shop jeans
               </Button>
-              <Button as={Link} to="/components" variant="outline-primary" size="lg">
+              <Button as={Link} to="/shop" variant="outline-primary" size="lg">
                 Browse all
               </Button>
             </div>
@@ -176,7 +176,7 @@ export const LandingPage = () => (
               >
                 {title}
               </Heading>
-              <Text muted style={{ display: 'block', fontSize: '0.94rem' }}>
+              <Text muted style={{ display: 'block', fontSize: '0.94rem', color: '#aaaaaa' }}>
                 {body}
               </Text>
             </Col>
@@ -195,17 +195,17 @@ export const LandingPage = () => (
       <Container style={{ paddingTop: '4rem', paddingBottom: '4rem' }}>
         <div style={{ marginBottom: '2rem', maxWidth: 620 }}>
           <span style={sectionEyebrow}>The collection</span>
-          <Heading
-            as="h2"
-            size={3}
+          <h2
             style={{
-              fontFamily: DISPLAY_STACK,
+              fontFamily: 'Arial, sans-serif',
+              fontSize: '30px',
+              fontWeight: 700,
               color: 'var(--bs-heading-color, var(--bs-body-color))',
               marginBottom: '0.5rem',
             }}
           >
             Every pair, one obsession
-          </Heading>
+          </h2>
           <Text muted style={{ display: 'block' }}>
             Four cuts, one standard. Pick your fit — each links straight to the detail page.
           </Text>
@@ -220,13 +220,14 @@ export const LandingPage = () => (
                   overflow: 'hidden',
                   background: 'var(--bs-body-bg)',
                   borderColor: 'var(--bs-border-color)',
+                  borderRadius: '20px',
                 }}
               >
                 <div style={{ position: 'relative' }}>
                   <Ratio ratio="1x1">
                     <Image
                       src={p.image}
-                      alt={p.name}
+                      alt=""
                       style={{ width: '100%', height: '100%', objectFit: 'cover' }}
                     />
                   </Ratio>
@@ -238,6 +239,20 @@ export const LandingPage = () => (
                       {p.badges[0]}
                     </Badge>
                   )}
+                  <div
+                    onClick={() => {}}
+                    style={{
+                      position: 'absolute',
+                      top: '0.75rem',
+                      right: '0.75rem',
+                      width: '18px',
+                      height: '18px',
+                      cursor: 'pointer',
+                      color: '#ffffff',
+                    }}
+                  >
+                    <BsIconStar size={18} />
+                  </div>
                 </div>
                 <CardBody style={{ display: 'flex', flexDirection: 'column' }}>
                   <CardTitle
