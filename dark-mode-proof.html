@@ -1,0 +1,247 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<title>Sorb — real dark-mode proof (D2)</title>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<style>
+/* =====================================================================
+   Mode-aware stylesheet — hand-matched to buildModeStylesheet() in
+   ../sorb-leaf/src/modeStylesheet.js (dual-mode branch). This block's
+   STRUCTURE must stay byte-shape-identical to that function's output:
+
+     :root { <light decls>; color-scheme: light; }
+     @media (prefers-color-scheme: dark) {
+       :root:not([data-bs-theme="light"]) { <dark decls>; color-scheme: dark; }
+     }
+     [data-bs-theme="dark"] { <dark decls>; color-scheme: dark; }
+     [data-bs-theme="light"] { <light decls>; color-scheme: light; }
+
+   Token set: a small realistic bootstrap-styled --bs-* vocabulary lifted
+   from sorb-demo/tokens/bs.json (light values) + a hand-authored dark
+   value-set for the same keys.
+   ===================================================================== */
+:root {
+  --bs-body-bg: #ffffff;
+  --bs-body-color: #22252a;
+  --bs-primary: #2f5c9e;
+  --bs-secondary: #667085;
+  --bs-secondary-bg: #f2f5fa;
+  --bs-border-color: #dde3ec;
+  --bs-link-color: #2f5c9e;
+  --bs-link-hover-color: #244a80;
+  --bs-danger: #dc3545;
+  color-scheme: light;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-bs-theme="light"]) {
+    --bs-body-bg: #14161a;
+    --bs-body-color: #e8eaed;
+    --bs-primary: #6f9ce0;
+    --bs-secondary: #9aa4b2;
+    --bs-secondary-bg: #1f2227;
+    --bs-border-color: #33373f;
+    --bs-link-color: #6f9ce0;
+    --bs-link-hover-color: #8db1e8;
+    --bs-danger: #ef6a76;
+    color-scheme: dark;
+  }
+}
+[data-bs-theme="dark"] {
+  --bs-body-bg: #14161a;
+  --bs-body-color: #e8eaed;
+  --bs-primary: #6f9ce0;
+  --bs-secondary: #9aa4b2;
+  --bs-secondary-bg: #1f2227;
+  --bs-border-color: #33373f;
+  --bs-link-color: #6f9ce0;
+  --bs-link-hover-color: #8db1e8;
+  --bs-danger: #ef6a76;
+  color-scheme: dark;
+}
+[data-bs-theme="light"] {
+  --bs-body-bg: #ffffff;
+  --bs-body-color: #22252a;
+  --bs-primary: #2f5c9e;
+  --bs-secondary: #667085;
+  --bs-secondary-bg: #f2f5fa;
+  --bs-border-color: #dde3ec;
+  --bs-link-color: #2f5c9e;
+  --bs-link-hover-color: #244a80;
+  --bs-danger: #dc3545;
+  color-scheme: light;
+}
+
+/* ---- page chrome / UI (consumes ONLY the var(--bs-*) tokens above) ---- */
+* { box-sizing: border-box; }
+html, body {
+  margin: 0;
+  min-height: 100vh;
+  background: var(--bs-body-bg);
+  color: var(--bs-body-color);
+  font-family: ui-sans-serif, system-ui, -apple-system, "Segoe UI", Helvetica, Arial, sans-serif;
+  transition: background-color 0.15s ease, color 0.15s ease;
+}
+.wrap { max-width: 640px; margin: 0 auto; padding: 2.5rem 1.5rem 4rem; }
+.toolbar {
+  display: flex;
+  gap: 0.5rem;
+  align-items: center;
+  margin-bottom: 2rem;
+  flex-wrap: wrap;
+}
+.toolbar button {
+  font: inherit;
+  padding: 0.4rem 0.9rem;
+  border-radius: 0.4rem;
+  border: 1px solid var(--bs-border-color);
+  background: var(--bs-secondary-bg);
+  color: var(--bs-body-color);
+  cursor: pointer;
+}
+.toolbar button[aria-pressed="true"] {
+  background: var(--bs-primary);
+  border-color: var(--bs-primary);
+  color: #fff;
+}
+.status {
+  font-size: 0.85rem;
+  color: var(--bs-secondary);
+  margin-bottom: 2rem;
+  line-height: 1.5;
+}
+.status code {
+  background: var(--bs-secondary-bg);
+  border: 1px solid var(--bs-border-color);
+  border-radius: 0.25rem;
+  padding: 0.05rem 0.35rem;
+}
+.card {
+  border: 1px solid var(--bs-border-color);
+  background: var(--bs-secondary-bg);
+  border-radius: 0.5rem;
+  padding: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+.card h2 { margin-top: 0; font-size: 1.15rem; }
+.card p { color: var(--bs-body-color); line-height: 1.5; }
+.card a { color: var(--bs-link-color); }
+.card a:hover { color: var(--bs-link-hover-color); }
+.btn-primary {
+  font: inherit;
+  padding: 0.55rem 1.2rem;
+  border-radius: 0.5rem;
+  border: 1px solid var(--bs-primary);
+  background: var(--bs-primary);
+  color: #fff;
+  cursor: pointer;
+}
+.btn-danger {
+  font: inherit;
+  padding: 0.55rem 1.2rem;
+  border-radius: 0.5rem;
+  border: 1px solid var(--bs-danger);
+  background: transparent;
+  color: var(--bs-danger);
+  cursor: pointer;
+  margin-left: 0.5rem;
+}
+.panel {
+  border: 1px dashed var(--bs-border-color);
+  border-radius: 0.5rem;
+  padding: 1rem;
+  font-size: 0.9rem;
+}
+.swatches { display: flex; gap: 0.5rem; margin-top: 1rem; flex-wrap: wrap; }
+.swatch {
+  width: 3rem; height: 3rem; border-radius: 0.35rem;
+  border: 1px solid var(--bs-border-color);
+  display: flex; align-items: flex-end; justify-content: center;
+  font-size: 0.6rem; color: #fff; padding-bottom: 2px;
+}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <div class="toolbar" role="group" aria-label="Theme override">
+    <strong style="margin-right:0.5rem;">Theme:</strong>
+    <button id="btn-auto" aria-pressed="true">Auto (OS)</button>
+    <button id="btn-light" aria-pressed="false">Light</button>
+    <button id="btn-dark" aria-pressed="false">Dark</button>
+  </div>
+
+  <div class="status" id="status">loading…</div>
+
+  <div class="card">
+    <h2>Jane's Jeans — order confirmation</h2>
+    <p>
+      This card, the buttons, and the panel below are styled ONLY via
+      <code>var(--bs-*)</code> custom properties defined in the
+      mode-aware stylesheet above — no hardcoded colors anywhere in this
+      block's CSS. If the mode switch is working, everything here should
+      visibly flip.
+    </p>
+    <p><a href="#">A themed link</a> for good measure.</p>
+    <button class="btn-primary">Track order</button>
+    <button class="btn-danger">Cancel order</button>
+  </div>
+
+  <div class="panel">
+    <strong>Bordered panel</strong> — uses <code>--bs-border-color</code> (dashed)
+    and <code>--bs-secondary</code> color for this text, to show a non-primary
+    token also switches correctly.
+    <div class="swatches">
+      <div class="swatch" style="background:var(--bs-primary)">primary</div>
+      <div class="swatch" style="background:var(--bs-danger)">danger</div>
+      <div class="swatch" style="background:var(--bs-secondary)">secondary</div>
+    </div>
+  </div>
+</div>
+
+<script>
+(function () {
+  var root = document.documentElement
+  var buttons = {
+    auto: document.getElementById('btn-auto'),
+    light: document.getElementById('btn-light'),
+    dark: document.getElementById('btn-dark'),
+  }
+  var statusEl = document.getElementById('status')
+  var mq = window.matchMedia('(prefers-color-scheme: dark)')
+
+  function setMode(mode) {
+    if (mode === 'light') {
+      root.setAttribute('data-bs-theme', 'light')
+    } else if (mode === 'dark') {
+      root.setAttribute('data-bs-theme', 'dark')
+    } else {
+      root.removeAttribute('data-bs-theme')
+    }
+    Object.keys(buttons).forEach(function (k) {
+      buttons[k].setAttribute('aria-pressed', String(k === mode))
+    })
+    render()
+  }
+
+  function render() {
+    var attr = root.getAttribute('data-bs-theme')
+    var resolvedScheme = getComputedStyle(root).colorScheme || '(none)'
+    var osPref = mq.matches ? 'dark' : 'light'
+    var driver = attr ? 'override (data-bs-theme="' + attr + '")' : 'OS media query (prefers-color-scheme)'
+    statusEl.innerHTML =
+      'data-bs-theme = <code>' + (attr || '(unset)') + '</code> &middot; ' +
+      'resolved color-scheme = <code>' + resolvedScheme + '</code> &middot; ' +
+      'OS prefers = <code>' + osPref + '</code><br/>' +
+      'driven by: <strong>' + driver + '</strong>'
+  }
+
+  buttons.auto.addEventListener('click', function () { setMode('auto') })
+  buttons.light.addEventListener('click', function () { setMode('light') })
+  buttons.dark.addEventListener('click', function () { setMode('dark') })
+  mq.addEventListener('change', render)
+
+  render()
+})()
+</script>
+</body>
+</html>
