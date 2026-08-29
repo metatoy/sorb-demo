@@ -17,7 +17,11 @@ import {
   sorbTailwind,
   sorbTailwindV3,
   sorbTokenSet,
-} from './sd/sorb-format.js'
+  // Promoted out of this repo (component-compat-roadmap P0, part 2) — these
+  // formats now live in @sorb/seed so target adapters import them instead
+  // of copy-pasting. `./sd/sorb-format.js` still re-exports the same names
+  // for back-compat, but the canonical import is @sorb/seed itself.
+} from '@sorb/seed'
 
 // Register Sorb's custom parser + formats before building.
 StyleDictionary.registerParser(sorbSetMeta) // lifts per-set $version pre-merge
