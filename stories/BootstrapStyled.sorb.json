@@ -1,0 +1,2806 @@
+{
+  "schemaVersion": 1,
+  "component": "BootstrapStyled",
+  "importPath": "./stories/BootstrapStyled.stories.jsx",
+  "capturedAt": "2026-08-28T18:22:06.160Z",
+  "stories": [
+    {
+      "id": "bootstrap-styled-showcase--buttons",
+      "name": "Buttons",
+      "title": "Bootstrap-Styled/Showcase",
+      "hash": "sha256:051937759df93eab2f8d87b5762954d6d03b761db7612c762d22c499fd5e0208",
+      "root": {
+        "type": "FRAME",
+        "name": "div",
+        "x": 0,
+        "y": 0,
+        "width": 1248,
+        "height": 96,
+        "opacity": 1,
+        "clipsContent": false,
+        "fills": [
+          {
+            "type": "SOLID",
+            "color": {
+              "r": 1,
+              "g": 1,
+              "b": 1
+            },
+            "opacity": 1,
+            "raw": "rgb(255, 255, 255)"
+          }
+        ],
+        "strokes": [],
+        "strokeWeight": 0,
+        "cornerRadius": 0,
+        "effects": [],
+        "layout": {
+          "mode": "NONE"
+        },
+        "children": [
+          {
+            "type": "FRAME",
+            "name": "div",
+            "x": 0,
+            "y": 0,
+            "width": 1248,
+            "height": 96,
+            "opacity": 1,
+            "clipsContent": false,
+            "fills": [],
+            "strokes": [],
+            "strokeWeight": 0,
+            "cornerRadius": 0,
+            "effects": [],
+            "layout": {
+              "mode": "NONE"
+            },
+            "children": [
+              {
+                "type": "FRAME",
+                "name": "div",
+                "x": 24,
+                "y": 24,
+                "width": 1200,
+                "height": 48,
+                "opacity": 1,
+                "clipsContent": false,
+                "fills": [],
+                "strokes": [],
+                "strokeWeight": 0,
+                "cornerRadius": 0,
+                "effects": [],
+                "layout": {
+                  "mode": "HORIZONTAL",
+                  "primaryAxisAlign": "MIN",
+                  "counterAxisAlign": "MIN",
+                  "itemSpacing": 8,
+                  "paddingTop": 0,
+                  "paddingRight": 0,
+                  "paddingBottom": 0,
+                  "paddingLeft": 0
+                },
+                "children": [
+                  {
+                    "type": "FRAME",
+                    "name": "button",
+                    "x": 0,
+                    "y": 0,
+                    "width": 81.640625,
+                    "height": 48,
+                    "opacity": 1,
+                    "clipsContent": false,
+                    "fills": [
+                      {
+                        "type": "SOLID",
+                        "color": {
+                          "r": 0.1843137254901961,
+                          "g": 0.3607843137254902,
+                          "b": 0.6196078431372549
+                        },
+                        "opacity": 1,
+                        "raw": "rgb(47, 92, 158)"
+                      }
+                    ],
+                    "strokes": [
+                      {
+                        "type": "SOLID",
+                        "color": {
+                          "r": 0.1843137254901961,
+                          "g": 0.3607843137254902,
+                          "b": 0.6196078431372549
+                        },
+                        "opacity": 1,
+                        "raw": "rgb(47, 92, 158)"
+                      }
+                    ],
+                    "strokeWeight": 1,
+                    "cornerRadius": 8,
+                    "effects": [],
+                    "layout": {
+                      "mode": "NONE"
+                    },
+                    "children": [
+                      {
+                        "type": "TEXT",
+                        "name": "Primary",
+                        "x": 13,
+                        "y": 15,
+                        "width": 55.640625,
+                        "height": 18,
+                        "characters": "Primary",
+                        "fontFamily": "ui-sans-serif",
+                        "fontWeight": 400,
+                        "italic": false,
+                        "fontSize": 16,
+                        "lineHeight": {
+                          "unit": "PIXELS",
+                          "value": 24
+                        },
+                        "letterSpacing": 0,
+                        "textAlign": "CENTER",
+                        "fills": [
+                          {
+                            "type": "SOLID",
+                            "color": {
+                              "r": 1,
+                              "g": 1,
+                              "b": 1
+                            },
+                            "opacity": 1,
+                            "raw": "rgb(255, 255, 255)"
+                          }
+                        ],
+                        "sorb": {
+                          "tokens": {
+                            "fill": "button.primary.text.default"
+                          },
+                          "candidates": {
+                            "fill": [
+                              "color.white",
+                              "color.text.on-action",
+                              "color.bg.surface",
+                              "color.bg.disabled",
+                              "button.primary.bg.disabled",
+                              "button.primary.text.default",
+                              "button.primary.text.hover",
+                              "button.danger.bg.disabled",
+                              "button.danger.text.default",
+                              "button.danger.text.hover",
+                              "button.success.bg.disabled",
+                              "button.success.text.default",
+                              "button.success.text.hover",
+                              "bs.body-bg"
+                            ]
+                          }
+                        }
+                      }
+                    ],
+                    "sorb": {
+                      "tokens": {
+                        "fill": "bs.primary",
+                        "stroke": "bs.primary",
+                        "cornerRadius": "radius.300"
+                      },
+                      "candidates": {
+                        "fill": [
+                          "bs.primary",
+                          "bs.link-color"
+                        ],
+                        "stroke": [
+                          "bs.primary",
+                          "bs.link-color"
+                        ],
+                        "cornerRadius": [
+                          "radius.300",
+                          "space.200"
+                        ]
+                      },
+                      "diagnostics": [
+                        {
+                          "kind": "off-role-bind",
+                          "detail": {
+                            "key": "fill",
+                            "role": "bg",
+                            "token": "bs.primary"
+                          }
+                        },
+                        {
+                          "kind": "off-role-bind",
+                          "detail": {
+                            "key": "stroke",
+                            "role": "border",
+                            "token": "bs.primary"
+                          }
+                        },
+                        {
+                          "kind": "off-role-bind",
+                          "detail": {
+                            "key": "cornerRadius",
+                            "role": "radius",
+                            "token": "radius.300"
+                          }
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "type": "FRAME",
+                    "name": "button",
+                    "x": 89.640625,
+                    "y": 0,
+                    "width": 103.78125,
+                    "height": 48,
+                    "opacity": 1,
+                    "clipsContent": false,
+                    "fills": [
+                      {
+                        "type": "SOLID",
+                        "color": {
+                          "r": 0.4,
+                          "g": 0.4392156862745098,
+                          "b": 0.5215686274509804
+                        },
+                        "opacity": 1,
+                        "raw": "rgb(102, 112, 133)"
+                      }
+                    ],
+                    "strokes": [
+                      {
+                        "type": "SOLID",
+                        "color": {
+                          "r": 0.4,
+                          "g": 0.4392156862745098,
+                          "b": 0.5215686274509804
+                        },
+                        "opacity": 1,
+                        "raw": "rgb(102, 112, 133)"
+                      }
+                    ],
+                    "strokeWeight": 1,
+                    "cornerRadius": 8,
+                    "effects": [],
+                    "layout": {
+                      "mode": "NONE"
+                    },
+                    "children": [
+                      {
+                        "type": "TEXT",
+                        "name": "Secondary",
+                        "x": 13,
+                        "y": 15,
+                        "width": 77.78125,
+                        "height": 18,
+                        "characters": "Secondary",
+                        "fontFamily": "ui-sans-serif",
+                        "fontWeight": 400,
+                        "italic": false,
+                        "fontSize": 16,
+                        "lineHeight": {
+                          "unit": "PIXELS",
+                          "value": 24
+                        },
+                        "letterSpacing": 0,
+                        "textAlign": "CENTER",
+                        "fills": [
+                          {
+                            "type": "SOLID",
+                            "color": {
+                              "r": 1,
+                              "g": 1,
+                              "b": 1
+                            },
+                            "opacity": 1,
+                            "raw": "rgb(255, 255, 255)"
+                          }
+                        ],
+                        "sorb": {
+                          "tokens": {
+                            "fill": "button.primary.text.default"
+                          },
+                          "candidates": {
+                            "fill": [
+                              "color.white",
+                              "color.text.on-action",
+                              "color.bg.surface",
+                              "color.bg.disabled",
+                              "button.primary.bg.disabled",
+                              "button.primary.text.default",
+                              "button.primary.text.hover",
+                              "button.danger.bg.disabled",
+                              "button.danger.text.default",
+                              "button.danger.text.hover",
+                              "button.success.bg.disabled",
+                              "button.success.text.default",
+                              "button.success.text.hover",
+                              "bs.body-bg"
+                            ]
+                          }
+                        }
+                      }
+                    ],
+                    "sorb": {
+                      "tokens": {
+                        "fill": "bs.secondary",
+                        "stroke": "bs.secondary",
+                        "cornerRadius": "radius.300"
+                      },
+                      "candidates": {
+                        "fill": [
+                          "bs.secondary",
+                          "bs.secondary-color"
+                        ],
+                        "stroke": [
+                          "bs.secondary",
+                          "bs.secondary-color"
+                        ],
+                        "cornerRadius": [
+                          "radius.300",
+                          "space.200"
+                        ]
+                      },
+                      "diagnostics": [
+                        {
+                          "kind": "off-role-bind",
+                          "detail": {
+                            "key": "fill",
+                            "role": "bg",
+                            "token": "bs.secondary"
+                          }
+                        },
+                        {
+                          "kind": "off-role-bind",
+                          "detail": {
+                            "key": "stroke",
+                            "role": "border",
+                            "token": "bs.secondary"
+                          }
+                        },
+                        {
+                          "kind": "off-role-bind",
+                          "detail": {
+                            "key": "cornerRadius",
+                            "role": "radius",
+                            "token": "radius.300"
+                          }
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "type": "FRAME",
+                    "name": "button",
+                    "x": 201.421875,
+                    "y": 0,
+                    "width": 86.984375,
+                    "height": 48,
+                    "opacity": 1,
+                    "clipsContent": false,
+                    "fills": [
+                      {
+                        "type": "SOLID",
+                        "color": {
+                          "r": 0.09803921568627451,
+                          "g": 0.5294117647058824,
+                          "b": 0.32941176470588235
+                        },
+                        "opacity": 1,
+                        "raw": "rgb(25, 135, 84)"
+                      }
+                    ],
+                    "strokes": [
+                      {
+                        "type": "SOLID",
+                        "color": {
+                          "r": 0.09803921568627451,
+                          "g": 0.5294117647058824,
+                          "b": 0.32941176470588235
+                        },
+                        "opacity": 1,
+                        "raw": "rgb(25, 135, 84)"
+                      }
+                    ],
+                    "strokeWeight": 1,
+                    "cornerRadius": 8,
+                    "effects": [],
+                    "layout": {
+                      "mode": "NONE"
+                    },
+                    "children": [
+                      {
+                        "type": "TEXT",
+                        "name": "Success",
+                        "x": 13,
+                        "y": 15,
+                        "width": 60.984375,
+                        "height": 18,
+                        "characters": "Success",
+                        "fontFamily": "ui-sans-serif",
+                        "fontWeight": 400,
+                        "italic": false,
+                        "fontSize": 16,
+                        "lineHeight": {
+                          "unit": "PIXELS",
+                          "value": 24
+                        },
+                        "letterSpacing": 0,
+                        "textAlign": "CENTER",
+                        "fills": [
+                          {
+                            "type": "SOLID",
+                            "color": {
+                              "r": 1,
+                              "g": 1,
+                              "b": 1
+                            },
+                            "opacity": 1,
+                            "raw": "rgb(255, 255, 255)"
+                          }
+                        ],
+                        "sorb": {
+                          "tokens": {
+                            "fill": "button.primary.text.default"
+                          },
+                          "candidates": {
+                            "fill": [
+                              "color.white",
+                              "color.text.on-action",
+                              "color.bg.surface",
+                              "color.bg.disabled",
+                              "button.primary.bg.disabled",
+                              "button.primary.text.default",
+                              "button.primary.text.hover",
+                              "button.danger.bg.disabled",
+                              "button.danger.text.default",
+                              "button.danger.text.hover",
+                              "button.success.bg.disabled",
+                              "button.success.text.default",
+                              "button.success.text.hover",
+                              "bs.body-bg"
+                            ]
+                          }
+                        }
+                      }
+                    ],
+                    "sorb": {
+                      "tokens": {
+                        "cornerRadius": "radius.300"
+                      },
+                      "candidates": {
+                        "cornerRadius": [
+                          "radius.300",
+                          "space.200"
+                        ]
+                      },
+                      "diagnostics": [
+                        {
+                          "kind": "off-role-bind",
+                          "detail": {
+                            "key": "cornerRadius",
+                            "role": "radius",
+                            "token": "radius.300"
+                          }
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "type": "FRAME",
+                    "name": "button",
+                    "x": 296.40625,
+                    "y": 0,
+                    "width": 78.90625,
+                    "height": 48,
+                    "opacity": 1,
+                    "clipsContent": false,
+                    "fills": [
+                      {
+                        "type": "SOLID",
+                        "color": {
+                          "r": 0.8627450980392157,
+                          "g": 0.20784313725490197,
+                          "b": 0.27058823529411763
+                        },
+                        "opacity": 1,
+                        "raw": "rgb(220, 53, 69)"
+                      }
+                    ],
+                    "strokes": [
+                      {
+                        "type": "SOLID",
+                        "color": {
+                          "r": 0.8627450980392157,
+                          "g": 0.20784313725490197,
+                          "b": 0.27058823529411763
+                        },
+                        "opacity": 1,
+                        "raw": "rgb(220, 53, 69)"
+                      }
+                    ],
+                    "strokeWeight": 1,
+                    "cornerRadius": 8,
+                    "effects": [],
+                    "layout": {
+                      "mode": "NONE"
+                    },
+                    "children": [
+                      {
+                        "type": "TEXT",
+                        "name": "Danger",
+                        "x": 13,
+                        "y": 15,
+                        "width": 52.90625,
+                        "height": 18,
+                        "characters": "Danger",
+                        "fontFamily": "ui-sans-serif",
+                        "fontWeight": 400,
+                        "italic": false,
+                        "fontSize": 16,
+                        "lineHeight": {
+                          "unit": "PIXELS",
+                          "value": 24
+                        },
+                        "letterSpacing": 0,
+                        "textAlign": "CENTER",
+                        "fills": [
+                          {
+                            "type": "SOLID",
+                            "color": {
+                              "r": 1,
+                              "g": 1,
+                              "b": 1
+                            },
+                            "opacity": 1,
+                            "raw": "rgb(255, 255, 255)"
+                          }
+                        ],
+                        "sorb": {
+                          "tokens": {
+                            "fill": "button.primary.text.default"
+                          },
+                          "candidates": {
+                            "fill": [
+                              "color.white",
+                              "color.text.on-action",
+                              "color.bg.surface",
+                              "color.bg.disabled",
+                              "button.primary.bg.disabled",
+                              "button.primary.text.default",
+                              "button.primary.text.hover",
+                              "button.danger.bg.disabled",
+                              "button.danger.text.default",
+                              "button.danger.text.hover",
+                              "button.success.bg.disabled",
+                              "button.success.text.default",
+                              "button.success.text.hover",
+                              "bs.body-bg"
+                            ]
+                          }
+                        }
+                      }
+                    ],
+                    "sorb": {
+                      "tokens": {
+                        "fill": "bs.danger",
+                        "stroke": "bs.danger",
+                        "cornerRadius": "radius.300"
+                      },
+                      "candidates": {
+                        "fill": [
+                          "bs.danger"
+                        ],
+                        "stroke": [
+                          "bs.danger"
+                        ],
+                        "cornerRadius": [
+                          "radius.300",
+                          "space.200"
+                        ]
+                      },
+                      "diagnostics": [
+                        {
+                          "kind": "off-role-bind",
+                          "detail": {
+                            "key": "fill",
+                            "role": "bg",
+                            "token": "bs.danger"
+                          }
+                        },
+                        {
+                          "kind": "off-role-bind",
+                          "detail": {
+                            "key": "stroke",
+                            "role": "border",
+                            "token": "bs.danger"
+                          }
+                        },
+                        {
+                          "kind": "off-role-bind",
+                          "detail": {
+                            "key": "cornerRadius",
+                            "role": "radius",
+                            "token": "radius.300"
+                          }
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "type": "FRAME",
+                    "name": "button",
+                    "x": 383.3125,
+                    "y": 0,
+                    "width": 85.96875,
+                    "height": 48,
+                    "opacity": 1,
+                    "clipsContent": false,
+                    "fills": [
+                      {
+                        "type": "SOLID",
+                        "color": {
+                          "r": 1,
+                          "g": 0.7568627450980392,
+                          "b": 0.027450980392156862
+                        },
+                        "opacity": 1,
+                        "raw": "rgb(255, 193, 7)"
+                      }
+                    ],
+                    "strokes": [
+                      {
+                        "type": "SOLID",
+                        "color": {
+                          "r": 1,
+                          "g": 0.7568627450980392,
+                          "b": 0.027450980392156862
+                        },
+                        "opacity": 1,
+                        "raw": "rgb(255, 193, 7)"
+                      }
+                    ],
+                    "strokeWeight": 1,
+                    "cornerRadius": 8,
+                    "effects": [],
+                    "layout": {
+                      "mode": "NONE"
+                    },
+                    "children": [
+                      {
+                        "type": "TEXT",
+                        "name": "Warning",
+                        "x": 13,
+                        "y": 15,
+                        "width": 59.96875,
+                        "height": 18,
+                        "characters": "Warning",
+                        "fontFamily": "ui-sans-serif",
+                        "fontWeight": 400,
+                        "italic": false,
+                        "fontSize": 16,
+                        "lineHeight": {
+                          "unit": "PIXELS",
+                          "value": 24
+                        },
+                        "letterSpacing": 0,
+                        "textAlign": "CENTER",
+                        "fills": [
+                          {
+                            "type": "SOLID",
+                            "color": {
+                              "r": 0,
+                              "g": 0,
+                              "b": 0
+                            },
+                            "opacity": 1,
+                            "raw": "rgb(0, 0, 0)"
+                          }
+                        ],
+                        "sorb": {
+                          "tokens": {
+                            "fill": "color.black"
+                          },
+                          "candidates": {
+                            "fill": [
+                              "color.black"
+                            ]
+                          },
+                          "diagnostics": [
+                            {
+                              "kind": "off-role-bind",
+                              "detail": {
+                                "key": "fill",
+                                "role": "text",
+                                "token": "color.black"
+                              }
+                            }
+                          ]
+                        }
+                      }
+                    ],
+                    "sorb": {
+                      "tokens": {
+                        "cornerRadius": "radius.300"
+                      },
+                      "candidates": {
+                        "cornerRadius": [
+                          "radius.300",
+                          "space.200"
+                        ]
+                      },
+                      "diagnostics": [
+                        {
+                          "kind": "off-role-bind",
+                          "detail": {
+                            "key": "cornerRadius",
+                            "role": "radius",
+                            "token": "radius.300"
+                          }
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "type": "FRAME",
+                    "name": "button",
+                    "x": 477.28125,
+                    "y": 0,
+                    "width": 77.78125,
+                    "height": 48,
+                    "opacity": 1,
+                    "clipsContent": false,
+                    "fills": [],
+                    "strokes": [
+                      {
+                        "type": "SOLID",
+                        "color": {
+                          "r": 0.1843137254901961,
+                          "g": 0.3607843137254902,
+                          "b": 0.6196078431372549
+                        },
+                        "opacity": 1,
+                        "raw": "rgb(47, 92, 158)"
+                      }
+                    ],
+                    "strokeWeight": 1,
+                    "cornerRadius": 8,
+                    "effects": [],
+                    "layout": {
+                      "mode": "NONE"
+                    },
+                    "children": [
+                      {
+                        "type": "TEXT",
+                        "name": "Outline",
+                        "x": 13,
+                        "y": 15,
+                        "width": 51.78125,
+                        "height": 18,
+                        "characters": "Outline",
+                        "fontFamily": "ui-sans-serif",
+                        "fontWeight": 400,
+                        "italic": false,
+                        "fontSize": 16,
+                        "lineHeight": {
+                          "unit": "PIXELS",
+                          "value": 24
+                        },
+                        "letterSpacing": 0,
+                        "textAlign": "CENTER",
+                        "fills": [
+                          {
+                            "type": "SOLID",
+                            "color": {
+                              "r": 0.1843137254901961,
+                              "g": 0.3607843137254902,
+                              "b": 0.6196078431372549
+                            },
+                            "opacity": 1,
+                            "raw": "rgb(47, 92, 158)"
+                          }
+                        ],
+                        "sorb": {
+                          "tokens": {
+                            "fill": "bs.primary"
+                          },
+                          "candidates": {
+                            "fill": [
+                              "bs.primary",
+                              "bs.link-color"
+                            ]
+                          },
+                          "diagnostics": [
+                            {
+                              "kind": "off-role-bind",
+                              "detail": {
+                                "key": "fill",
+                                "role": "text",
+                                "token": "bs.primary"
+                              }
+                            }
+                          ]
+                        }
+                      }
+                    ],
+                    "sorb": {
+                      "tokens": {
+                        "stroke": "bs.primary",
+                        "cornerRadius": "radius.300"
+                      },
+                      "candidates": {
+                        "stroke": [
+                          "bs.primary",
+                          "bs.link-color"
+                        ],
+                        "cornerRadius": [
+                          "radius.300",
+                          "space.200"
+                        ]
+                      },
+                      "diagnostics": [
+                        {
+                          "kind": "off-role-bind",
+                          "detail": {
+                            "key": "stroke",
+                            "role": "border",
+                            "token": "bs.primary"
+                          }
+                        },
+                        {
+                          "kind": "off-role-bind",
+                          "detail": {
+                            "key": "cornerRadius",
+                            "role": "radius",
+                            "token": "radius.300"
+                          }
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "type": "FRAME",
+                    "name": "button",
+                    "x": 563.0625,
+                    "y": 0,
+                    "width": 53.171875,
+                    "height": 48,
+                    "opacity": 1,
+                    "clipsContent": false,
+                    "fills": [
+                      {
+                        "type": "SOLID",
+                        "color": {
+                          "r": 0.1843137254901961,
+                          "g": 0.3607843137254902,
+                          "b": 0.6196078431372549
+                        },
+                        "opacity": 1,
+                        "raw": "rgb(47, 92, 158)"
+                      }
+                    ],
+                    "strokes": [
+                      {
+                        "type": "SOLID",
+                        "color": {
+                          "r": 0.1843137254901961,
+                          "g": 0.3607843137254902,
+                          "b": 0.6196078431372549
+                        },
+                        "opacity": 1,
+                        "raw": "rgb(47, 92, 158)"
+                      }
+                    ],
+                    "strokeWeight": 1,
+                    "cornerRadius": 4,
+                    "effects": [],
+                    "layout": {
+                      "mode": "NONE"
+                    },
+                    "children": [
+                      {
+                        "type": "TEXT",
+                        "name": "Small",
+                        "x": 9,
+                        "y": 15.5,
+                        "width": 35.171875,
+                        "height": 17,
+                        "characters": "Small",
+                        "fontFamily": "ui-sans-serif",
+                        "fontWeight": 400,
+                        "italic": false,
+                        "fontSize": 14,
+                        "lineHeight": {
+                          "unit": "PIXELS",
+                          "value": 21
+                        },
+                        "letterSpacing": 0,
+                        "textAlign": "CENTER",
+                        "fills": [
+                          {
+                            "type": "SOLID",
+                            "color": {
+                              "r": 1,
+                              "g": 1,
+                              "b": 1
+                            },
+                            "opacity": 1,
+                            "raw": "rgb(255, 255, 255)"
+                          }
+                        ],
+                        "sorb": {
+                          "tokens": {
+                            "fill": "button.primary.text.default"
+                          },
+                          "candidates": {
+                            "fill": [
+                              "color.white",
+                              "color.text.on-action",
+                              "color.bg.surface",
+                              "color.bg.disabled",
+                              "button.primary.bg.disabled",
+                              "button.primary.text.default",
+                              "button.primary.text.hover",
+                              "button.danger.bg.disabled",
+                              "button.danger.text.default",
+                              "button.danger.text.hover",
+                              "button.success.bg.disabled",
+                              "button.success.text.default",
+                              "button.success.text.hover",
+                              "bs.body-bg"
+                            ]
+                          }
+                        }
+                      }
+                    ],
+                    "sorb": {
+                      "tokens": {
+                        "fill": "bs.primary",
+                        "stroke": "bs.primary",
+                        "cornerRadius": "button.radius"
+                      },
+                      "candidates": {
+                        "fill": [
+                          "bs.primary",
+                          "bs.link-color"
+                        ],
+                        "stroke": [
+                          "bs.primary",
+                          "bs.link-color"
+                        ],
+                        "cornerRadius": [
+                          "radius.200",
+                          "radius.control",
+                          "space.100",
+                          "button.radius"
+                        ]
+                      },
+                      "diagnostics": [
+                        {
+                          "kind": "off-role-bind",
+                          "detail": {
+                            "key": "fill",
+                            "role": "bg",
+                            "token": "bs.primary"
+                          }
+                        },
+                        {
+                          "kind": "off-role-bind",
+                          "detail": {
+                            "key": "stroke",
+                            "role": "border",
+                            "token": "bs.primary"
+                          }
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "type": "FRAME",
+                    "name": "button",
+                    "x": 624.234375,
+                    "y": 0,
+                    "width": 83.703125,
+                    "height": 48,
+                    "opacity": 1,
+                    "clipsContent": false,
+                    "fills": [
+                      {
+                        "type": "SOLID",
+                        "color": {
+                          "r": 0.1843137254901961,
+                          "g": 0.3607843137254902,
+                          "b": 0.6196078431372549
+                        },
+                        "opacity": 1,
+                        "raw": "rgb(47, 92, 158)"
+                      }
+                    ],
+                    "strokes": [
+                      {
+                        "type": "SOLID",
+                        "color": {
+                          "r": 0.1843137254901961,
+                          "g": 0.3607843137254902,
+                          "b": 0.6196078431372549
+                        },
+                        "opacity": 1,
+                        "raw": "rgb(47, 92, 158)"
+                      }
+                    ],
+                    "strokeWeight": 1,
+                    "cornerRadius": 8,
+                    "effects": [],
+                    "layout": {
+                      "mode": "NONE"
+                    },
+                    "children": [
+                      {
+                        "type": "TEXT",
+                        "name": "Large",
+                        "x": 17,
+                        "y": 12,
+                        "width": 49.703125,
+                        "height": 23,
+                        "characters": "Large",
+                        "fontFamily": "ui-sans-serif",
+                        "fontWeight": 400,
+                        "italic": false,
+                        "fontSize": 20,
+                        "lineHeight": {
+                          "unit": "PIXELS",
+                          "value": 30
+                        },
+                        "letterSpacing": 0,
+                        "textAlign": "CENTER",
+                        "fills": [
+                          {
+                            "type": "SOLID",
+                            "color": {
+                              "r": 1,
+                              "g": 1,
+                              "b": 1
+                            },
+                            "opacity": 1,
+                            "raw": "rgb(255, 255, 255)"
+                          }
+                        ],
+                        "sorb": {
+                          "tokens": {
+                            "fill": "button.primary.text.default"
+                          },
+                          "candidates": {
+                            "fill": [
+                              "color.white",
+                              "color.text.on-action",
+                              "color.bg.surface",
+                              "color.bg.disabled",
+                              "button.primary.bg.disabled",
+                              "button.primary.text.default",
+                              "button.primary.text.hover",
+                              "button.danger.bg.disabled",
+                              "button.danger.text.default",
+                              "button.danger.text.hover",
+                              "button.success.bg.disabled",
+                              "button.success.text.default",
+                              "button.success.text.hover",
+                              "bs.body-bg"
+                            ]
+                          }
+                        }
+                      }
+                    ],
+                    "sorb": {
+                      "tokens": {
+                        "fill": "bs.primary",
+                        "stroke": "bs.primary",
+                        "cornerRadius": "radius.300"
+                      },
+                      "candidates": {
+                        "fill": [
+                          "bs.primary",
+                          "bs.link-color"
+                        ],
+                        "stroke": [
+                          "bs.primary",
+                          "bs.link-color"
+                        ],
+                        "cornerRadius": [
+                          "radius.300",
+                          "space.200"
+                        ]
+                      },
+                      "diagnostics": [
+                        {
+                          "kind": "off-role-bind",
+                          "detail": {
+                            "key": "fill",
+                            "role": "bg",
+                            "token": "bs.primary"
+                          }
+                        },
+                        {
+                          "kind": "off-role-bind",
+                          "detail": {
+                            "key": "stroke",
+                            "role": "border",
+                            "token": "bs.primary"
+                          }
+                        },
+                        {
+                          "kind": "off-role-bind",
+                          "detail": {
+                            "key": "cornerRadius",
+                            "role": "radius",
+                            "token": "radius.300"
+                          }
+                        }
+                      ]
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "sorb": {
+          "tokens": {
+            "fill": "button.primary.bg.disabled"
+          },
+          "candidates": {
+            "fill": [
+              "color.white",
+              "color.text.on-action",
+              "color.bg.surface",
+              "color.bg.disabled",
+              "button.primary.bg.disabled",
+              "button.primary.text.default",
+              "button.primary.text.hover",
+              "button.danger.bg.disabled",
+              "button.danger.text.default",
+              "button.danger.text.hover",
+              "button.success.bg.disabled",
+              "button.success.text.default",
+              "button.success.text.hover",
+              "bs.body-bg"
+            ]
+          }
+        }
+      }
+    },
+    {
+      "id": "bootstrap-styled-showcase--badges",
+      "name": "Badges",
+      "title": "Bootstrap-Styled/Showcase",
+      "hash": "sha256:3d67be53d0a76d207d62f39b2fdc5fd9ac050eda5c3bcfd94fd462ee36d51751",
+      "root": {
+        "type": "FRAME",
+        "name": "div",
+        "x": 0,
+        "y": 0,
+        "width": 1248,
+        "height": 68.375,
+        "opacity": 1,
+        "clipsContent": false,
+        "fills": [
+          {
+            "type": "SOLID",
+            "color": {
+              "r": 1,
+              "g": 1,
+              "b": 1
+            },
+            "opacity": 1,
+            "raw": "rgb(255, 255, 255)"
+          }
+        ],
+        "strokes": [],
+        "strokeWeight": 0,
+        "cornerRadius": 0,
+        "effects": [],
+        "layout": {
+          "mode": "NONE"
+        },
+        "children": [
+          {
+            "type": "FRAME",
+            "name": "div",
+            "x": 0,
+            "y": 0,
+            "width": 1248,
+            "height": 68.375,
+            "opacity": 1,
+            "clipsContent": false,
+            "fills": [],
+            "strokes": [],
+            "strokeWeight": 0,
+            "cornerRadius": 0,
+            "effects": [],
+            "layout": {
+              "mode": "NONE"
+            },
+            "children": [
+              {
+                "type": "FRAME",
+                "name": "div",
+                "x": 24,
+                "y": 24,
+                "width": 1200,
+                "height": 20.375,
+                "opacity": 1,
+                "clipsContent": false,
+                "fills": [],
+                "strokes": [],
+                "strokeWeight": 0,
+                "cornerRadius": 0,
+                "effects": [],
+                "layout": {
+                  "mode": "HORIZONTAL",
+                  "primaryAxisAlign": "MIN",
+                  "counterAxisAlign": "CENTER",
+                  "itemSpacing": 8,
+                  "paddingTop": 0,
+                  "paddingRight": 0,
+                  "paddingBottom": 0,
+                  "paddingLeft": 0
+                },
+                "children": [
+                  {
+                    "type": "FRAME",
+                    "name": "span",
+                    "x": 0,
+                    "y": 0,
+                    "width": 63.125,
+                    "height": 20.375,
+                    "opacity": 1,
+                    "clipsContent": false,
+                    "fills": [
+                      {
+                        "type": "SOLID",
+                        "color": {
+                          "r": 0.1843137254901961,
+                          "g": 0.3607843137254902,
+                          "b": 0.6196078431372549
+                        },
+                        "opacity": 1,
+                        "raw": "rgb(47, 92, 158)"
+                      }
+                    ],
+                    "strokes": [],
+                    "strokeWeight": 0,
+                    "cornerRadius": 8,
+                    "effects": [],
+                    "layout": {
+                      "mode": "NONE"
+                    },
+                    "children": [
+                      {
+                        "type": "TEXT",
+                        "name": "Primary",
+                        "x": 7.796875,
+                        "y": 2.1875,
+                        "width": 47.53125,
+                        "height": 15,
+                        "characters": "Primary",
+                        "fontFamily": "ui-sans-serif",
+                        "fontWeight": 700,
+                        "italic": false,
+                        "fontSize": 12,
+                        "lineHeight": {
+                          "unit": "PIXELS",
+                          "value": 12
+                        },
+                        "letterSpacing": 0,
+                        "textAlign": "CENTER",
+                        "fills": [
+                          {
+                            "type": "SOLID",
+                            "color": {
+                              "r": 1,
+                              "g": 1,
+                              "b": 1
+                            },
+                            "opacity": 1,
+                            "raw": "rgb(255, 255, 255)"
+                          }
+                        ],
+                        "sorb": {
+                          "tokens": {
+                            "fill": "button.primary.text.default"
+                          },
+                          "candidates": {
+                            "fill": [
+                              "color.white",
+                              "color.text.on-action",
+                              "color.bg.surface",
+                              "color.bg.disabled",
+                              "button.primary.bg.disabled",
+                              "button.primary.text.default",
+                              "button.primary.text.hover",
+                              "button.danger.bg.disabled",
+                              "button.danger.text.default",
+                              "button.danger.text.hover",
+                              "button.success.bg.disabled",
+                              "button.success.text.default",
+                              "button.success.text.hover",
+                              "bs.body-bg"
+                            ]
+                          }
+                        }
+                      }
+                    ],
+                    "sorb": {
+                      "tokens": {
+                        "fill": "bs.primary",
+                        "cornerRadius": "radius.300"
+                      },
+                      "candidates": {
+                        "fill": [
+                          "bs.primary",
+                          "bs.link-color"
+                        ],
+                        "cornerRadius": [
+                          "radius.300",
+                          "space.200"
+                        ]
+                      },
+                      "diagnostics": [
+                        {
+                          "kind": "off-role-bind",
+                          "detail": {
+                            "key": "fill",
+                            "role": "bg",
+                            "token": "bs.primary"
+                          }
+                        },
+                        {
+                          "kind": "off-role-bind",
+                          "detail": {
+                            "key": "cornerRadius",
+                            "role": "radius",
+                            "token": "radius.300"
+                          }
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "type": "FRAME",
+                    "name": "span",
+                    "x": 71.125,
+                    "y": 0,
+                    "width": 66.015625,
+                    "height": 20.375,
+                    "opacity": 1,
+                    "clipsContent": false,
+                    "fills": [
+                      {
+                        "type": "SOLID",
+                        "color": {
+                          "r": 0.09803921568627451,
+                          "g": 0.5294117647058824,
+                          "b": 0.32941176470588235
+                        },
+                        "opacity": 1,
+                        "raw": "rgb(25, 135, 84)"
+                      }
+                    ],
+                    "strokes": [],
+                    "strokeWeight": 0,
+                    "cornerRadius": 8,
+                    "effects": [],
+                    "layout": {
+                      "mode": "NONE"
+                    },
+                    "children": [
+                      {
+                        "type": "TEXT",
+                        "name": "Success",
+                        "x": 7.796875,
+                        "y": 2.1875,
+                        "width": 50.421875,
+                        "height": 15,
+                        "characters": "Success",
+                        "fontFamily": "ui-sans-serif",
+                        "fontWeight": 700,
+                        "italic": false,
+                        "fontSize": 12,
+                        "lineHeight": {
+                          "unit": "PIXELS",
+                          "value": 12
+                        },
+                        "letterSpacing": 0,
+                        "textAlign": "CENTER",
+                        "fills": [
+                          {
+                            "type": "SOLID",
+                            "color": {
+                              "r": 1,
+                              "g": 1,
+                              "b": 1
+                            },
+                            "opacity": 1,
+                            "raw": "rgb(255, 255, 255)"
+                          }
+                        ],
+                        "sorb": {
+                          "tokens": {
+                            "fill": "button.primary.text.default"
+                          },
+                          "candidates": {
+                            "fill": [
+                              "color.white",
+                              "color.text.on-action",
+                              "color.bg.surface",
+                              "color.bg.disabled",
+                              "button.primary.bg.disabled",
+                              "button.primary.text.default",
+                              "button.primary.text.hover",
+                              "button.danger.bg.disabled",
+                              "button.danger.text.default",
+                              "button.danger.text.hover",
+                              "button.success.bg.disabled",
+                              "button.success.text.default",
+                              "button.success.text.hover",
+                              "bs.body-bg"
+                            ]
+                          }
+                        }
+                      }
+                    ],
+                    "sorb": {
+                      "tokens": {
+                        "cornerRadius": "radius.300"
+                      },
+                      "candidates": {
+                        "cornerRadius": [
+                          "radius.300",
+                          "space.200"
+                        ]
+                      },
+                      "diagnostics": [
+                        {
+                          "kind": "off-role-bind",
+                          "detail": {
+                            "key": "cornerRadius",
+                            "role": "radius",
+                            "token": "radius.300"
+                          }
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "type": "FRAME",
+                    "name": "span",
+                    "x": 145.140625,
+                    "y": 0,
+                    "width": 59.296875,
+                    "height": 20.375,
+                    "opacity": 1,
+                    "clipsContent": false,
+                    "fills": [
+                      {
+                        "type": "SOLID",
+                        "color": {
+                          "r": 0.8627450980392157,
+                          "g": 0.20784313725490197,
+                          "b": 0.27058823529411763
+                        },
+                        "opacity": 1,
+                        "raw": "rgb(220, 53, 69)"
+                      }
+                    ],
+                    "strokes": [],
+                    "strokeWeight": 0,
+                    "cornerRadius": 8,
+                    "effects": [],
+                    "layout": {
+                      "mode": "NONE"
+                    },
+                    "children": [
+                      {
+                        "type": "TEXT",
+                        "name": "Danger",
+                        "x": 7.796875,
+                        "y": 2.1875,
+                        "width": 43.703125,
+                        "height": 15,
+                        "characters": "Danger",
+                        "fontFamily": "ui-sans-serif",
+                        "fontWeight": 700,
+                        "italic": false,
+                        "fontSize": 12,
+                        "lineHeight": {
+                          "unit": "PIXELS",
+                          "value": 12
+                        },
+                        "letterSpacing": 0,
+                        "textAlign": "CENTER",
+                        "fills": [
+                          {
+                            "type": "SOLID",
+                            "color": {
+                              "r": 1,
+                              "g": 1,
+                              "b": 1
+                            },
+                            "opacity": 1,
+                            "raw": "rgb(255, 255, 255)"
+                          }
+                        ],
+                        "sorb": {
+                          "tokens": {
+                            "fill": "button.primary.text.default"
+                          },
+                          "candidates": {
+                            "fill": [
+                              "color.white",
+                              "color.text.on-action",
+                              "color.bg.surface",
+                              "color.bg.disabled",
+                              "button.primary.bg.disabled",
+                              "button.primary.text.default",
+                              "button.primary.text.hover",
+                              "button.danger.bg.disabled",
+                              "button.danger.text.default",
+                              "button.danger.text.hover",
+                              "button.success.bg.disabled",
+                              "button.success.text.default",
+                              "button.success.text.hover",
+                              "bs.body-bg"
+                            ]
+                          }
+                        }
+                      }
+                    ],
+                    "sorb": {
+                      "tokens": {
+                        "fill": "bs.danger",
+                        "cornerRadius": "radius.300"
+                      },
+                      "candidates": {
+                        "fill": [
+                          "bs.danger"
+                        ],
+                        "cornerRadius": [
+                          "radius.300",
+                          "space.200"
+                        ]
+                      },
+                      "diagnostics": [
+                        {
+                          "kind": "off-role-bind",
+                          "detail": {
+                            "key": "fill",
+                            "role": "bg",
+                            "token": "bs.danger"
+                          }
+                        },
+                        {
+                          "kind": "off-role-bind",
+                          "detail": {
+                            "key": "cornerRadius",
+                            "role": "radius",
+                            "token": "radius.300"
+                          }
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "type": "FRAME",
+                    "name": "span",
+                    "x": 212.4375,
+                    "y": 0,
+                    "width": 65.59375,
+                    "height": 20.375,
+                    "opacity": 1,
+                    "clipsContent": false,
+                    "fills": [
+                      {
+                        "type": "SOLID",
+                        "color": {
+                          "r": 1,
+                          "g": 0.7568627450980392,
+                          "b": 0.027450980392156862
+                        },
+                        "opacity": 1,
+                        "raw": "rgb(255, 193, 7)"
+                      }
+                    ],
+                    "strokes": [],
+                    "strokeWeight": 0,
+                    "cornerRadius": 8,
+                    "effects": [],
+                    "layout": {
+                      "mode": "NONE"
+                    },
+                    "children": [
+                      {
+                        "type": "TEXT",
+                        "name": "Warning",
+                        "x": 7.796875,
+                        "y": 2.1875,
+                        "width": 50,
+                        "height": 15,
+                        "characters": "Warning",
+                        "fontFamily": "ui-sans-serif",
+                        "fontWeight": 700,
+                        "italic": false,
+                        "fontSize": 12,
+                        "lineHeight": {
+                          "unit": "PIXELS",
+                          "value": 12
+                        },
+                        "letterSpacing": 0,
+                        "textAlign": "CENTER",
+                        "fills": [
+                          {
+                            "type": "SOLID",
+                            "color": {
+                              "r": 0,
+                              "g": 0,
+                              "b": 0
+                            },
+                            "opacity": 1,
+                            "raw": "rgb(0, 0, 0)"
+                          }
+                        ],
+                        "sorb": {
+                          "tokens": {
+                            "fill": "color.black"
+                          },
+                          "candidates": {
+                            "fill": [
+                              "color.black"
+                            ]
+                          },
+                          "diagnostics": [
+                            {
+                              "kind": "off-role-bind",
+                              "detail": {
+                                "key": "fill",
+                                "role": "text",
+                                "token": "color.black"
+                              }
+                            }
+                          ]
+                        }
+                      }
+                    ],
+                    "sorb": {
+                      "tokens": {
+                        "cornerRadius": "radius.300"
+                      },
+                      "candidates": {
+                        "cornerRadius": [
+                          "radius.300",
+                          "space.200"
+                        ]
+                      },
+                      "diagnostics": [
+                        {
+                          "kind": "off-role-bind",
+                          "detail": {
+                            "key": "cornerRadius",
+                            "role": "radius",
+                            "token": "radius.300"
+                          }
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "type": "FRAME",
+                    "name": "span",
+                    "x": 286.03125,
+                    "y": 0,
+                    "width": 39.0625,
+                    "height": 20.375,
+                    "opacity": 1,
+                    "clipsContent": false,
+                    "fills": [
+                      {
+                        "type": "SOLID",
+                        "color": {
+                          "r": 0.050980392156862744,
+                          "g": 0.792156862745098,
+                          "b": 0.9411764705882353
+                        },
+                        "opacity": 1,
+                        "raw": "rgb(13, 202, 240)"
+                      }
+                    ],
+                    "strokes": [],
+                    "strokeWeight": 0,
+                    "cornerRadius": 8,
+                    "effects": [],
+                    "layout": {
+                      "mode": "NONE"
+                    },
+                    "children": [
+                      {
+                        "type": "TEXT",
+                        "name": "Info",
+                        "x": 7.796875,
+                        "y": 2.1875,
+                        "width": 23.46875,
+                        "height": 15,
+                        "characters": "Info",
+                        "fontFamily": "ui-sans-serif",
+                        "fontWeight": 700,
+                        "italic": false,
+                        "fontSize": 12,
+                        "lineHeight": {
+                          "unit": "PIXELS",
+                          "value": 12
+                        },
+                        "letterSpacing": 0,
+                        "textAlign": "CENTER",
+                        "fills": [
+                          {
+                            "type": "SOLID",
+                            "color": {
+                              "r": 0,
+                              "g": 0,
+                              "b": 0
+                            },
+                            "opacity": 1,
+                            "raw": "rgb(0, 0, 0)"
+                          }
+                        ],
+                        "sorb": {
+                          "tokens": {
+                            "fill": "color.black"
+                          },
+                          "candidates": {
+                            "fill": [
+                              "color.black"
+                            ]
+                          },
+                          "diagnostics": [
+                            {
+                              "kind": "off-role-bind",
+                              "detail": {
+                                "key": "fill",
+                                "role": "text",
+                                "token": "color.black"
+                              }
+                            }
+                          ]
+                        }
+                      }
+                    ],
+                    "sorb": {
+                      "tokens": {
+                        "cornerRadius": "radius.300"
+                      },
+                      "candidates": {
+                        "cornerRadius": [
+                          "radius.300",
+                          "space.200"
+                        ]
+                      },
+                      "diagnostics": [
+                        {
+                          "kind": "off-role-bind",
+                          "detail": {
+                            "key": "cornerRadius",
+                            "role": "radius",
+                            "token": "radius.300"
+                          }
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "type": "FRAME",
+                    "name": "span",
+                    "x": 333.09375,
+                    "y": 0,
+                    "width": 34.203125,
+                    "height": 20.375,
+                    "opacity": 1,
+                    "clipsContent": false,
+                    "fills": [
+                      {
+                        "type": "SOLID",
+                        "color": {
+                          "r": 0.1843137254901961,
+                          "g": 0.3607843137254902,
+                          "b": 0.6196078431372549
+                        },
+                        "opacity": 1,
+                        "raw": "rgb(47, 92, 158)"
+                      }
+                    ],
+                    "strokes": [],
+                    "strokeWeight": 0,
+                    "cornerRadius": 800,
+                    "effects": [],
+                    "layout": {
+                      "mode": "NONE"
+                    },
+                    "children": [
+                      {
+                        "type": "TEXT",
+                        "name": "Pill",
+                        "x": 7.796875,
+                        "y": 2.1875,
+                        "width": 18.609375,
+                        "height": 15,
+                        "characters": "Pill",
+                        "fontFamily": "ui-sans-serif",
+                        "fontWeight": 700,
+                        "italic": false,
+                        "fontSize": 12,
+                        "lineHeight": {
+                          "unit": "PIXELS",
+                          "value": 12
+                        },
+                        "letterSpacing": 0,
+                        "textAlign": "CENTER",
+                        "fills": [
+                          {
+                            "type": "SOLID",
+                            "color": {
+                              "r": 1,
+                              "g": 1,
+                              "b": 1
+                            },
+                            "opacity": 1,
+                            "raw": "rgb(255, 255, 255)"
+                          }
+                        ],
+                        "sorb": {
+                          "tokens": {
+                            "fill": "button.primary.text.default"
+                          },
+                          "candidates": {
+                            "fill": [
+                              "color.white",
+                              "color.text.on-action",
+                              "color.bg.surface",
+                              "color.bg.disabled",
+                              "button.primary.bg.disabled",
+                              "button.primary.text.default",
+                              "button.primary.text.hover",
+                              "button.danger.bg.disabled",
+                              "button.danger.text.default",
+                              "button.danger.text.hover",
+                              "button.success.bg.disabled",
+                              "button.success.text.default",
+                              "button.success.text.hover",
+                              "bs.body-bg"
+                            ]
+                          }
+                        }
+                      }
+                    ],
+                    "sorb": {
+                      "tokens": {
+                        "fill": "bs.primary"
+                      },
+                      "candidates": {
+                        "fill": [
+                          "bs.primary",
+                          "bs.link-color"
+                        ]
+                      },
+                      "diagnostics": [
+                        {
+                          "kind": "off-role-bind",
+                          "detail": {
+                            "key": "fill",
+                            "role": "bg",
+                            "token": "bs.primary"
+                          }
+                        }
+                      ]
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "sorb": {
+          "tokens": {
+            "fill": "button.primary.bg.disabled"
+          },
+          "candidates": {
+            "fill": [
+              "color.white",
+              "color.text.on-action",
+              "color.bg.surface",
+              "color.bg.disabled",
+              "button.primary.bg.disabled",
+              "button.primary.text.default",
+              "button.primary.text.hover",
+              "button.danger.bg.disabled",
+              "button.danger.text.default",
+              "button.danger.text.hover",
+              "button.success.bg.disabled",
+              "button.success.text.default",
+              "button.success.text.hover",
+              "bs.body-bg"
+            ]
+          }
+        }
+      }
+    },
+    {
+      "id": "bootstrap-styled-showcase--alerts",
+      "name": "Alerts",
+      "title": "Bootstrap-Styled/Showcase",
+      "hash": "sha256:92b91c1f49cbeab512a0edaa265939894679e4df1d57d73e23230872b829203a",
+      "root": {
+        "type": "FRAME",
+        "name": "div",
+        "x": 0,
+        "y": 0,
+        "width": 1248,
+        "height": 286,
+        "opacity": 1,
+        "clipsContent": false,
+        "fills": [
+          {
+            "type": "SOLID",
+            "color": {
+              "r": 1,
+              "g": 1,
+              "b": 1
+            },
+            "opacity": 1,
+            "raw": "rgb(255, 255, 255)"
+          }
+        ],
+        "strokes": [],
+        "strokeWeight": 0,
+        "cornerRadius": 0,
+        "effects": [],
+        "layout": {
+          "mode": "NONE"
+        },
+        "children": [
+          {
+            "type": "FRAME",
+            "name": "div",
+            "x": 0,
+            "y": 0,
+            "width": 1248,
+            "height": 286,
+            "opacity": 1,
+            "clipsContent": false,
+            "fills": [],
+            "strokes": [],
+            "strokeWeight": 0,
+            "cornerRadius": 0,
+            "effects": [],
+            "layout": {
+              "mode": "NONE"
+            },
+            "children": [
+              {
+                "type": "FRAME",
+                "name": "div",
+                "x": 24,
+                "y": 24,
+                "width": 480,
+                "height": 238,
+                "opacity": 1,
+                "clipsContent": false,
+                "fills": [],
+                "strokes": [],
+                "strokeWeight": 0,
+                "cornerRadius": 0,
+                "effects": [],
+                "layout": {
+                  "mode": "NONE"
+                },
+                "children": [
+                  {
+                    "type": "FRAME",
+                    "name": "div",
+                    "x": 0,
+                    "y": 0,
+                    "width": 480,
+                    "height": 58,
+                    "opacity": 1,
+                    "clipsContent": false,
+                    "fills": [
+                      {
+                        "type": "SOLID",
+                        "color": {
+                          "r": 0.8196078431372549,
+                          "g": 0.9058823529411765,
+                          "b": 0.8666666666666667
+                        },
+                        "opacity": 1,
+                        "raw": "rgb(209, 231, 221)"
+                      }
+                    ],
+                    "strokes": [
+                      {
+                        "type": "SOLID",
+                        "color": {
+                          "r": 0.6392156862745098,
+                          "g": 0.8117647058823529,
+                          "b": 0.7333333333333333
+                        },
+                        "opacity": 1,
+                        "raw": "rgb(163, 207, 187)"
+                      }
+                    ],
+                    "strokeWeight": 1,
+                    "cornerRadius": 8,
+                    "effects": [],
+                    "layout": {
+                      "mode": "NONE"
+                    },
+                    "children": [
+                      {
+                        "type": "TEXT",
+                        "name": "A real bootstrap-styled success alert.",
+                        "x": 17,
+                        "y": 20,
+                        "width": 271.515625,
+                        "height": 18,
+                        "characters": "A real bootstrap-styled success alert.",
+                        "fontFamily": "ui-sans-serif",
+                        "fontWeight": 400,
+                        "italic": false,
+                        "fontSize": 16,
+                        "lineHeight": {
+                          "unit": "PIXELS",
+                          "value": 24
+                        },
+                        "letterSpacing": 0,
+                        "textAlign": "LEFT",
+                        "fills": [
+                          {
+                            "type": "SOLID",
+                            "color": {
+                              "r": 0.0392156862745098,
+                              "g": 0.21176470588235294,
+                              "b": 0.13333333333333333
+                            },
+                            "opacity": 1,
+                            "raw": "rgb(10, 54, 34)"
+                          }
+                        ]
+                      }
+                    ],
+                    "sorb": {
+                      "tokens": {
+                        "cornerRadius": "radius.300"
+                      },
+                      "candidates": {
+                        "cornerRadius": [
+                          "radius.300",
+                          "space.200"
+                        ]
+                      },
+                      "diagnostics": [
+                        {
+                          "kind": "off-role-bind",
+                          "detail": {
+                            "key": "cornerRadius",
+                            "role": "radius",
+                            "token": "radius.300"
+                          }
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "type": "FRAME",
+                    "name": "div",
+                    "x": 0,
+                    "y": 82,
+                    "width": 480,
+                    "height": 58,
+                    "opacity": 1,
+                    "clipsContent": false,
+                    "fills": [
+                      {
+                        "type": "SOLID",
+                        "color": {
+                          "r": 1,
+                          "g": 0.9529411764705882,
+                          "b": 0.803921568627451
+                        },
+                        "opacity": 1,
+                        "raw": "rgb(255, 243, 205)"
+                      }
+                    ],
+                    "strokes": [
+                      {
+                        "type": "SOLID",
+                        "color": {
+                          "r": 1,
+                          "g": 0.9019607843137255,
+                          "b": 0.611764705882353
+                        },
+                        "opacity": 1,
+                        "raw": "rgb(255, 230, 156)"
+                      }
+                    ],
+                    "strokeWeight": 1,
+                    "cornerRadius": 8,
+                    "effects": [],
+                    "layout": {
+                      "mode": "NONE"
+                    },
+                    "children": [
+                      {
+                        "type": "TEXT",
+                        "name": "A warning alert.",
+                        "x": 17,
+                        "y": 20,
+                        "width": 113.21875,
+                        "height": 18,
+                        "characters": "A warning alert.",
+                        "fontFamily": "ui-sans-serif",
+                        "fontWeight": 400,
+                        "italic": false,
+                        "fontSize": 16,
+                        "lineHeight": {
+                          "unit": "PIXELS",
+                          "value": 24
+                        },
+                        "letterSpacing": 0,
+                        "textAlign": "LEFT",
+                        "fills": [
+                          {
+                            "type": "SOLID",
+                            "color": {
+                              "r": 0.4,
+                              "g": 0.30196078431372547,
+                              "b": 0.011764705882352941
+                            },
+                            "opacity": 1,
+                            "raw": "rgb(102, 77, 3)"
+                          }
+                        ]
+                      }
+                    ],
+                    "sorb": {
+                      "tokens": {
+                        "cornerRadius": "radius.300"
+                      },
+                      "candidates": {
+                        "cornerRadius": [
+                          "radius.300",
+                          "space.200"
+                        ]
+                      },
+                      "diagnostics": [
+                        {
+                          "kind": "off-role-bind",
+                          "detail": {
+                            "key": "cornerRadius",
+                            "role": "radius",
+                            "token": "radius.300"
+                          }
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "type": "FRAME",
+                    "name": "div",
+                    "x": 0,
+                    "y": 164,
+                    "width": 480,
+                    "height": 58,
+                    "opacity": 1,
+                    "clipsContent": false,
+                    "fills": [
+                      {
+                        "type": "SOLID",
+                        "color": {
+                          "r": 0.9725490196078431,
+                          "g": 0.8431372549019608,
+                          "b": 0.8549019607843137
+                        },
+                        "opacity": 1,
+                        "raw": "rgb(248, 215, 218)"
+                      }
+                    ],
+                    "strokes": [
+                      {
+                        "type": "SOLID",
+                        "color": {
+                          "r": 0.9450980392156862,
+                          "g": 0.6823529411764706,
+                          "b": 0.7098039215686275
+                        },
+                        "opacity": 1,
+                        "raw": "rgb(241, 174, 181)"
+                      }
+                    ],
+                    "strokeWeight": 1,
+                    "cornerRadius": 8,
+                    "effects": [],
+                    "layout": {
+                      "mode": "NONE"
+                    },
+                    "children": [
+                      {
+                        "type": "TEXT",
+                        "name": "A danger alert.",
+                        "x": 17,
+                        "y": 20,
+                        "width": 106.90625,
+                        "height": 18,
+                        "characters": "A danger alert.",
+                        "fontFamily": "ui-sans-serif",
+                        "fontWeight": 400,
+                        "italic": false,
+                        "fontSize": 16,
+                        "lineHeight": {
+                          "unit": "PIXELS",
+                          "value": 24
+                        },
+                        "letterSpacing": 0,
+                        "textAlign": "LEFT",
+                        "fills": [
+                          {
+                            "type": "SOLID",
+                            "color": {
+                              "r": 0.34509803921568627,
+                              "g": 0.08235294117647059,
+                              "b": 0.10980392156862745
+                            },
+                            "opacity": 1,
+                            "raw": "rgb(88, 21, 28)"
+                          }
+                        ]
+                      }
+                    ],
+                    "sorb": {
+                      "tokens": {
+                        "cornerRadius": "radius.300"
+                      },
+                      "candidates": {
+                        "cornerRadius": [
+                          "radius.300",
+                          "space.200"
+                        ]
+                      },
+                      "diagnostics": [
+                        {
+                          "kind": "off-role-bind",
+                          "detail": {
+                            "key": "cornerRadius",
+                            "role": "radius",
+                            "token": "radius.300"
+                          }
+                        }
+                      ]
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "sorb": {
+          "tokens": {
+            "fill": "button.primary.bg.disabled"
+          },
+          "candidates": {
+            "fill": [
+              "color.white",
+              "color.text.on-action",
+              "color.bg.surface",
+              "color.bg.disabled",
+              "button.primary.bg.disabled",
+              "button.primary.text.default",
+              "button.primary.text.hover",
+              "button.danger.bg.disabled",
+              "button.danger.text.default",
+              "button.danger.text.hover",
+              "button.success.bg.disabled",
+              "button.success.text.default",
+              "button.success.text.hover",
+              "bs.body-bg"
+            ]
+          }
+        }
+      }
+    },
+    {
+      "id": "bootstrap-styled-showcase--cards",
+      "name": "Cards",
+      "title": "Bootstrap-Styled/Showcase",
+      "hash": "sha256:00fbde5ad7414f8c1d81969779dd1bd71857fd749fafe07743bb34e03ebaeab1",
+      "root": {
+        "type": "FRAME",
+        "name": "div",
+        "x": 0,
+        "y": 0,
+        "width": 1248,
+        "height": 216,
+        "opacity": 1,
+        "clipsContent": false,
+        "fills": [
+          {
+            "type": "SOLID",
+            "color": {
+              "r": 1,
+              "g": 1,
+              "b": 1
+            },
+            "opacity": 1,
+            "raw": "rgb(255, 255, 255)"
+          }
+        ],
+        "strokes": [],
+        "strokeWeight": 0,
+        "cornerRadius": 0,
+        "effects": [],
+        "layout": {
+          "mode": "NONE"
+        },
+        "children": [
+          {
+            "type": "FRAME",
+            "name": "div",
+            "x": 0,
+            "y": 0,
+            "width": 1248,
+            "height": 216,
+            "opacity": 1,
+            "clipsContent": false,
+            "fills": [],
+            "strokes": [],
+            "strokeWeight": 0,
+            "cornerRadius": 0,
+            "effects": [],
+            "layout": {
+              "mode": "NONE"
+            },
+            "children": [
+              {
+                "type": "FRAME",
+                "name": "div",
+                "x": 24,
+                "y": 24,
+                "width": 320,
+                "height": 168,
+                "opacity": 1,
+                "clipsContent": false,
+                "fills": [],
+                "strokes": [],
+                "strokeWeight": 0,
+                "cornerRadius": 0,
+                "effects": [],
+                "layout": {
+                  "mode": "NONE"
+                },
+                "children": [
+                  {
+                    "type": "FRAME",
+                    "name": "div",
+                    "x": 0,
+                    "y": 0,
+                    "width": 320,
+                    "height": 168,
+                    "opacity": 1,
+                    "clipsContent": false,
+                    "fills": [
+                      {
+                        "type": "SOLID",
+                        "color": {
+                          "r": 1,
+                          "g": 1,
+                          "b": 1
+                        },
+                        "opacity": 1,
+                        "raw": "rgb(255, 255, 255)"
+                      }
+                    ],
+                    "strokes": [
+                      {
+                        "type": "SOLID",
+                        "color": {
+                          "r": 0,
+                          "g": 0,
+                          "b": 0
+                        },
+                        "opacity": 0.176,
+                        "raw": "rgba(0, 0, 0, 0.176)"
+                      }
+                    ],
+                    "strokeWeight": 1,
+                    "cornerRadius": 8,
+                    "effects": [],
+                    "layout": {
+                      "mode": "VERTICAL",
+                      "primaryAxisAlign": "MIN",
+                      "counterAxisAlign": "MIN",
+                      "itemSpacing": 0,
+                      "paddingTop": 0,
+                      "paddingRight": 0,
+                      "paddingBottom": 0,
+                      "paddingLeft": 0
+                    },
+                    "children": [
+                      {
+                        "type": "FRAME",
+                        "name": "div",
+                        "x": 1,
+                        "y": 1,
+                        "width": 318,
+                        "height": 166,
+                        "opacity": 1,
+                        "clipsContent": false,
+                        "fills": [],
+                        "strokes": [],
+                        "strokeWeight": 0,
+                        "cornerRadius": 0,
+                        "effects": [],
+                        "layout": {
+                          "mode": "NONE"
+                        },
+                        "children": [
+                          {
+                            "type": "FRAME",
+                            "name": "h5",
+                            "x": 16,
+                            "y": 16,
+                            "width": 286,
+                            "height": 24,
+                            "opacity": 1,
+                            "clipsContent": false,
+                            "fills": [],
+                            "strokes": [],
+                            "strokeWeight": 0,
+                            "cornerRadius": 0,
+                            "effects": [],
+                            "layout": {
+                              "mode": "NONE"
+                            },
+                            "children": [
+                              {
+                                "type": "TEXT",
+                                "name": "Card title",
+                                "x": 0,
+                                "y": 0,
+                                "width": 81.71875,
+                                "height": 23,
+                                "characters": "Card title",
+                                "fontFamily": "ui-sans-serif",
+                                "fontWeight": 500,
+                                "italic": false,
+                                "fontSize": 20,
+                                "lineHeight": {
+                                  "unit": "PIXELS",
+                                  "value": 24
+                                },
+                                "letterSpacing": 0,
+                                "textAlign": "LEFT",
+                                "fills": [
+                                  {
+                                    "type": "SOLID",
+                                    "color": {
+                                      "r": 0.13333333333333333,
+                                      "g": 0.1450980392156863,
+                                      "b": 0.16470588235294117
+                                    },
+                                    "opacity": 1,
+                                    "raw": "rgb(34, 37, 42)"
+                                  }
+                                ],
+                                "sorb": {
+                                  "tokens": {
+                                    "fill": "bs.body-color"
+                                  },
+                                  "candidates": {
+                                    "fill": [
+                                      "bs.body-color"
+                                    ]
+                                  },
+                                  "diagnostics": [
+                                    {
+                                      "kind": "off-role-bind",
+                                      "detail": {
+                                        "key": "fill",
+                                        "role": "text",
+                                        "token": "bs.body-color"
+                                      }
+                                    }
+                                  ]
+                                }
+                              }
+                            ]
+                          },
+                          {
+                            "type": "FRAME",
+                            "name": "p",
+                            "x": 16,
+                            "y": 48,
+                            "width": 286,
+                            "height": 48,
+                            "opacity": 1,
+                            "clipsContent": false,
+                            "fills": [],
+                            "strokes": [],
+                            "strokeWeight": 0,
+                            "cornerRadius": 0,
+                            "effects": [],
+                            "layout": {
+                              "mode": "NONE"
+                            },
+                            "children": [
+                              {
+                                "type": "TEXT",
+                                "name": "A real @metatoy/bootstrap-styled Card — ",
+                                "x": 0,
+                                "y": 3,
+                                "width": 283.046875,
+                                "height": 42,
+                                "characters": "A real @metatoy/bootstrap-styled Card — rendered from the published v1.0.0.",
+                                "fontFamily": "ui-sans-serif",
+                                "fontWeight": 400,
+                                "italic": false,
+                                "fontSize": 16,
+                                "lineHeight": {
+                                  "unit": "PIXELS",
+                                  "value": 24
+                                },
+                                "letterSpacing": 0,
+                                "textAlign": "LEFT",
+                                "fills": [
+                                  {
+                                    "type": "SOLID",
+                                    "color": {
+                                      "r": 0.13333333333333333,
+                                      "g": 0.1450980392156863,
+                                      "b": 0.16470588235294117
+                                    },
+                                    "opacity": 1,
+                                    "raw": "rgb(34, 37, 42)"
+                                  }
+                                ],
+                                "sorb": {
+                                  "tokens": {
+                                    "fill": "bs.body-color"
+                                  },
+                                  "candidates": {
+                                    "fill": [
+                                      "bs.body-color"
+                                    ]
+                                  },
+                                  "diagnostics": [
+                                    {
+                                      "kind": "off-role-bind",
+                                      "detail": {
+                                        "key": "fill",
+                                        "role": "text",
+                                        "token": "bs.body-color"
+                                      }
+                                    }
+                                  ]
+                                }
+                              }
+                            ]
+                          },
+                          {
+                            "type": "FRAME",
+                            "name": "button",
+                            "x": 16,
+                            "y": 112,
+                            "width": 72.109375,
+                            "height": 38,
+                            "opacity": 1,
+                            "clipsContent": false,
+                            "fills": [
+                              {
+                                "type": "SOLID",
+                                "color": {
+                                  "r": 0.1843137254901961,
+                                  "g": 0.3607843137254902,
+                                  "b": 0.6196078431372549
+                                },
+                                "opacity": 1,
+                                "raw": "rgb(47, 92, 158)"
+                              }
+                            ],
+                            "strokes": [
+                              {
+                                "type": "SOLID",
+                                "color": {
+                                  "r": 0.1843137254901961,
+                                  "g": 0.3607843137254902,
+                                  "b": 0.6196078431372549
+                                },
+                                "opacity": 1,
+                                "raw": "rgb(47, 92, 158)"
+                              }
+                            ],
+                            "strokeWeight": 1,
+                            "cornerRadius": 8,
+                            "effects": [],
+                            "layout": {
+                              "mode": "NONE"
+                            },
+                            "children": [
+                              {
+                                "type": "TEXT",
+                                "name": "Action",
+                                "x": 13,
+                                "y": 10,
+                                "width": 46.109375,
+                                "height": 18,
+                                "characters": "Action",
+                                "fontFamily": "ui-sans-serif",
+                                "fontWeight": 400,
+                                "italic": false,
+                                "fontSize": 16,
+                                "lineHeight": {
+                                  "unit": "PIXELS",
+                                  "value": 24
+                                },
+                                "letterSpacing": 0,
+                                "textAlign": "CENTER",
+                                "fills": [
+                                  {
+                                    "type": "SOLID",
+                                    "color": {
+                                      "r": 1,
+                                      "g": 1,
+                                      "b": 1
+                                    },
+                                    "opacity": 1,
+                                    "raw": "rgb(255, 255, 255)"
+                                  }
+                                ],
+                                "sorb": {
+                                  "tokens": {
+                                    "fill": "button.primary.text.default"
+                                  },
+                                  "candidates": {
+                                    "fill": [
+                                      "color.white",
+                                      "color.text.on-action",
+                                      "color.bg.surface",
+                                      "color.bg.disabled",
+                                      "button.primary.bg.disabled",
+                                      "button.primary.text.default",
+                                      "button.primary.text.hover",
+                                      "button.danger.bg.disabled",
+                                      "button.danger.text.default",
+                                      "button.danger.text.hover",
+                                      "button.success.bg.disabled",
+                                      "button.success.text.default",
+                                      "button.success.text.hover",
+                                      "bs.body-bg"
+                                    ]
+                                  }
+                                }
+                              }
+                            ],
+                            "sorb": {
+                              "tokens": {
+                                "fill": "bs.primary",
+                                "stroke": "bs.primary",
+                                "cornerRadius": "radius.300"
+                              },
+                              "candidates": {
+                                "fill": [
+                                  "bs.primary",
+                                  "bs.link-color"
+                                ],
+                                "stroke": [
+                                  "bs.primary",
+                                  "bs.link-color"
+                                ],
+                                "cornerRadius": [
+                                  "radius.300",
+                                  "space.200"
+                                ]
+                              },
+                              "diagnostics": [
+                                {
+                                  "kind": "off-role-bind",
+                                  "detail": {
+                                    "key": "fill",
+                                    "role": "bg",
+                                    "token": "bs.primary"
+                                  }
+                                },
+                                {
+                                  "kind": "off-role-bind",
+                                  "detail": {
+                                    "key": "stroke",
+                                    "role": "border",
+                                    "token": "bs.primary"
+                                  }
+                                },
+                                {
+                                  "kind": "off-role-bind",
+                                  "detail": {
+                                    "key": "cornerRadius",
+                                    "role": "radius",
+                                    "token": "radius.300"
+                                  }
+                                }
+                              ]
+                            }
+                          }
+                        ]
+                      }
+                    ],
+                    "sorb": {
+                      "tokens": {
+                        "fill": "button.primary.bg.disabled",
+                        "cornerRadius": "radius.300"
+                      },
+                      "candidates": {
+                        "fill": [
+                          "color.white",
+                          "color.text.on-action",
+                          "color.bg.surface",
+                          "color.bg.disabled",
+                          "button.primary.bg.disabled",
+                          "button.primary.text.default",
+                          "button.primary.text.hover",
+                          "button.danger.bg.disabled",
+                          "button.danger.text.default",
+                          "button.danger.text.hover",
+                          "button.success.bg.disabled",
+                          "button.success.text.default",
+                          "button.success.text.hover",
+                          "bs.body-bg"
+                        ],
+                        "cornerRadius": [
+                          "radius.300",
+                          "space.200"
+                        ]
+                      },
+                      "diagnostics": [
+                        {
+                          "kind": "off-role-bind",
+                          "detail": {
+                            "key": "cornerRadius",
+                            "role": "radius",
+                            "token": "radius.300"
+                          }
+                        }
+                      ]
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "sorb": {
+          "tokens": {
+            "fill": "button.primary.bg.disabled"
+          },
+          "candidates": {
+            "fill": [
+              "color.white",
+              "color.text.on-action",
+              "color.bg.surface",
+              "color.bg.disabled",
+              "button.primary.bg.disabled",
+              "button.primary.text.default",
+              "button.primary.text.hover",
+              "button.danger.bg.disabled",
+              "button.danger.text.default",
+              "button.danger.text.hover",
+              "button.success.bg.disabled",
+              "button.success.text.default",
+              "button.success.text.hover",
+              "bs.body-bg"
+            ]
+          }
+        }
+      }
+    }
+  ]
+}

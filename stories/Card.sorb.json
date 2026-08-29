@@ -1,0 +1,655 @@
+{
+  "schemaVersion": 1,
+  "component": "Card",
+  "importPath": "./stories/Card.stories.jsx",
+  "capturedAt": "2026-08-28T18:22:12.239Z",
+  "stories": [
+    {
+      "id": "components-card--basic",
+      "name": "Basic",
+      "title": "Components/Card",
+      "hash": "sha256:b5822d4ef849b51e7c952610f51a97c4b9c8d1462c8ad5e1b7ae2d7d43da2e22",
+      "root": {
+        "type": "FRAME",
+        "name": "section",
+        "x": 0,
+        "y": 0,
+        "width": 462,
+        "height": 108,
+        "opacity": 1,
+        "clipsContent": false,
+        "fills": [
+          {
+            "type": "SOLID",
+            "color": {
+              "r": 1,
+              "g": 1,
+              "b": 1
+            },
+            "opacity": 1,
+            "raw": "rgb(255, 255, 255)"
+          }
+        ],
+        "strokes": [
+          {
+            "type": "SOLID",
+            "color": {
+              "r": 0.8431372549019608,
+              "g": 0.8431372549019608,
+              "b": 0.8431372549019608
+            },
+            "opacity": 1,
+            "raw": "rgb(215, 215, 215)"
+          }
+        ],
+        "strokeWeight": 1,
+        "cornerRadius": 4,
+        "effects": [],
+        "layout": {
+          "mode": "NONE"
+        },
+        "children": [
+          {
+            "type": "FRAME",
+            "name": "h2",
+            "x": 21,
+            "y": 21,
+            "width": 420,
+            "height": 18,
+            "opacity": 1,
+            "clipsContent": false,
+            "fills": [],
+            "strokes": [],
+            "strokeWeight": 0,
+            "cornerRadius": 0,
+            "effects": [],
+            "layout": {
+              "mode": "NONE"
+            },
+            "children": [
+              {
+                "type": "TEXT",
+                "name": "Surface card",
+                "x": 0,
+                "y": 0,
+                "width": 87.53125,
+                "height": 18,
+                "characters": "Surface card",
+                "fontFamily": "Times",
+                "fontWeight": 700,
+                "italic": false,
+                "fontSize": 16,
+                "lineHeight": {
+                  "unit": "AUTO"
+                },
+                "letterSpacing": 0,
+                "textAlign": "LEFT",
+                "fills": [
+                  {
+                    "type": "SOLID",
+                    "color": {
+                      "r": 0.13333333333333333,
+                      "g": 0.13333333333333333,
+                      "b": 0.13333333333333333
+                    },
+                    "opacity": 1,
+                    "raw": "rgb(34, 34, 34)"
+                  }
+                ],
+                "sorb": {
+                  "tokens": {
+                    "fill": "color.text.primary"
+                  },
+                  "candidates": {
+                    "fill": [
+                      "color.gray.950",
+                      "color.text.primary"
+                    ]
+                  }
+                }
+              }
+            ]
+          },
+          {
+            "type": "TEXT",
+            "name": "Themed by semantic tokens — background, ",
+            "x": 21,
+            "y": 51,
+            "width": 410.34375,
+            "height": 36,
+            "characters": "Themed by semantic tokens — background, border, and text are all CSS custom properties.",
+            "fontFamily": "Times",
+            "fontWeight": 400,
+            "italic": false,
+            "fontSize": 16,
+            "lineHeight": {
+              "unit": "AUTO"
+            },
+            "letterSpacing": 0,
+            "textAlign": "LEFT",
+            "fills": [
+              {
+                "type": "SOLID",
+                "color": {
+                  "r": 0.13333333333333333,
+                  "g": 0.13333333333333333,
+                  "b": 0.13333333333333333
+                },
+                "opacity": 1,
+                "raw": "rgb(34, 34, 34)"
+              }
+            ],
+            "sorb": {
+              "tokens": {
+                "fill": "color.text.primary"
+              },
+              "candidates": {
+                "fill": [
+                  "color.gray.950",
+                  "color.text.primary"
+                ]
+              }
+            }
+          }
+        ],
+        "sorb": {
+          "tokens": {
+            "fill": "button.primary.bg.disabled",
+            "stroke": "color.border.subtle",
+            "cornerRadius": "button.radius"
+          },
+          "candidates": {
+            "fill": [
+              "color.white",
+              "color.text.on-action",
+              "color.bg.surface",
+              "color.bg.disabled",
+              "button.primary.bg.disabled",
+              "button.primary.text.default",
+              "button.primary.text.hover",
+              "button.danger.bg.disabled",
+              "button.danger.text.default",
+              "button.danger.text.hover",
+              "button.success.bg.disabled",
+              "button.success.text.default",
+              "button.success.text.hover",
+              "bs.body-bg"
+            ],
+            "stroke": [
+              "color.gray.300",
+              "color.border.subtle"
+            ],
+            "cornerRadius": [
+              "radius.200",
+              "radius.control",
+              "space.100",
+              "button.radius"
+            ]
+          }
+        }
+      }
+    },
+    {
+      "id": "components-card--with-actions",
+      "name": "With Actions",
+      "title": "Components/Card",
+      "hash": "sha256:d169807919c73be9b1d0e49cd51e4cb009aa5238ff593edec10194afa043e10b",
+      "root": {
+        "type": "FRAME",
+        "name": "section",
+        "x": 0,
+        "y": 0,
+        "width": 462,
+        "height": 143.1875,
+        "opacity": 1,
+        "clipsContent": false,
+        "fills": [
+          {
+            "type": "SOLID",
+            "color": {
+              "r": 1,
+              "g": 1,
+              "b": 1
+            },
+            "opacity": 1,
+            "raw": "rgb(255, 255, 255)"
+          }
+        ],
+        "strokes": [
+          {
+            "type": "SOLID",
+            "color": {
+              "r": 0.8431372549019608,
+              "g": 0.8431372549019608,
+              "b": 0.8431372549019608
+            },
+            "opacity": 1,
+            "raw": "rgb(215, 215, 215)"
+          }
+        ],
+        "strokeWeight": 1,
+        "cornerRadius": 4,
+        "effects": [],
+        "layout": {
+          "mode": "NONE"
+        },
+        "children": [
+          {
+            "type": "FRAME",
+            "name": "h2",
+            "x": 21,
+            "y": 21,
+            "width": 420,
+            "height": 18,
+            "opacity": 1,
+            "clipsContent": false,
+            "fills": [],
+            "strokes": [],
+            "strokeWeight": 0,
+            "cornerRadius": 0,
+            "effects": [],
+            "layout": {
+              "mode": "NONE"
+            },
+            "children": [
+              {
+                "type": "TEXT",
+                "name": "Confirm change",
+                "x": 0,
+                "y": 0,
+                "width": 109.78125,
+                "height": 18,
+                "characters": "Confirm change",
+                "fontFamily": "Times",
+                "fontWeight": 700,
+                "italic": false,
+                "fontSize": 16,
+                "lineHeight": {
+                  "unit": "AUTO"
+                },
+                "letterSpacing": 0,
+                "textAlign": "LEFT",
+                "fills": [
+                  {
+                    "type": "SOLID",
+                    "color": {
+                      "r": 0.13333333333333333,
+                      "g": 0.13333333333333333,
+                      "b": 0.13333333333333333
+                    },
+                    "opacity": 1,
+                    "raw": "rgb(34, 34, 34)"
+                  }
+                ],
+                "sorb": {
+                  "tokens": {
+                    "fill": "color.text.primary"
+                  },
+                  "candidates": {
+                    "fill": [
+                      "color.gray.950",
+                      "color.text.primary"
+                    ]
+                  }
+                }
+              }
+            ]
+          },
+          {
+            "type": "FRAME",
+            "name": "p",
+            "x": 21,
+            "y": 51,
+            "width": 420,
+            "height": 18,
+            "opacity": 1,
+            "clipsContent": false,
+            "fills": [],
+            "strokes": [],
+            "strokeWeight": 0,
+            "cornerRadius": 0,
+            "effects": [],
+            "layout": {
+              "mode": "NONE"
+            },
+            "children": [
+              {
+                "type": "TEXT",
+                "name": "Composed from token-wired primitives.",
+                "x": 0,
+                "y": 0,
+                "width": 257.734375,
+                "height": 18,
+                "characters": "Composed from token-wired primitives.",
+                "fontFamily": "Times",
+                "fontWeight": 400,
+                "italic": false,
+                "fontSize": 16,
+                "lineHeight": {
+                  "unit": "AUTO"
+                },
+                "letterSpacing": 0,
+                "textAlign": "LEFT",
+                "fills": [
+                  {
+                    "type": "SOLID",
+                    "color": {
+                      "r": 0.4588235294117647,
+                      "g": 0.4588235294117647,
+                      "b": 0.4588235294117647
+                    },
+                    "opacity": 1,
+                    "raw": "rgb(117, 117, 117)"
+                  }
+                ],
+                "sorb": {
+                  "tokens": {
+                    "fill": "color.text.secondary"
+                  },
+                  "candidates": {
+                    "fill": [
+                      "color.gray.700",
+                      "color.text.secondary"
+                    ]
+                  }
+                }
+              }
+            ]
+          },
+          {
+            "type": "FRAME",
+            "name": "div",
+            "x": 21,
+            "y": 85,
+            "width": 420,
+            "height": 37.1875,
+            "opacity": 1,
+            "clipsContent": false,
+            "fills": [],
+            "strokes": [],
+            "strokeWeight": 0,
+            "cornerRadius": 0,
+            "effects": [],
+            "layout": {
+              "mode": "HORIZONTAL",
+              "primaryAxisAlign": "MIN",
+              "counterAxisAlign": "MIN",
+              "itemSpacing": 8,
+              "paddingTop": 0,
+              "paddingRight": 0,
+              "paddingBottom": 0,
+              "paddingLeft": 0
+            },
+            "children": [
+              {
+                "type": "FRAME",
+                "name": "button",
+                "x": 0,
+                "y": 0,
+                "width": 66,
+                "height": 37.1875,
+                "opacity": 1,
+                "clipsContent": false,
+                "fills": [
+                  {
+                    "type": "SOLID",
+                    "color": {
+                      "r": 0.058823529411764705,
+                      "g": 0.396078431372549,
+                      "b": 0.9372549019607843
+                    },
+                    "opacity": 1,
+                    "raw": "rgb(15, 101, 239)"
+                  }
+                ],
+                "strokes": [
+                  {
+                    "type": "SOLID",
+                    "color": {
+                      "r": 0.058823529411764705,
+                      "g": 0.396078431372549,
+                      "b": 0.9372549019607843
+                    },
+                    "opacity": 1,
+                    "raw": "rgb(15, 101, 239)"
+                  }
+                ],
+                "strokeWeight": 1,
+                "cornerRadius": 4,
+                "effects": [],
+                "layout": {
+                  "mode": "NONE"
+                },
+                "children": [
+                  {
+                    "type": "TEXT",
+                    "name": "Save",
+                    "x": 17,
+                    "y": 9,
+                    "width": 32,
+                    "height": 18,
+                    "characters": "Save",
+                    "fontFamily": "Times",
+                    "fontWeight": 600,
+                    "italic": false,
+                    "fontSize": 16,
+                    "lineHeight": {
+                      "unit": "PIXELS",
+                      "value": 19.2
+                    },
+                    "letterSpacing": 0,
+                    "textAlign": "CENTER",
+                    "fills": [
+                      {
+                        "type": "SOLID",
+                        "color": {
+                          "r": 1,
+                          "g": 1,
+                          "b": 1
+                        },
+                        "opacity": 1,
+                        "raw": "rgb(255, 255, 255)"
+                      }
+                    ],
+                    "sorb": {
+                      "tokens": {
+                        "fill": "button.primary.text.default"
+                      },
+                      "candidates": {
+                        "fill": [
+                          "color.white",
+                          "color.text.on-action",
+                          "color.bg.surface",
+                          "color.bg.disabled",
+                          "button.primary.bg.disabled",
+                          "button.primary.text.default",
+                          "button.primary.text.hover",
+                          "button.danger.bg.disabled",
+                          "button.danger.text.default",
+                          "button.danger.text.hover",
+                          "button.success.bg.disabled",
+                          "button.success.text.default",
+                          "button.success.text.hover",
+                          "bs.body-bg"
+                        ]
+                      }
+                    }
+                  }
+                ],
+                "sorb": {
+                  "tokens": {
+                    "fill": "button.primary.bg.default",
+                    "stroke": "button.primary.border.default",
+                    "cornerRadius": "button.radius"
+                  },
+                  "candidates": {
+                    "fill": [
+                      "color.blue.500",
+                      "color.action.primary",
+                      "color.border.default",
+                      "button.primary.bg.default",
+                      "button.primary.border.default",
+                      "button.outline.text.default",
+                      "button.outline.border.default"
+                    ],
+                    "stroke": [
+                      "color.blue.500",
+                      "color.action.primary",
+                      "color.border.default",
+                      "button.primary.bg.default",
+                      "button.primary.border.default",
+                      "button.outline.text.default",
+                      "button.outline.border.default"
+                    ],
+                    "cornerRadius": [
+                      "radius.200",
+                      "radius.control",
+                      "space.100",
+                      "button.radius"
+                    ]
+                  }
+                }
+              },
+              {
+                "type": "FRAME",
+                "name": "button",
+                "x": 74,
+                "y": 0,
+                "width": 81.109375,
+                "height": 37.1875,
+                "opacity": 1,
+                "clipsContent": false,
+                "fills": [],
+                "strokes": [
+                  {
+                    "type": "SOLID",
+                    "color": {
+                      "r": 0.058823529411764705,
+                      "g": 0.396078431372549,
+                      "b": 0.9372549019607843
+                    },
+                    "opacity": 1,
+                    "raw": "rgb(15, 101, 239)"
+                  }
+                ],
+                "strokeWeight": 1,
+                "cornerRadius": 4,
+                "effects": [],
+                "layout": {
+                  "mode": "NONE"
+                },
+                "children": [
+                  {
+                    "type": "TEXT",
+                    "name": "Cancel",
+                    "x": 17,
+                    "y": 9,
+                    "width": 47.109375,
+                    "height": 18,
+                    "characters": "Cancel",
+                    "fontFamily": "Times",
+                    "fontWeight": 600,
+                    "italic": false,
+                    "fontSize": 16,
+                    "lineHeight": {
+                      "unit": "PIXELS",
+                      "value": 19.2
+                    },
+                    "letterSpacing": 0,
+                    "textAlign": "CENTER",
+                    "fills": [
+                      {
+                        "type": "SOLID",
+                        "color": {
+                          "r": 0.058823529411764705,
+                          "g": 0.396078431372549,
+                          "b": 0.9372549019607843
+                        },
+                        "opacity": 1,
+                        "raw": "rgb(15, 101, 239)"
+                      }
+                    ],
+                    "sorb": {
+                      "tokens": {
+                        "fill": "button.outline.text.default"
+                      },
+                      "candidates": {
+                        "fill": [
+                          "color.blue.500",
+                          "color.action.primary",
+                          "color.border.default",
+                          "button.primary.bg.default",
+                          "button.primary.border.default",
+                          "button.outline.text.default",
+                          "button.outline.border.default"
+                        ]
+                      }
+                    }
+                  }
+                ],
+                "sorb": {
+                  "tokens": {
+                    "stroke": "button.primary.border.default",
+                    "cornerRadius": "button.radius"
+                  },
+                  "candidates": {
+                    "stroke": [
+                      "color.blue.500",
+                      "color.action.primary",
+                      "color.border.default",
+                      "button.primary.bg.default",
+                      "button.primary.border.default",
+                      "button.outline.text.default",
+                      "button.outline.border.default"
+                    ],
+                    "cornerRadius": [
+                      "radius.200",
+                      "radius.control",
+                      "space.100",
+                      "button.radius"
+                    ]
+                  }
+                }
+              }
+            ]
+          }
+        ],
+        "sorb": {
+          "tokens": {
+            "fill": "button.primary.bg.disabled",
+            "stroke": "color.border.subtle",
+            "cornerRadius": "button.radius"
+          },
+          "candidates": {
+            "fill": [
+              "color.white",
+              "color.text.on-action",
+              "color.bg.surface",
+              "color.bg.disabled",
+              "button.primary.bg.disabled",
+              "button.primary.text.default",
+              "button.primary.text.hover",
+              "button.danger.bg.disabled",
+              "button.danger.text.default",
+              "button.danger.text.hover",
+              "button.success.bg.disabled",
+              "button.success.text.default",
+              "button.success.text.hover",
+              "bs.body-bg"
+            ],
+            "stroke": [
+              "color.gray.300",
+              "color.border.subtle"
+            ],
+            "cornerRadius": [
+              "radius.200",
+              "radius.control",
+              "space.100",
+              "button.radius"
+            ]
+          }
+        }
+      }
+    }
+  ]
+}

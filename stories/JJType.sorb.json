@@ -1,0 +1,665 @@
+{
+  "schemaVersion": 1,
+  "component": "JJType",
+  "importPath": "./stories/JJType.stories.jsx",
+  "capturedAt": "2026-08-28T18:22:26.668Z",
+  "stories": [
+    {
+      "id": "janesjeans-type--display-heading",
+      "name": "Display Heading",
+      "title": "JanesJeans/Type",
+      "hash": "sha256:e87694e2cf403d432e6b0fd001d3eac43d0257819ee6c9dd159f79e3e657e7a4",
+      "root": {
+        "type": "FRAME",
+        "name": "div",
+        "x": 0,
+        "y": 0,
+        "width": 1248,
+        "height": 45,
+        "opacity": 1,
+        "clipsContent": false,
+        "fills": [
+          {
+            "type": "SOLID",
+            "color": {
+              "r": 1,
+              "g": 1,
+              "b": 1
+            },
+            "opacity": 1,
+            "raw": "rgb(255, 255, 255)"
+          }
+        ],
+        "strokes": [],
+        "strokeWeight": 0,
+        "cornerRadius": 0,
+        "effects": [],
+        "layout": {
+          "mode": "NONE"
+        },
+        "children": [
+          {
+            "type": "FRAME",
+            "name": "div",
+            "x": 0,
+            "y": 0,
+            "width": 1248,
+            "height": 45,
+            "opacity": 1,
+            "clipsContent": false,
+            "fills": [],
+            "strokes": [],
+            "strokeWeight": 0,
+            "cornerRadius": 0,
+            "effects": [],
+            "layout": {
+              "mode": "NONE"
+            },
+            "children": [
+              {
+                "type": "TEXT",
+                "name": "Denim, done right.",
+                "x": 0,
+                "y": 5,
+                "width": 264.921875,
+                "height": 35,
+                "characters": "Denim, done right.",
+                "fontFamily": "Trebuchet MS",
+                "fontWeight": 600,
+                "italic": false,
+                "fontSize": 30,
+                "lineHeight": {
+                  "unit": "PIXELS",
+                  "value": 45
+                },
+                "letterSpacing": 0,
+                "textAlign": "LEFT",
+                "fills": [
+                  {
+                    "type": "SOLID",
+                    "color": {
+                      "r": 0.13333333333333333,
+                      "g": 0.1450980392156863,
+                      "b": 0.16470588235294117
+                    },
+                    "opacity": 1,
+                    "raw": "rgb(34, 37, 42)"
+                  }
+                ],
+                "sorb": {
+                  "tokens": {
+                    "fill": "bs.body-color"
+                  },
+                  "candidates": {
+                    "fill": [
+                      "bs.body-color"
+                    ]
+                  },
+                  "diagnostics": [
+                    {
+                      "kind": "off-role-bind",
+                      "detail": {
+                        "key": "fill",
+                        "role": "text",
+                        "token": "bs.body-color"
+                      }
+                    }
+                  ]
+                }
+              }
+            ]
+          }
+        ],
+        "sorb": {
+          "tokens": {
+            "fill": "button.primary.bg.disabled"
+          },
+          "candidates": {
+            "fill": [
+              "color.white",
+              "color.text.on-action",
+              "color.bg.surface",
+              "color.bg.disabled",
+              "button.primary.bg.disabled",
+              "button.primary.text.default",
+              "button.primary.text.hover",
+              "button.danger.bg.disabled",
+              "button.danger.text.default",
+              "button.danger.text.hover",
+              "button.success.bg.disabled",
+              "button.success.text.default",
+              "button.success.text.hover",
+              "bs.body-bg"
+            ]
+          }
+        }
+      }
+    },
+    {
+      "id": "janesjeans-type--section-heading",
+      "name": "Section Heading",
+      "title": "JanesJeans/Type",
+      "hash": "sha256:d9071930c351db26427e1588b3a43167d8e8e9e170b40135fb16d65aa899ae43",
+      "root": {
+        "type": "FRAME",
+        "name": "div",
+        "x": 0,
+        "y": 0,
+        "width": 1248,
+        "height": 36,
+        "opacity": 1,
+        "clipsContent": false,
+        "fills": [
+          {
+            "type": "SOLID",
+            "color": {
+              "r": 1,
+              "g": 1,
+              "b": 1
+            },
+            "opacity": 1,
+            "raw": "rgb(255, 255, 255)"
+          }
+        ],
+        "strokes": [],
+        "strokeWeight": 0,
+        "cornerRadius": 0,
+        "effects": [],
+        "layout": {
+          "mode": "NONE"
+        },
+        "children": [
+          {
+            "type": "FRAME",
+            "name": "div",
+            "x": 0,
+            "y": 0,
+            "width": 1248,
+            "height": 36,
+            "opacity": 1,
+            "clipsContent": false,
+            "fills": [],
+            "strokes": [],
+            "strokeWeight": 0,
+            "cornerRadius": 0,
+            "effects": [],
+            "layout": {
+              "mode": "NONE"
+            },
+            "children": [
+              {
+                "type": "TEXT",
+                "name": "Every pair, one obsession",
+                "x": 0,
+                "y": 4,
+                "width": 283.9375,
+                "height": 28,
+                "characters": "Every pair, one obsession",
+                "fontFamily": "Trebuchet MS",
+                "fontWeight": 600,
+                "italic": false,
+                "fontSize": 24,
+                "lineHeight": {
+                  "unit": "PIXELS",
+                  "value": 36
+                },
+                "letterSpacing": 0,
+                "textAlign": "LEFT",
+                "fills": [
+                  {
+                    "type": "SOLID",
+                    "color": {
+                      "r": 0.13333333333333333,
+                      "g": 0.1450980392156863,
+                      "b": 0.16470588235294117
+                    },
+                    "opacity": 1,
+                    "raw": "rgb(34, 37, 42)"
+                  }
+                ],
+                "sorb": {
+                  "tokens": {
+                    "fill": "bs.body-color"
+                  },
+                  "candidates": {
+                    "fill": [
+                      "bs.body-color"
+                    ]
+                  },
+                  "diagnostics": [
+                    {
+                      "kind": "off-role-bind",
+                      "detail": {
+                        "key": "fill",
+                        "role": "text",
+                        "token": "bs.body-color"
+                      }
+                    }
+                  ]
+                }
+              }
+            ]
+          }
+        ],
+        "sorb": {
+          "tokens": {
+            "fill": "button.primary.bg.disabled"
+          },
+          "candidates": {
+            "fill": [
+              "color.white",
+              "color.text.on-action",
+              "color.bg.surface",
+              "color.bg.disabled",
+              "button.primary.bg.disabled",
+              "button.primary.text.default",
+              "button.primary.text.hover",
+              "button.danger.bg.disabled",
+              "button.danger.text.default",
+              "button.danger.text.hover",
+              "button.success.bg.disabled",
+              "button.success.text.default",
+              "button.success.text.hover",
+              "bs.body-bg"
+            ]
+          }
+        }
+      }
+    },
+    {
+      "id": "janesjeans-type--lead-text",
+      "name": "Lead Text",
+      "title": "JanesJeans/Type",
+      "hash": "sha256:450a350aef129263e2067aeec5c5be46c54b81eec3f8b078fe124b4272513591",
+      "root": {
+        "type": "FRAME",
+        "name": "div",
+        "x": 0,
+        "y": 0,
+        "width": 1248,
+        "height": 60,
+        "opacity": 1,
+        "clipsContent": false,
+        "fills": [
+          {
+            "type": "SOLID",
+            "color": {
+              "r": 1,
+              "g": 1,
+              "b": 1
+            },
+            "opacity": 1,
+            "raw": "rgb(255, 255, 255)"
+          }
+        ],
+        "strokes": [],
+        "strokeWeight": 0,
+        "cornerRadius": 0,
+        "effects": [],
+        "layout": {
+          "mode": "NONE"
+        },
+        "children": [
+          {
+            "type": "FRAME",
+            "name": "div",
+            "x": 0,
+            "y": 0,
+            "width": 460,
+            "height": 60,
+            "opacity": 1,
+            "clipsContent": false,
+            "fills": [],
+            "strokes": [],
+            "strokeWeight": 0,
+            "cornerRadius": 0,
+            "effects": [],
+            "layout": {
+              "mode": "NONE"
+            },
+            "children": [
+              {
+                "type": "TEXT",
+                "name": "Honest blue jeans built to be worn for y",
+                "x": 0,
+                "y": 3,
+                "width": 435.546875,
+                "height": 53,
+                "characters": "Honest blue jeans built to be worn for years — real denim, real fits.",
+                "fontFamily": "ui-sans-serif",
+                "fontWeight": 400,
+                "italic": false,
+                "fontSize": 20,
+                "lineHeight": {
+                  "unit": "PIXELS",
+                  "value": 30
+                },
+                "letterSpacing": 0,
+                "textAlign": "LEFT",
+                "fills": [
+                  {
+                    "type": "SOLID",
+                    "color": {
+                      "r": 0.4,
+                      "g": 0.4392156862745098,
+                      "b": 0.5215686274509804
+                    },
+                    "opacity": 1,
+                    "raw": "rgb(102, 112, 133)"
+                  }
+                ],
+                "sorb": {
+                  "tokens": {
+                    "fill": "bs.secondary"
+                  },
+                  "candidates": {
+                    "fill": [
+                      "bs.secondary",
+                      "bs.secondary-color"
+                    ]
+                  },
+                  "diagnostics": [
+                    {
+                      "kind": "off-role-bind",
+                      "detail": {
+                        "key": "fill",
+                        "role": "text",
+                        "token": "bs.secondary"
+                      }
+                    }
+                  ]
+                }
+              }
+            ]
+          }
+        ],
+        "sorb": {
+          "tokens": {
+            "fill": "button.primary.bg.disabled"
+          },
+          "candidates": {
+            "fill": [
+              "color.white",
+              "color.text.on-action",
+              "color.bg.surface",
+              "color.bg.disabled",
+              "button.primary.bg.disabled",
+              "button.primary.text.default",
+              "button.primary.text.hover",
+              "button.danger.bg.disabled",
+              "button.danger.text.default",
+              "button.danger.text.hover",
+              "button.success.bg.disabled",
+              "button.success.text.default",
+              "button.success.text.hover",
+              "bs.body-bg"
+            ]
+          }
+        }
+      }
+    },
+    {
+      "id": "janesjeans-type--eyebrow",
+      "name": "Eyebrow",
+      "title": "JanesJeans/Type",
+      "hash": "sha256:317350d9a5e4c61748a8a8eb9e5f6af4e1ddfbdc073e680d9437cc690b11696a",
+      "root": {
+        "type": "FRAME",
+        "name": "div",
+        "x": 0,
+        "y": 0,
+        "width": 1248,
+        "height": 19.5,
+        "opacity": 1,
+        "clipsContent": false,
+        "fills": [
+          {
+            "type": "SOLID",
+            "color": {
+              "r": 1,
+              "g": 1,
+              "b": 1
+            },
+            "opacity": 1,
+            "raw": "rgb(255, 255, 255)"
+          }
+        ],
+        "strokes": [],
+        "strokeWeight": 0,
+        "cornerRadius": 0,
+        "effects": [],
+        "layout": {
+          "mode": "NONE"
+        },
+        "children": [
+          {
+            "type": "FRAME",
+            "name": "div",
+            "x": 0,
+            "y": 0,
+            "width": 1248,
+            "height": 19.5,
+            "opacity": 1,
+            "clipsContent": false,
+            "fills": [],
+            "strokes": [],
+            "strokeWeight": 0,
+            "cornerRadius": 0,
+            "effects": [],
+            "layout": {
+              "mode": "NONE"
+            },
+            "children": [
+              {
+                "type": "TEXT",
+                "name": "The collection",
+                "x": 0,
+                "y": 1,
+                "width": 128,
+                "height": 16,
+                "characters": "The collection",
+                "fontFamily": "ui-sans-serif",
+                "fontWeight": 600,
+                "italic": false,
+                "fontSize": 13,
+                "lineHeight": {
+                  "unit": "PIXELS",
+                  "value": 19.5
+                },
+                "letterSpacing": 1.04,
+                "textAlign": "LEFT",
+                "fills": [
+                  {
+                    "type": "SOLID",
+                    "color": {
+                      "r": 0.1843137254901961,
+                      "g": 0.3607843137254902,
+                      "b": 0.6196078431372549
+                    },
+                    "opacity": 1,
+                    "raw": "rgb(47, 92, 158)"
+                  }
+                ],
+                "sorb": {
+                  "tokens": {
+                    "fill": "bs.primary"
+                  },
+                  "candidates": {
+                    "fill": [
+                      "bs.primary",
+                      "bs.link-color"
+                    ]
+                  },
+                  "diagnostics": [
+                    {
+                      "kind": "off-role-bind",
+                      "detail": {
+                        "key": "fill",
+                        "role": "text",
+                        "token": "bs.primary"
+                      }
+                    }
+                  ]
+                }
+              }
+            ]
+          }
+        ],
+        "sorb": {
+          "tokens": {
+            "fill": "button.primary.bg.disabled"
+          },
+          "candidates": {
+            "fill": [
+              "color.white",
+              "color.text.on-action",
+              "color.bg.surface",
+              "color.bg.disabled",
+              "button.primary.bg.disabled",
+              "button.primary.text.default",
+              "button.primary.text.hover",
+              "button.danger.bg.disabled",
+              "button.danger.text.default",
+              "button.danger.text.hover",
+              "button.success.bg.disabled",
+              "button.success.text.default",
+              "button.success.text.hover",
+              "bs.body-bg"
+            ]
+          }
+        }
+      }
+    },
+    {
+      "id": "janesjeans-type--body-text",
+      "name": "Body Text",
+      "title": "JanesJeans/Type",
+      "hash": "sha256:a16f5f0e96c3c344986d5f3371e7d217a1b577d20e4c8178cd4f2b42cb522929",
+      "root": {
+        "type": "FRAME",
+        "name": "div",
+        "x": 0,
+        "y": 0,
+        "width": 1248,
+        "height": 45,
+        "opacity": 1,
+        "clipsContent": false,
+        "fills": [
+          {
+            "type": "SOLID",
+            "color": {
+              "r": 1,
+              "g": 1,
+              "b": 1
+            },
+            "opacity": 1,
+            "raw": "rgb(255, 255, 255)"
+          }
+        ],
+        "strokes": [],
+        "strokeWeight": 0,
+        "cornerRadius": 0,
+        "effects": [],
+        "layout": {
+          "mode": "NONE"
+        },
+        "children": [
+          {
+            "type": "FRAME",
+            "name": "div",
+            "x": 0,
+            "y": 0,
+            "width": 460,
+            "height": 45,
+            "opacity": 1,
+            "clipsContent": false,
+            "fills": [],
+            "strokes": [],
+            "strokeWeight": 0,
+            "cornerRadius": 0,
+            "effects": [],
+            "layout": {
+              "mode": "NONE"
+            },
+            "children": [
+              {
+                "type": "TEXT",
+                "name": "A true straight leg in an honest mid-blu",
+                "x": 0,
+                "y": 2,
+                "width": 435.9375,
+                "height": 40.5,
+                "characters": "A true straight leg in an honest mid-blue wash, with just enough stretch to move.",
+                "fontFamily": "ui-sans-serif",
+                "fontWeight": 400,
+                "italic": false,
+                "fontSize": 15,
+                "lineHeight": {
+                  "unit": "PIXELS",
+                  "value": 22.5
+                },
+                "letterSpacing": 0,
+                "textAlign": "LEFT",
+                "fills": [
+                  {
+                    "type": "SOLID",
+                    "color": {
+                      "r": 0.13333333333333333,
+                      "g": 0.1450980392156863,
+                      "b": 0.16470588235294117
+                    },
+                    "opacity": 1,
+                    "raw": "rgb(34, 37, 42)"
+                  }
+                ],
+                "sorb": {
+                  "tokens": {
+                    "fill": "bs.body-color"
+                  },
+                  "candidates": {
+                    "fill": [
+                      "bs.body-color"
+                    ]
+                  },
+                  "diagnostics": [
+                    {
+                      "kind": "off-role-bind",
+                      "detail": {
+                        "key": "fill",
+                        "role": "text",
+                        "token": "bs.body-color"
+                      }
+                    }
+                  ]
+                }
+              }
+            ]
+          }
+        ],
+        "sorb": {
+          "tokens": {
+            "fill": "button.primary.bg.disabled"
+          },
+          "candidates": {
+            "fill": [
+              "color.white",
+              "color.text.on-action",
+              "color.bg.surface",
+              "color.bg.disabled",
+              "button.primary.bg.disabled",
+              "button.primary.text.default",
+              "button.primary.text.hover",
+              "button.danger.bg.disabled",
+              "button.danger.text.default",
+              "button.danger.text.hover",
+              "button.success.bg.disabled",
+              "button.success.text.default",
+              "button.success.text.hover",
+              "bs.body-bg"
+            ]
+          }
+        }
+      }
+    }
+  ]
+}

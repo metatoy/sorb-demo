@@ -1,0 +1,1160 @@
+{
+  "schemaVersion": 1,
+  "component": "Button",
+  "importPath": "./stories/Button.stories.jsx",
+  "capturedAt": "2026-08-28T18:22:08.623Z",
+  "stories": [
+    {
+      "id": "components-button--primary",
+      "name": "Primary",
+      "title": "Components/Button",
+      "hash": "sha256:9d21d951119b4ab5ad4cd49f10cd8f0aaf6449b2875edef2f313bb9ccd073449",
+      "root": {
+        "type": "FRAME",
+        "name": "button",
+        "x": 0,
+        "y": 0,
+        "width": 91.75,
+        "height": 37.1875,
+        "opacity": 1,
+        "clipsContent": false,
+        "fills": [
+          {
+            "type": "SOLID",
+            "color": {
+              "r": 0.058823529411764705,
+              "g": 0.396078431372549,
+              "b": 0.9372549019607843
+            },
+            "opacity": 1,
+            "raw": "rgb(15, 101, 239)"
+          }
+        ],
+        "strokes": [
+          {
+            "type": "SOLID",
+            "color": {
+              "r": 0.058823529411764705,
+              "g": 0.396078431372549,
+              "b": 0.9372549019607843
+            },
+            "opacity": 1,
+            "raw": "rgb(15, 101, 239)"
+          }
+        ],
+        "strokeWeight": 1,
+        "cornerRadius": 4,
+        "effects": [],
+        "layout": {
+          "mode": "NONE"
+        },
+        "children": [
+          {
+            "type": "TEXT",
+            "name": "Primary",
+            "x": 17,
+            "y": 9,
+            "width": 57.75,
+            "height": 18,
+            "characters": "Primary",
+            "fontFamily": "Times",
+            "fontWeight": 600,
+            "italic": false,
+            "fontSize": 16,
+            "lineHeight": {
+              "unit": "PIXELS",
+              "value": 19.2
+            },
+            "letterSpacing": 0,
+            "textAlign": "CENTER",
+            "fills": [
+              {
+                "type": "SOLID",
+                "color": {
+                  "r": 1,
+                  "g": 1,
+                  "b": 1
+                },
+                "opacity": 1,
+                "raw": "rgb(255, 255, 255)"
+              }
+            ],
+            "sorb": {
+              "tokens": {
+                "fill": "button.primary.text.default"
+              },
+              "candidates": {
+                "fill": [
+                  "color.white",
+                  "color.text.on-action",
+                  "color.bg.surface",
+                  "color.bg.disabled",
+                  "button.primary.bg.disabled",
+                  "button.primary.text.default",
+                  "button.primary.text.hover",
+                  "button.danger.bg.disabled",
+                  "button.danger.text.default",
+                  "button.danger.text.hover",
+                  "button.success.bg.disabled",
+                  "button.success.text.default",
+                  "button.success.text.hover",
+                  "bs.body-bg"
+                ]
+              }
+            }
+          }
+        ],
+        "sorb": {
+          "tokens": {
+            "fill": "button.primary.bg.default",
+            "stroke": "button.primary.border.default",
+            "cornerRadius": "button.radius"
+          },
+          "candidates": {
+            "fill": [
+              "color.blue.500",
+              "color.action.primary",
+              "color.border.default",
+              "button.primary.bg.default",
+              "button.primary.border.default",
+              "button.outline.text.default",
+              "button.outline.border.default"
+            ],
+            "stroke": [
+              "color.blue.500",
+              "color.action.primary",
+              "color.border.default",
+              "button.primary.bg.default",
+              "button.primary.border.default",
+              "button.outline.text.default",
+              "button.outline.border.default"
+            ],
+            "cornerRadius": [
+              "radius.200",
+              "radius.control",
+              "space.100",
+              "button.radius"
+            ]
+          }
+        }
+      }
+    },
+    {
+      "id": "components-button--danger",
+      "name": "Danger",
+      "title": "Components/Button",
+      "hash": "sha256:a039d2b121aff31e0cbbe1fead7f38a76b8fc9d7a6a98b246ce67923312b0b1e",
+      "root": {
+        "type": "FRAME",
+        "name": "button",
+        "x": 0,
+        "y": 0,
+        "width": 84.65625,
+        "height": 37.1875,
+        "opacity": 1,
+        "clipsContent": false,
+        "fills": [
+          {
+            "type": "SOLID",
+            "color": {
+              "r": 0.9333333333333333,
+              "g": 0.2,
+              "b": 0.13333333333333333
+            },
+            "opacity": 1,
+            "raw": "rgb(238, 51, 34)"
+          }
+        ],
+        "strokes": [
+          {
+            "type": "SOLID",
+            "color": {
+              "r": 0.9333333333333333,
+              "g": 0.2,
+              "b": 0.13333333333333333
+            },
+            "opacity": 1,
+            "raw": "rgb(238, 51, 34)"
+          }
+        ],
+        "strokeWeight": 1,
+        "cornerRadius": 4,
+        "effects": [],
+        "layout": {
+          "mode": "NONE"
+        },
+        "children": [
+          {
+            "type": "TEXT",
+            "name": "Danger",
+            "x": 17,
+            "y": 9,
+            "width": 50.65625,
+            "height": 18,
+            "characters": "Danger",
+            "fontFamily": "Times",
+            "fontWeight": 600,
+            "italic": false,
+            "fontSize": 16,
+            "lineHeight": {
+              "unit": "PIXELS",
+              "value": 19.2
+            },
+            "letterSpacing": 0,
+            "textAlign": "CENTER",
+            "fills": [
+              {
+                "type": "SOLID",
+                "color": {
+                  "r": 1,
+                  "g": 1,
+                  "b": 1
+                },
+                "opacity": 1,
+                "raw": "rgb(255, 255, 255)"
+              }
+            ],
+            "sorb": {
+              "tokens": {
+                "fill": "button.primary.text.default"
+              },
+              "candidates": {
+                "fill": [
+                  "color.white",
+                  "color.text.on-action",
+                  "color.bg.surface",
+                  "color.bg.disabled",
+                  "button.primary.bg.disabled",
+                  "button.primary.text.default",
+                  "button.primary.text.hover",
+                  "button.danger.bg.disabled",
+                  "button.danger.text.default",
+                  "button.danger.text.hover",
+                  "button.success.bg.disabled",
+                  "button.success.text.default",
+                  "button.success.text.hover",
+                  "bs.body-bg"
+                ]
+              }
+            }
+          }
+        ],
+        "sorb": {
+          "tokens": {
+            "fill": "button.danger.bg.default",
+            "stroke": "button.danger.border.default",
+            "cornerRadius": "button.radius"
+          },
+          "candidates": {
+            "fill": [
+              "color.red.500",
+              "color.feedback.danger",
+              "button.danger.bg.default",
+              "button.danger.border.default"
+            ],
+            "stroke": [
+              "color.red.500",
+              "color.feedback.danger",
+              "button.danger.bg.default",
+              "button.danger.border.default"
+            ],
+            "cornerRadius": [
+              "radius.200",
+              "radius.control",
+              "space.100",
+              "button.radius"
+            ]
+          }
+        }
+      }
+    },
+    {
+      "id": "components-button--success",
+      "name": "Success",
+      "title": "Components/Button",
+      "hash": "sha256:f98ad84e363ba88ee60795b008df566da49f464514a91dd184bc6df0e648d4c7",
+      "root": {
+        "type": "FRAME",
+        "name": "button",
+        "x": 0,
+        "y": 0,
+        "width": 85.5625,
+        "height": 37.1875,
+        "opacity": 1,
+        "clipsContent": false,
+        "fills": [
+          {
+            "type": "SOLID",
+            "color": {
+              "r": 0.40784313725490196,
+              "g": 0.6862745098039216,
+              "b": 0.08235294117647059
+            },
+            "opacity": 1,
+            "raw": "rgb(104, 175, 21)"
+          }
+        ],
+        "strokes": [
+          {
+            "type": "SOLID",
+            "color": {
+              "r": 0.40784313725490196,
+              "g": 0.6862745098039216,
+              "b": 0.08235294117647059
+            },
+            "opacity": 1,
+            "raw": "rgb(104, 175, 21)"
+          }
+        ],
+        "strokeWeight": 1,
+        "cornerRadius": 4,
+        "effects": [],
+        "layout": {
+          "mode": "NONE"
+        },
+        "children": [
+          {
+            "type": "TEXT",
+            "name": "Success",
+            "x": 17,
+            "y": 9,
+            "width": 51.5625,
+            "height": 18,
+            "characters": "Success",
+            "fontFamily": "Times",
+            "fontWeight": 600,
+            "italic": false,
+            "fontSize": 16,
+            "lineHeight": {
+              "unit": "PIXELS",
+              "value": 19.2
+            },
+            "letterSpacing": 0,
+            "textAlign": "CENTER",
+            "fills": [
+              {
+                "type": "SOLID",
+                "color": {
+                  "r": 1,
+                  "g": 1,
+                  "b": 1
+                },
+                "opacity": 1,
+                "raw": "rgb(255, 255, 255)"
+              }
+            ],
+            "sorb": {
+              "tokens": {
+                "fill": "button.primary.text.default"
+              },
+              "candidates": {
+                "fill": [
+                  "color.white",
+                  "color.text.on-action",
+                  "color.bg.surface",
+                  "color.bg.disabled",
+                  "button.primary.bg.disabled",
+                  "button.primary.text.default",
+                  "button.primary.text.hover",
+                  "button.danger.bg.disabled",
+                  "button.danger.text.default",
+                  "button.danger.text.hover",
+                  "button.success.bg.disabled",
+                  "button.success.text.default",
+                  "button.success.text.hover",
+                  "bs.body-bg"
+                ]
+              }
+            }
+          }
+        ],
+        "sorb": {
+          "tokens": {
+            "fill": "button.success.bg.default",
+            "stroke": "button.success.border.default",
+            "cornerRadius": "button.radius"
+          },
+          "candidates": {
+            "fill": [
+              "color.green.500",
+              "color.feedback.success",
+              "button.success.bg.default",
+              "button.success.border.default"
+            ],
+            "stroke": [
+              "color.green.500",
+              "color.feedback.success",
+              "button.success.bg.default",
+              "button.success.border.default"
+            ],
+            "cornerRadius": [
+              "radius.200",
+              "radius.control",
+              "space.100",
+              "button.radius"
+            ]
+          }
+        }
+      }
+    },
+    {
+      "id": "components-button--outline",
+      "name": "Outline",
+      "title": "Components/Button",
+      "hash": "sha256:d6e5730b7935f70f14fc062d4601df727e00811a96fa6a14bec8b9bbf344c6f7",
+      "root": {
+        "type": "FRAME",
+        "name": "button",
+        "x": 0,
+        "y": 0,
+        "width": 85.5625,
+        "height": 37.1875,
+        "opacity": 1,
+        "clipsContent": false,
+        "fills": [],
+        "strokes": [
+          {
+            "type": "SOLID",
+            "color": {
+              "r": 0.058823529411764705,
+              "g": 0.396078431372549,
+              "b": 0.9372549019607843
+            },
+            "opacity": 1,
+            "raw": "rgb(15, 101, 239)"
+          }
+        ],
+        "strokeWeight": 1,
+        "cornerRadius": 4,
+        "effects": [],
+        "layout": {
+          "mode": "NONE"
+        },
+        "children": [
+          {
+            "type": "TEXT",
+            "name": "Outline",
+            "x": 17,
+            "y": 9,
+            "width": 51.5625,
+            "height": 18,
+            "characters": "Outline",
+            "fontFamily": "Times",
+            "fontWeight": 600,
+            "italic": false,
+            "fontSize": 16,
+            "lineHeight": {
+              "unit": "PIXELS",
+              "value": 19.2
+            },
+            "letterSpacing": 0,
+            "textAlign": "CENTER",
+            "fills": [
+              {
+                "type": "SOLID",
+                "color": {
+                  "r": 0.058823529411764705,
+                  "g": 0.396078431372549,
+                  "b": 0.9372549019607843
+                },
+                "opacity": 1,
+                "raw": "rgb(15, 101, 239)"
+              }
+            ],
+            "sorb": {
+              "tokens": {
+                "fill": "button.outline.text.default"
+              },
+              "candidates": {
+                "fill": [
+                  "color.blue.500",
+                  "color.action.primary",
+                  "color.border.default",
+                  "button.primary.bg.default",
+                  "button.primary.border.default",
+                  "button.outline.text.default",
+                  "button.outline.border.default"
+                ]
+              }
+            }
+          }
+        ],
+        "sorb": {
+          "tokens": {
+            "stroke": "button.primary.border.default",
+            "cornerRadius": "button.radius"
+          },
+          "candidates": {
+            "stroke": [
+              "color.blue.500",
+              "color.action.primary",
+              "color.border.default",
+              "button.primary.bg.default",
+              "button.primary.border.default",
+              "button.outline.text.default",
+              "button.outline.border.default"
+            ],
+            "cornerRadius": [
+              "radius.200",
+              "radius.control",
+              "space.100",
+              "button.radius"
+            ]
+          }
+        }
+      }
+    },
+    {
+      "id": "components-button--disabled",
+      "name": "Disabled",
+      "title": "Components/Button",
+      "hash": "sha256:224f57dce1daf65a718a1bae214c9754e05f2415e429e582fe5ced0994b705e3",
+      "root": {
+        "type": "FRAME",
+        "name": "button",
+        "x": 0,
+        "y": 0,
+        "width": 93.578125,
+        "height": 37.1875,
+        "opacity": 1,
+        "clipsContent": false,
+        "fills": [
+          {
+            "type": "SOLID",
+            "color": {
+              "r": 1,
+              "g": 1,
+              "b": 1
+            },
+            "opacity": 1,
+            "raw": "rgb(255, 255, 255)"
+          }
+        ],
+        "strokes": [
+          {
+            "type": "SOLID",
+            "color": {
+              "r": 0.6666666666666666,
+              "g": 0.6666666666666666,
+              "b": 0.6666666666666666
+            },
+            "opacity": 1,
+            "raw": "rgb(170, 170, 170)"
+          }
+        ],
+        "strokeWeight": 1,
+        "cornerRadius": 4,
+        "effects": [],
+        "layout": {
+          "mode": "NONE"
+        },
+        "children": [
+          {
+            "type": "TEXT",
+            "name": "Disabled",
+            "x": 17,
+            "y": 9,
+            "width": 59.578125,
+            "height": 18,
+            "characters": "Disabled",
+            "fontFamily": "Times",
+            "fontWeight": 600,
+            "italic": false,
+            "fontSize": 16,
+            "lineHeight": {
+              "unit": "PIXELS",
+              "value": 19.2
+            },
+            "letterSpacing": 0,
+            "textAlign": "CENTER",
+            "fills": [
+              {
+                "type": "SOLID",
+                "color": {
+                  "r": 0.6666666666666666,
+                  "g": 0.6666666666666666,
+                  "b": 0.6666666666666666
+                },
+                "opacity": 1,
+                "raw": "rgb(170, 170, 170)"
+              }
+            ],
+            "sorb": {
+              "tokens": {
+                "fill": "button.primary.text.disabled"
+              },
+              "candidates": {
+                "fill": [
+                  "color.gray.500",
+                  "color.text.disabled",
+                  "color.border.disabled",
+                  "button.primary.text.disabled",
+                  "button.primary.border.disabled",
+                  "button.danger.text.disabled",
+                  "button.danger.border.disabled",
+                  "button.success.text.disabled",
+                  "button.success.border.disabled",
+                  "button.outline.text.disabled",
+                  "button.outline.border.disabled"
+                ]
+              }
+            }
+          }
+        ],
+        "sorb": {
+          "tokens": {
+            "fill": "button.primary.bg.disabled",
+            "stroke": "button.primary.border.disabled",
+            "cornerRadius": "button.radius"
+          },
+          "candidates": {
+            "fill": [
+              "color.white",
+              "color.text.on-action",
+              "color.bg.surface",
+              "color.bg.disabled",
+              "button.primary.bg.disabled",
+              "button.primary.text.default",
+              "button.primary.text.hover",
+              "button.danger.bg.disabled",
+              "button.danger.text.default",
+              "button.danger.text.hover",
+              "button.success.bg.disabled",
+              "button.success.text.default",
+              "button.success.text.hover",
+              "bs.body-bg"
+            ],
+            "stroke": [
+              "color.gray.500",
+              "color.text.disabled",
+              "color.border.disabled",
+              "button.primary.text.disabled",
+              "button.primary.border.disabled",
+              "button.danger.text.disabled",
+              "button.danger.border.disabled",
+              "button.success.text.disabled",
+              "button.success.border.disabled",
+              "button.outline.text.disabled",
+              "button.outline.border.disabled"
+            ],
+            "cornerRadius": [
+              "radius.200",
+              "radius.control",
+              "space.100",
+              "button.radius"
+            ]
+          }
+        }
+      }
+    },
+    {
+      "id": "components-button--all-variants",
+      "name": "All Variants",
+      "title": "Components/Button",
+      "hash": "sha256:62263bc7e0f37eb3f73ce1987b057bed42f5dd71acbf0bad9eb32915f61f35bd",
+      "root": {
+        "type": "FRAME",
+        "name": "div",
+        "x": 0,
+        "y": 0,
+        "width": 372.890625,
+        "height": 37.1875,
+        "opacity": 1,
+        "clipsContent": false,
+        "fills": [],
+        "strokes": [],
+        "strokeWeight": 0,
+        "cornerRadius": 0,
+        "effects": [],
+        "layout": {
+          "mode": "HORIZONTAL",
+          "primaryAxisAlign": "MIN",
+          "counterAxisAlign": "MIN",
+          "itemSpacing": 12,
+          "paddingTop": 0,
+          "paddingRight": 0,
+          "paddingBottom": 0,
+          "paddingLeft": 0
+        },
+        "children": [
+          {
+            "type": "FRAME",
+            "name": "button",
+            "x": 0,
+            "y": 0,
+            "width": 90.875,
+            "height": 37.1875,
+            "opacity": 1,
+            "clipsContent": false,
+            "fills": [
+              {
+                "type": "SOLID",
+                "color": {
+                  "r": 0.058823529411764705,
+                  "g": 0.396078431372549,
+                  "b": 0.9372549019607843
+                },
+                "opacity": 1,
+                "raw": "rgb(15, 101, 239)"
+              }
+            ],
+            "strokes": [
+              {
+                "type": "SOLID",
+                "color": {
+                  "r": 0.058823529411764705,
+                  "g": 0.396078431372549,
+                  "b": 0.9372549019607843
+                },
+                "opacity": 1,
+                "raw": "rgb(15, 101, 239)"
+              }
+            ],
+            "strokeWeight": 1,
+            "cornerRadius": 4,
+            "effects": [],
+            "layout": {
+              "mode": "NONE"
+            },
+            "children": [
+              {
+                "type": "TEXT",
+                "name": "primary",
+                "x": 17,
+                "y": 9,
+                "width": 56.875,
+                "height": 18,
+                "characters": "primary",
+                "fontFamily": "Times",
+                "fontWeight": 600,
+                "italic": false,
+                "fontSize": 16,
+                "lineHeight": {
+                  "unit": "PIXELS",
+                  "value": 19.2
+                },
+                "letterSpacing": 0,
+                "textAlign": "CENTER",
+                "fills": [
+                  {
+                    "type": "SOLID",
+                    "color": {
+                      "r": 1,
+                      "g": 1,
+                      "b": 1
+                    },
+                    "opacity": 1,
+                    "raw": "rgb(255, 255, 255)"
+                  }
+                ],
+                "sorb": {
+                  "tokens": {
+                    "fill": "button.primary.text.default"
+                  },
+                  "candidates": {
+                    "fill": [
+                      "color.white",
+                      "color.text.on-action",
+                      "color.bg.surface",
+                      "color.bg.disabled",
+                      "button.primary.bg.disabled",
+                      "button.primary.text.default",
+                      "button.primary.text.hover",
+                      "button.danger.bg.disabled",
+                      "button.danger.text.default",
+                      "button.danger.text.hover",
+                      "button.success.bg.disabled",
+                      "button.success.text.default",
+                      "button.success.text.hover",
+                      "bs.body-bg"
+                    ]
+                  }
+                }
+              }
+            ],
+            "sorb": {
+              "tokens": {
+                "fill": "button.primary.bg.default",
+                "stroke": "button.primary.border.default",
+                "cornerRadius": "button.radius"
+              },
+              "candidates": {
+                "fill": [
+                  "color.blue.500",
+                  "color.action.primary",
+                  "color.border.default",
+                  "button.primary.bg.default",
+                  "button.primary.border.default",
+                  "button.outline.text.default",
+                  "button.outline.border.default"
+                ],
+                "stroke": [
+                  "color.blue.500",
+                  "color.action.primary",
+                  "color.border.default",
+                  "button.primary.bg.default",
+                  "button.primary.border.default",
+                  "button.outline.text.default",
+                  "button.outline.border.default"
+                ],
+                "cornerRadius": [
+                  "radius.200",
+                  "radius.control",
+                  "space.100",
+                  "button.radius"
+                ]
+              }
+            }
+          },
+          {
+            "type": "FRAME",
+            "name": "button",
+            "x": 102.875,
+            "y": 0,
+            "width": 82,
+            "height": 37.1875,
+            "opacity": 1,
+            "clipsContent": false,
+            "fills": [
+              {
+                "type": "SOLID",
+                "color": {
+                  "r": 0.9333333333333333,
+                  "g": 0.2,
+                  "b": 0.13333333333333333
+                },
+                "opacity": 1,
+                "raw": "rgb(238, 51, 34)"
+              }
+            ],
+            "strokes": [
+              {
+                "type": "SOLID",
+                "color": {
+                  "r": 0.9333333333333333,
+                  "g": 0.2,
+                  "b": 0.13333333333333333
+                },
+                "opacity": 1,
+                "raw": "rgb(238, 51, 34)"
+              }
+            ],
+            "strokeWeight": 1,
+            "cornerRadius": 4,
+            "effects": [],
+            "layout": {
+              "mode": "NONE"
+            },
+            "children": [
+              {
+                "type": "TEXT",
+                "name": "danger",
+                "x": 17,
+                "y": 9,
+                "width": 48,
+                "height": 18,
+                "characters": "danger",
+                "fontFamily": "Times",
+                "fontWeight": 600,
+                "italic": false,
+                "fontSize": 16,
+                "lineHeight": {
+                  "unit": "PIXELS",
+                  "value": 19.2
+                },
+                "letterSpacing": 0,
+                "textAlign": "CENTER",
+                "fills": [
+                  {
+                    "type": "SOLID",
+                    "color": {
+                      "r": 1,
+                      "g": 1,
+                      "b": 1
+                    },
+                    "opacity": 1,
+                    "raw": "rgb(255, 255, 255)"
+                  }
+                ],
+                "sorb": {
+                  "tokens": {
+                    "fill": "button.primary.text.default"
+                  },
+                  "candidates": {
+                    "fill": [
+                      "color.white",
+                      "color.text.on-action",
+                      "color.bg.surface",
+                      "color.bg.disabled",
+                      "button.primary.bg.disabled",
+                      "button.primary.text.default",
+                      "button.primary.text.hover",
+                      "button.danger.bg.disabled",
+                      "button.danger.text.default",
+                      "button.danger.text.hover",
+                      "button.success.bg.disabled",
+                      "button.success.text.default",
+                      "button.success.text.hover",
+                      "bs.body-bg"
+                    ]
+                  }
+                }
+              }
+            ],
+            "sorb": {
+              "tokens": {
+                "fill": "button.danger.bg.default",
+                "stroke": "button.danger.border.default",
+                "cornerRadius": "button.radius"
+              },
+              "candidates": {
+                "fill": [
+                  "color.red.500",
+                  "color.feedback.danger",
+                  "button.danger.bg.default",
+                  "button.danger.border.default"
+                ],
+                "stroke": [
+                  "color.red.500",
+                  "color.feedback.danger",
+                  "button.danger.bg.default",
+                  "button.danger.border.default"
+                ],
+                "cornerRadius": [
+                  "radius.200",
+                  "radius.control",
+                  "space.100",
+                  "button.radius"
+                ]
+              }
+            }
+          },
+          {
+            "type": "FRAME",
+            "name": "button",
+            "x": 196.875,
+            "y": 0,
+            "width": 82.890625,
+            "height": 37.1875,
+            "opacity": 1,
+            "clipsContent": false,
+            "fills": [
+              {
+                "type": "SOLID",
+                "color": {
+                  "r": 0.40784313725490196,
+                  "g": 0.6862745098039216,
+                  "b": 0.08235294117647059
+                },
+                "opacity": 1,
+                "raw": "rgb(104, 175, 21)"
+              }
+            ],
+            "strokes": [
+              {
+                "type": "SOLID",
+                "color": {
+                  "r": 0.40784313725490196,
+                  "g": 0.6862745098039216,
+                  "b": 0.08235294117647059
+                },
+                "opacity": 1,
+                "raw": "rgb(104, 175, 21)"
+              }
+            ],
+            "strokeWeight": 1,
+            "cornerRadius": 4,
+            "effects": [],
+            "layout": {
+              "mode": "NONE"
+            },
+            "children": [
+              {
+                "type": "TEXT",
+                "name": "success",
+                "x": 17,
+                "y": 9,
+                "width": 48.890625,
+                "height": 18,
+                "characters": "success",
+                "fontFamily": "Times",
+                "fontWeight": 600,
+                "italic": false,
+                "fontSize": 16,
+                "lineHeight": {
+                  "unit": "PIXELS",
+                  "value": 19.2
+                },
+                "letterSpacing": 0,
+                "textAlign": "CENTER",
+                "fills": [
+                  {
+                    "type": "SOLID",
+                    "color": {
+                      "r": 1,
+                      "g": 1,
+                      "b": 1
+                    },
+                    "opacity": 1,
+                    "raw": "rgb(255, 255, 255)"
+                  }
+                ],
+                "sorb": {
+                  "tokens": {
+                    "fill": "button.primary.text.default"
+                  },
+                  "candidates": {
+                    "fill": [
+                      "color.white",
+                      "color.text.on-action",
+                      "color.bg.surface",
+                      "color.bg.disabled",
+                      "button.primary.bg.disabled",
+                      "button.primary.text.default",
+                      "button.primary.text.hover",
+                      "button.danger.bg.disabled",
+                      "button.danger.text.default",
+                      "button.danger.text.hover",
+                      "button.success.bg.disabled",
+                      "button.success.text.default",
+                      "button.success.text.hover",
+                      "bs.body-bg"
+                    ]
+                  }
+                }
+              }
+            ],
+            "sorb": {
+              "tokens": {
+                "fill": "button.success.bg.default",
+                "stroke": "button.success.border.default",
+                "cornerRadius": "button.radius"
+              },
+              "candidates": {
+                "fill": [
+                  "color.green.500",
+                  "color.feedback.success",
+                  "button.success.bg.default",
+                  "button.success.border.default"
+                ],
+                "stroke": [
+                  "color.green.500",
+                  "color.feedback.success",
+                  "button.success.bg.default",
+                  "button.success.border.default"
+                ],
+                "cornerRadius": [
+                  "radius.200",
+                  "radius.control",
+                  "space.100",
+                  "button.radius"
+                ]
+              }
+            }
+          },
+          {
+            "type": "FRAME",
+            "name": "button",
+            "x": 291.765625,
+            "y": 0,
+            "width": 81.125,
+            "height": 37.1875,
+            "opacity": 1,
+            "clipsContent": false,
+            "fills": [],
+            "strokes": [
+              {
+                "type": "SOLID",
+                "color": {
+                  "r": 0.058823529411764705,
+                  "g": 0.396078431372549,
+                  "b": 0.9372549019607843
+                },
+                "opacity": 1,
+                "raw": "rgb(15, 101, 239)"
+              }
+            ],
+            "strokeWeight": 1,
+            "cornerRadius": 4,
+            "effects": [],
+            "layout": {
+              "mode": "NONE"
+            },
+            "children": [
+              {
+                "type": "TEXT",
+                "name": "outline",
+                "x": 17,
+                "y": 9,
+                "width": 47.125,
+                "height": 18,
+                "characters": "outline",
+                "fontFamily": "Times",
+                "fontWeight": 600,
+                "italic": false,
+                "fontSize": 16,
+                "lineHeight": {
+                  "unit": "PIXELS",
+                  "value": 19.2
+                },
+                "letterSpacing": 0,
+                "textAlign": "CENTER",
+                "fills": [
+                  {
+                    "type": "SOLID",
+                    "color": {
+                      "r": 0.058823529411764705,
+                      "g": 0.396078431372549,
+                      "b": 0.9372549019607843
+                    },
+                    "opacity": 1,
+                    "raw": "rgb(15, 101, 239)"
+                  }
+                ],
+                "sorb": {
+                  "tokens": {
+                    "fill": "button.outline.text.default"
+                  },
+                  "candidates": {
+                    "fill": [
+                      "color.blue.500",
+                      "color.action.primary",
+                      "color.border.default",
+                      "button.primary.bg.default",
+                      "button.primary.border.default",
+                      "button.outline.text.default",
+                      "button.outline.border.default"
+                    ]
+                  }
+                }
+              }
+            ],
+            "sorb": {
+              "tokens": {
+                "stroke": "button.primary.border.default",
+                "cornerRadius": "button.radius"
+              },
+              "candidates": {
+                "stroke": [
+                  "color.blue.500",
+                  "color.action.primary",
+                  "color.border.default",
+                  "button.primary.bg.default",
+                  "button.primary.border.default",
+                  "button.outline.text.default",
+                  "button.outline.border.default"
+                ],
+                "cornerRadius": [
+                  "radius.200",
+                  "radius.control",
+                  "space.100",
+                  "button.radius"
+                ]
+              }
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

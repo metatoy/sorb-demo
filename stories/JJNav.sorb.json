@@ -1,0 +1,654 @@
+{
+  "schemaVersion": 1,
+  "component": "JJNav",
+  "importPath": "./stories/JJNav.stories.jsx",
+  "capturedAt": "2026-08-28T18:22:26.046Z",
+  "stories": [
+    {
+      "id": "janesjeans-nav--site-navbar",
+      "name": "Site Navbar",
+      "title": "JanesJeans/Nav",
+      "hash": "sha256:b3ec3835dca64e1bcb571aca3225d4cd547c938c7496db39f83adb0ba0e44207",
+      "root": {
+        "type": "FRAME",
+        "name": "div",
+        "x": 0,
+        "y": 0,
+        "width": 1248,
+        "height": 71,
+        "opacity": 1,
+        "clipsContent": false,
+        "fills": [
+          {
+            "type": "SOLID",
+            "color": {
+              "r": 1,
+              "g": 1,
+              "b": 1
+            },
+            "opacity": 1,
+            "raw": "rgb(255, 255, 255)"
+          }
+        ],
+        "strokes": [],
+        "strokeWeight": 0,
+        "cornerRadius": 0,
+        "effects": [],
+        "layout": {
+          "mode": "NONE"
+        },
+        "children": [
+          {
+            "type": "FRAME",
+            "name": "div",
+            "x": 0,
+            "y": 0,
+            "width": 1200,
+            "height": 71,
+            "opacity": 1,
+            "clipsContent": false,
+            "fills": [
+              {
+                "type": "SOLID",
+                "color": {
+                  "r": 1,
+                  "g": 1,
+                  "b": 1
+                },
+                "opacity": 1,
+                "raw": "rgb(255, 255, 255)"
+              }
+            ],
+            "strokes": [],
+            "strokeWeight": 0,
+            "cornerRadius": 0,
+            "effects": [],
+            "layout": {
+              "mode": "HORIZONTAL",
+              "primaryAxisAlign": "SPACE_BETWEEN",
+              "counterAxisAlign": "CENTER",
+              "itemSpacing": 0,
+              "paddingTop": 16,
+              "paddingRight": 32,
+              "paddingBottom": 16,
+              "paddingLeft": 32
+            },
+            "children": [
+              {
+                "type": "FRAME",
+                "name": "div",
+                "x": 32,
+                "y": 20,
+                "width": 117.0625,
+                "height": 30,
+                "opacity": 1,
+                "clipsContent": false,
+                "fills": [],
+                "strokes": [],
+                "strokeWeight": 0,
+                "cornerRadius": 0,
+                "effects": [],
+                "layout": {
+                  "mode": "NONE"
+                },
+                "children": [
+                  {
+                    "type": "TEXT",
+                    "name": "Jane's Jeans",
+                    "x": 0,
+                    "y": 3,
+                    "width": 117.0625,
+                    "height": 23,
+                    "characters": "Jane's Jeans",
+                    "fontFamily": "Trebuchet MS",
+                    "fontWeight": 600,
+                    "italic": false,
+                    "fontSize": 20,
+                    "lineHeight": {
+                      "unit": "PIXELS",
+                      "value": 30
+                    },
+                    "letterSpacing": 0,
+                    "textAlign": "LEFT",
+                    "fills": [
+                      {
+                        "type": "SOLID",
+                        "color": {
+                          "r": 0.13333333333333333,
+                          "g": 0.1450980392156863,
+                          "b": 0.16470588235294117
+                        },
+                        "opacity": 1,
+                        "raw": "rgb(34, 37, 42)"
+                      }
+                    ],
+                    "sorb": {
+                      "tokens": {
+                        "fill": "bs.body-color"
+                      },
+                      "candidates": {
+                        "fill": [
+                          "bs.body-color"
+                        ]
+                      },
+                      "diagnostics": [
+                        {
+                          "kind": "off-role-bind",
+                          "detail": {
+                            "key": "fill",
+                            "role": "text",
+                            "token": "bs.body-color"
+                          }
+                        }
+                      ]
+                    }
+                  }
+                ]
+              },
+              {
+                "type": "FRAME",
+                "name": "div",
+                "x": 771.234375,
+                "y": 16,
+                "width": 396.765625,
+                "height": 38,
+                "opacity": 1,
+                "clipsContent": false,
+                "fills": [],
+                "strokes": [],
+                "strokeWeight": 0,
+                "cornerRadius": 0,
+                "effects": [],
+                "layout": {
+                  "mode": "HORIZONTAL",
+                  "primaryAxisAlign": "MIN",
+                  "counterAxisAlign": "CENTER",
+                  "itemSpacing": 28,
+                  "paddingTop": 0,
+                  "paddingRight": 0,
+                  "paddingBottom": 0,
+                  "paddingLeft": 0
+                },
+                "children": [
+                  {
+                    "type": "FRAME",
+                    "name": "span",
+                    "x": 0,
+                    "y": 7,
+                    "width": 37.578125,
+                    "height": 24,
+                    "opacity": 1,
+                    "clipsContent": false,
+                    "fills": [],
+                    "strokes": [],
+                    "strokeWeight": 0,
+                    "cornerRadius": 0,
+                    "effects": [],
+                    "layout": {
+                      "mode": "NONE"
+                    },
+                    "children": [
+                      {
+                        "type": "TEXT",
+                        "name": "Shop",
+                        "x": 0,
+                        "y": 3,
+                        "width": 37.578125,
+                        "height": 18,
+                        "characters": "Shop",
+                        "fontFamily": "ui-sans-serif",
+                        "fontWeight": 400,
+                        "italic": false,
+                        "fontSize": 16,
+                        "lineHeight": {
+                          "unit": "PIXELS",
+                          "value": 24
+                        },
+                        "letterSpacing": 0,
+                        "textAlign": "LEFT",
+                        "fills": [
+                          {
+                            "type": "SOLID",
+                            "color": {
+                              "r": 0.13333333333333333,
+                              "g": 0.1450980392156863,
+                              "b": 0.16470588235294117
+                            },
+                            "opacity": 1,
+                            "raw": "rgb(34, 37, 42)"
+                          }
+                        ],
+                        "sorb": {
+                          "tokens": {
+                            "fill": "bs.body-color"
+                          },
+                          "candidates": {
+                            "fill": [
+                              "bs.body-color"
+                            ]
+                          },
+                          "diagnostics": [
+                            {
+                              "kind": "off-role-bind",
+                              "detail": {
+                                "key": "fill",
+                                "role": "text",
+                                "token": "bs.body-color"
+                              }
+                            }
+                          ]
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "type": "FRAME",
+                    "name": "span",
+                    "x": 65.578125,
+                    "y": 7,
+                    "width": 53.671875,
+                    "height": 24,
+                    "opacity": 1,
+                    "clipsContent": false,
+                    "fills": [],
+                    "strokes": [],
+                    "strokeWeight": 0,
+                    "cornerRadius": 0,
+                    "effects": [],
+                    "layout": {
+                      "mode": "NONE"
+                    },
+                    "children": [
+                      {
+                        "type": "TEXT",
+                        "name": "Journal",
+                        "x": 0,
+                        "y": 3,
+                        "width": 53.671875,
+                        "height": 18,
+                        "characters": "Journal",
+                        "fontFamily": "ui-sans-serif",
+                        "fontWeight": 400,
+                        "italic": false,
+                        "fontSize": 16,
+                        "lineHeight": {
+                          "unit": "PIXELS",
+                          "value": 24
+                        },
+                        "letterSpacing": 0,
+                        "textAlign": "LEFT",
+                        "fills": [
+                          {
+                            "type": "SOLID",
+                            "color": {
+                              "r": 0.13333333333333333,
+                              "g": 0.1450980392156863,
+                              "b": 0.16470588235294117
+                            },
+                            "opacity": 1,
+                            "raw": "rgb(34, 37, 42)"
+                          }
+                        ],
+                        "sorb": {
+                          "tokens": {
+                            "fill": "bs.body-color"
+                          },
+                          "candidates": {
+                            "fill": [
+                              "bs.body-color"
+                            ]
+                          },
+                          "diagnostics": [
+                            {
+                              "kind": "off-role-bind",
+                              "detail": {
+                                "key": "fill",
+                                "role": "text",
+                                "token": "bs.body-color"
+                              }
+                            }
+                          ]
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "type": "FRAME",
+                    "name": "span",
+                    "x": 147.25,
+                    "y": 7,
+                    "width": 43.65625,
+                    "height": 24,
+                    "opacity": 1,
+                    "clipsContent": false,
+                    "fills": [],
+                    "strokes": [],
+                    "strokeWeight": 0,
+                    "cornerRadius": 0,
+                    "effects": [],
+                    "layout": {
+                      "mode": "NONE"
+                    },
+                    "children": [
+                      {
+                        "type": "TEXT",
+                        "name": "About",
+                        "x": 0,
+                        "y": 3,
+                        "width": 43.65625,
+                        "height": 18,
+                        "characters": "About",
+                        "fontFamily": "ui-sans-serif",
+                        "fontWeight": 400,
+                        "italic": false,
+                        "fontSize": 16,
+                        "lineHeight": {
+                          "unit": "PIXELS",
+                          "value": 24
+                        },
+                        "letterSpacing": 0,
+                        "textAlign": "LEFT",
+                        "fills": [
+                          {
+                            "type": "SOLID",
+                            "color": {
+                              "r": 0.13333333333333333,
+                              "g": 0.1450980392156863,
+                              "b": 0.16470588235294117
+                            },
+                            "opacity": 1,
+                            "raw": "rgb(34, 37, 42)"
+                          }
+                        ],
+                        "sorb": {
+                          "tokens": {
+                            "fill": "bs.body-color"
+                          },
+                          "candidates": {
+                            "fill": [
+                              "bs.body-color"
+                            ]
+                          },
+                          "diagnostics": [
+                            {
+                              "kind": "off-role-bind",
+                              "detail": {
+                                "key": "fill",
+                                "role": "text",
+                                "token": "bs.body-color"
+                              }
+                            }
+                          ]
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "type": "FRAME",
+                    "name": "span",
+                    "x": 218.90625,
+                    "y": 7,
+                    "width": 92.765625,
+                    "height": 24,
+                    "opacity": 1,
+                    "clipsContent": false,
+                    "fills": [],
+                    "strokes": [],
+                    "strokeWeight": 0,
+                    "cornerRadius": 0,
+                    "effects": [],
+                    "layout": {
+                      "mode": "NONE"
+                    },
+                    "children": [
+                      {
+                        "type": "TEXT",
+                        "name": "Components",
+                        "x": 0,
+                        "y": 3,
+                        "width": 92.765625,
+                        "height": 18,
+                        "characters": "Components",
+                        "fontFamily": "ui-sans-serif",
+                        "fontWeight": 400,
+                        "italic": false,
+                        "fontSize": 16,
+                        "lineHeight": {
+                          "unit": "PIXELS",
+                          "value": 24
+                        },
+                        "letterSpacing": 0,
+                        "textAlign": "LEFT",
+                        "fills": [
+                          {
+                            "type": "SOLID",
+                            "color": {
+                              "r": 0.13333333333333333,
+                              "g": 0.1450980392156863,
+                              "b": 0.16470588235294117
+                            },
+                            "opacity": 1,
+                            "raw": "rgb(34, 37, 42)"
+                          }
+                        ],
+                        "sorb": {
+                          "tokens": {
+                            "fill": "bs.body-color"
+                          },
+                          "candidates": {
+                            "fill": [
+                              "bs.body-color"
+                            ]
+                          },
+                          "diagnostics": [
+                            {
+                              "kind": "off-role-bind",
+                              "detail": {
+                                "key": "fill",
+                                "role": "text",
+                                "token": "bs.body-color"
+                              }
+                            }
+                          ]
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "type": "FRAME",
+                    "name": "button",
+                    "x": 339.671875,
+                    "y": 0,
+                    "width": 57.09375,
+                    "height": 38,
+                    "opacity": 1,
+                    "clipsContent": false,
+                    "fills": [
+                      {
+                        "type": "SOLID",
+                        "color": {
+                          "r": 0.1843137254901961,
+                          "g": 0.3607843137254902,
+                          "b": 0.6196078431372549
+                        },
+                        "opacity": 1,
+                        "raw": "rgb(47, 92, 158)"
+                      }
+                    ],
+                    "strokes": [
+                      {
+                        "type": "SOLID",
+                        "color": {
+                          "r": 0.1843137254901961,
+                          "g": 0.3607843137254902,
+                          "b": 0.6196078431372549
+                        },
+                        "opacity": 1,
+                        "raw": "rgb(47, 92, 158)"
+                      }
+                    ],
+                    "strokeWeight": 1,
+                    "cornerRadius": 8,
+                    "effects": [],
+                    "layout": {
+                      "mode": "NONE"
+                    },
+                    "children": [
+                      {
+                        "type": "TEXT",
+                        "name": "Cart",
+                        "x": 13,
+                        "y": 10,
+                        "width": 31.09375,
+                        "height": 18,
+                        "characters": "Cart",
+                        "fontFamily": "ui-sans-serif",
+                        "fontWeight": 400,
+                        "italic": false,
+                        "fontSize": 16,
+                        "lineHeight": {
+                          "unit": "PIXELS",
+                          "value": 24
+                        },
+                        "letterSpacing": 0,
+                        "textAlign": "CENTER",
+                        "fills": [
+                          {
+                            "type": "SOLID",
+                            "color": {
+                              "r": 1,
+                              "g": 1,
+                              "b": 1
+                            },
+                            "opacity": 1,
+                            "raw": "rgb(255, 255, 255)"
+                          }
+                        ],
+                        "sorb": {
+                          "tokens": {
+                            "fill": "button.primary.text.default"
+                          },
+                          "candidates": {
+                            "fill": [
+                              "color.white",
+                              "color.text.on-action",
+                              "color.bg.surface",
+                              "color.bg.disabled",
+                              "button.primary.bg.disabled",
+                              "button.primary.text.default",
+                              "button.primary.text.hover",
+                              "button.danger.bg.disabled",
+                              "button.danger.text.default",
+                              "button.danger.text.hover",
+                              "button.success.bg.disabled",
+                              "button.success.text.default",
+                              "button.success.text.hover",
+                              "bs.body-bg"
+                            ]
+                          }
+                        }
+                      }
+                    ],
+                    "sorb": {
+                      "tokens": {
+                        "fill": "bs.primary",
+                        "stroke": "bs.primary",
+                        "cornerRadius": "radius.300"
+                      },
+                      "candidates": {
+                        "fill": [
+                          "bs.primary",
+                          "bs.link-color"
+                        ],
+                        "stroke": [
+                          "bs.primary",
+                          "bs.link-color"
+                        ],
+                        "cornerRadius": [
+                          "radius.300",
+                          "space.200"
+                        ]
+                      },
+                      "diagnostics": [
+                        {
+                          "kind": "off-role-bind",
+                          "detail": {
+                            "key": "fill",
+                            "role": "bg",
+                            "token": "bs.primary"
+                          }
+                        },
+                        {
+                          "kind": "off-role-bind",
+                          "detail": {
+                            "key": "stroke",
+                            "role": "border",
+                            "token": "bs.primary"
+                          }
+                        },
+                        {
+                          "kind": "off-role-bind",
+                          "detail": {
+                            "key": "cornerRadius",
+                            "role": "radius",
+                            "token": "radius.300"
+                          }
+                        }
+                      ]
+                    }
+                  }
+                ]
+              }
+            ],
+            "sorb": {
+              "tokens": {
+                "fill": "button.primary.bg.disabled"
+              },
+              "candidates": {
+                "fill": [
+                  "color.white",
+                  "color.text.on-action",
+                  "color.bg.surface",
+                  "color.bg.disabled",
+                  "button.primary.bg.disabled",
+                  "button.primary.text.default",
+                  "button.primary.text.hover",
+                  "button.danger.bg.disabled",
+                  "button.danger.text.default",
+                  "button.danger.text.hover",
+                  "button.success.bg.disabled",
+                  "button.success.text.default",
+                  "button.success.text.hover",
+                  "bs.body-bg"
+                ]
+              }
+            }
+          }
+        ],
+        "sorb": {
+          "tokens": {
+            "fill": "button.primary.bg.disabled"
+          },
+          "candidates": {
+            "fill": [
+              "color.white",
+              "color.text.on-action",
+              "color.bg.surface",
+              "color.bg.disabled",
+              "button.primary.bg.disabled",
+              "button.primary.text.default",
+              "button.primary.text.hover",
+              "button.danger.bg.disabled",
+              "button.danger.text.default",
+              "button.danger.text.hover",
+              "button.success.bg.disabled",
+              "button.success.text.default",
+              "button.success.text.hover",
+              "bs.body-bg"
+            ]
+          }
+        }
+      }
+    }
+  ]
+}

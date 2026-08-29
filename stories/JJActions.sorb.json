@@ -1,0 +1,918 @@
+{
+  "schemaVersion": 1,
+  "component": "JJActions",
+  "importPath": "./stories/JJActions.stories.jsx",
+  "capturedAt": "2026-08-28T18:22:13.481Z",
+  "stories": [
+    {
+      "id": "janesjeans-actions--button-primary",
+      "name": "Button Primary",
+      "title": "JanesJeans/Actions",
+      "hash": "sha256:0ed77ed0ffaea8a23d86a0cdb18032d9c39eede7840cf56a54a2d3406d38d678",
+      "root": {
+        "type": "FRAME",
+        "name": "div",
+        "x": 0,
+        "y": 0,
+        "width": 1248,
+        "height": 38,
+        "opacity": 1,
+        "clipsContent": false,
+        "fills": [
+          {
+            "type": "SOLID",
+            "color": {
+              "r": 1,
+              "g": 1,
+              "b": 1
+            },
+            "opacity": 1,
+            "raw": "rgb(255, 255, 255)"
+          }
+        ],
+        "strokes": [],
+        "strokeWeight": 0,
+        "cornerRadius": 0,
+        "effects": [],
+        "layout": {
+          "mode": "NONE"
+        },
+        "children": [
+          {
+            "type": "FRAME",
+            "name": "button",
+            "x": 0,
+            "y": 0,
+            "width": 105.828125,
+            "height": 38,
+            "opacity": 1,
+            "clipsContent": false,
+            "fills": [
+              {
+                "type": "SOLID",
+                "color": {
+                  "r": 0.1843137254901961,
+                  "g": 0.3607843137254902,
+                  "b": 0.6196078431372549
+                },
+                "opacity": 1,
+                "raw": "rgb(47, 92, 158)"
+              }
+            ],
+            "strokes": [
+              {
+                "type": "SOLID",
+                "color": {
+                  "r": 0.1843137254901961,
+                  "g": 0.3607843137254902,
+                  "b": 0.6196078431372549
+                },
+                "opacity": 1,
+                "raw": "rgb(47, 92, 158)"
+              }
+            ],
+            "strokeWeight": 1,
+            "cornerRadius": 8,
+            "effects": [],
+            "layout": {
+              "mode": "NONE"
+            },
+            "children": [
+              {
+                "type": "TEXT",
+                "name": "Shop jeans",
+                "x": 13,
+                "y": 10,
+                "width": 79.828125,
+                "height": 18,
+                "characters": "Shop jeans",
+                "fontFamily": "ui-sans-serif",
+                "fontWeight": 400,
+                "italic": false,
+                "fontSize": 16,
+                "lineHeight": {
+                  "unit": "PIXELS",
+                  "value": 24
+                },
+                "letterSpacing": 0,
+                "textAlign": "CENTER",
+                "fills": [
+                  {
+                    "type": "SOLID",
+                    "color": {
+                      "r": 1,
+                      "g": 1,
+                      "b": 1
+                    },
+                    "opacity": 1,
+                    "raw": "rgb(255, 255, 255)"
+                  }
+                ],
+                "sorb": {
+                  "tokens": {
+                    "fill": "button.primary.text.default"
+                  },
+                  "candidates": {
+                    "fill": [
+                      "color.white",
+                      "color.text.on-action",
+                      "color.bg.surface",
+                      "color.bg.disabled",
+                      "button.primary.bg.disabled",
+                      "button.primary.text.default",
+                      "button.primary.text.hover",
+                      "button.danger.bg.disabled",
+                      "button.danger.text.default",
+                      "button.danger.text.hover",
+                      "button.success.bg.disabled",
+                      "button.success.text.default",
+                      "button.success.text.hover",
+                      "bs.body-bg"
+                    ]
+                  }
+                }
+              }
+            ],
+            "sorb": {
+              "tokens": {
+                "fill": "bs.primary",
+                "stroke": "bs.primary",
+                "cornerRadius": "radius.300"
+              },
+              "candidates": {
+                "fill": [
+                  "bs.primary",
+                  "bs.link-color"
+                ],
+                "stroke": [
+                  "bs.primary",
+                  "bs.link-color"
+                ],
+                "cornerRadius": [
+                  "radius.300",
+                  "space.200"
+                ]
+              },
+              "diagnostics": [
+                {
+                  "kind": "off-role-bind",
+                  "detail": {
+                    "key": "fill",
+                    "role": "bg",
+                    "token": "bs.primary"
+                  }
+                },
+                {
+                  "kind": "off-role-bind",
+                  "detail": {
+                    "key": "stroke",
+                    "role": "border",
+                    "token": "bs.primary"
+                  }
+                },
+                {
+                  "kind": "off-role-bind",
+                  "detail": {
+                    "key": "cornerRadius",
+                    "role": "radius",
+                    "token": "radius.300"
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "sorb": {
+          "tokens": {
+            "fill": "button.primary.bg.disabled"
+          },
+          "candidates": {
+            "fill": [
+              "color.white",
+              "color.text.on-action",
+              "color.bg.surface",
+              "color.bg.disabled",
+              "button.primary.bg.disabled",
+              "button.primary.text.default",
+              "button.primary.text.hover",
+              "button.danger.bg.disabled",
+              "button.danger.text.default",
+              "button.danger.text.hover",
+              "button.success.bg.disabled",
+              "button.success.text.default",
+              "button.success.text.hover",
+              "bs.body-bg"
+            ]
+          }
+        }
+      }
+    },
+    {
+      "id": "janesjeans-actions--button-primary-lg",
+      "name": "Button Primary Lg",
+      "title": "JanesJeans/Actions",
+      "hash": "sha256:579911158748a4ec773d678a7fbcf394c14b9d6c47cb0302759e0466b1b94376",
+      "root": {
+        "type": "FRAME",
+        "name": "div",
+        "x": 0,
+        "y": 0,
+        "width": 1248,
+        "height": 48,
+        "opacity": 1,
+        "clipsContent": false,
+        "fills": [
+          {
+            "type": "SOLID",
+            "color": {
+              "r": 1,
+              "g": 1,
+              "b": 1
+            },
+            "opacity": 1,
+            "raw": "rgb(255, 255, 255)"
+          }
+        ],
+        "strokes": [],
+        "strokeWeight": 0,
+        "cornerRadius": 0,
+        "effects": [],
+        "layout": {
+          "mode": "NONE"
+        },
+        "children": [
+          {
+            "type": "FRAME",
+            "name": "button",
+            "x": 0,
+            "y": 0,
+            "width": 182.046875,
+            "height": 48,
+            "opacity": 1,
+            "clipsContent": false,
+            "fills": [
+              {
+                "type": "SOLID",
+                "color": {
+                  "r": 0.1843137254901961,
+                  "g": 0.3607843137254902,
+                  "b": 0.6196078431372549
+                },
+                "opacity": 1,
+                "raw": "rgb(47, 92, 158)"
+              }
+            ],
+            "strokes": [
+              {
+                "type": "SOLID",
+                "color": {
+                  "r": 0.1843137254901961,
+                  "g": 0.3607843137254902,
+                  "b": 0.6196078431372549
+                },
+                "opacity": 1,
+                "raw": "rgb(47, 92, 158)"
+              }
+            ],
+            "strokeWeight": 1,
+            "cornerRadius": 12,
+            "effects": [],
+            "layout": {
+              "mode": "NONE"
+            },
+            "children": [
+              {
+                "type": "TEXT",
+                "name": "Add to cart · $98",
+                "x": 17,
+                "y": 12,
+                "width": 148.046875,
+                "height": 23,
+                "characters": "Add to cart · $98",
+                "fontFamily": "ui-sans-serif",
+                "fontWeight": 400,
+                "italic": false,
+                "fontSize": 20,
+                "lineHeight": {
+                  "unit": "PIXELS",
+                  "value": 30
+                },
+                "letterSpacing": 0,
+                "textAlign": "CENTER",
+                "fills": [
+                  {
+                    "type": "SOLID",
+                    "color": {
+                      "r": 1,
+                      "g": 1,
+                      "b": 1
+                    },
+                    "opacity": 1,
+                    "raw": "rgb(255, 255, 255)"
+                  }
+                ],
+                "sorb": {
+                  "tokens": {
+                    "fill": "button.primary.text.default"
+                  },
+                  "candidates": {
+                    "fill": [
+                      "color.white",
+                      "color.text.on-action",
+                      "color.bg.surface",
+                      "color.bg.disabled",
+                      "button.primary.bg.disabled",
+                      "button.primary.text.default",
+                      "button.primary.text.hover",
+                      "button.danger.bg.disabled",
+                      "button.danger.text.default",
+                      "button.danger.text.hover",
+                      "button.success.bg.disabled",
+                      "button.success.text.default",
+                      "button.success.text.hover",
+                      "bs.body-bg"
+                    ]
+                  }
+                }
+              }
+            ],
+            "sorb": {
+              "tokens": {
+                "fill": "bs.primary",
+                "stroke": "bs.primary",
+                "cornerRadius": "space.300"
+              },
+              "candidates": {
+                "fill": [
+                  "bs.primary",
+                  "bs.link-color"
+                ],
+                "stroke": [
+                  "bs.primary",
+                  "bs.link-color"
+                ],
+                "cornerRadius": [
+                  "space.300"
+                ]
+              },
+              "diagnostics": [
+                {
+                  "kind": "off-role-bind",
+                  "detail": {
+                    "key": "fill",
+                    "role": "bg",
+                    "token": "bs.primary"
+                  }
+                },
+                {
+                  "kind": "off-role-bind",
+                  "detail": {
+                    "key": "stroke",
+                    "role": "border",
+                    "token": "bs.primary"
+                  }
+                },
+                {
+                  "kind": "off-role-bind",
+                  "detail": {
+                    "key": "cornerRadius",
+                    "role": "radius",
+                    "token": "space.300"
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "sorb": {
+          "tokens": {
+            "fill": "button.primary.bg.disabled"
+          },
+          "candidates": {
+            "fill": [
+              "color.white",
+              "color.text.on-action",
+              "color.bg.surface",
+              "color.bg.disabled",
+              "button.primary.bg.disabled",
+              "button.primary.text.default",
+              "button.primary.text.hover",
+              "button.danger.bg.disabled",
+              "button.danger.text.default",
+              "button.danger.text.hover",
+              "button.success.bg.disabled",
+              "button.success.text.default",
+              "button.success.text.hover",
+              "bs.body-bg"
+            ]
+          }
+        }
+      }
+    },
+    {
+      "id": "janesjeans-actions--button-outline",
+      "name": "Button Outline",
+      "title": "JanesJeans/Actions",
+      "hash": "sha256:9a5f68cd79474f8da1b5e6b42f43587e2bb73518eb39c458d769bfe535d38570",
+      "root": {
+        "type": "FRAME",
+        "name": "div",
+        "x": 0,
+        "y": 0,
+        "width": 1248,
+        "height": 38,
+        "opacity": 1,
+        "clipsContent": false,
+        "fills": [
+          {
+            "type": "SOLID",
+            "color": {
+              "r": 1,
+              "g": 1,
+              "b": 1
+            },
+            "opacity": 1,
+            "raw": "rgb(255, 255, 255)"
+          }
+        ],
+        "strokes": [],
+        "strokeWeight": 0,
+        "cornerRadius": 0,
+        "effects": [],
+        "layout": {
+          "mode": "NONE"
+        },
+        "children": [
+          {
+            "type": "FRAME",
+            "name": "button",
+            "x": 0,
+            "y": 0,
+            "width": 99.484375,
+            "height": 38,
+            "opacity": 1,
+            "clipsContent": false,
+            "fills": [],
+            "strokes": [
+              {
+                "type": "SOLID",
+                "color": {
+                  "r": 0.1843137254901961,
+                  "g": 0.3607843137254902,
+                  "b": 0.6196078431372549
+                },
+                "opacity": 1,
+                "raw": "rgb(47, 92, 158)"
+              }
+            ],
+            "strokeWeight": 1,
+            "cornerRadius": 8,
+            "effects": [],
+            "layout": {
+              "mode": "NONE"
+            },
+            "children": [
+              {
+                "type": "TEXT",
+                "name": "Browse all",
+                "x": 13,
+                "y": 10,
+                "width": 73.484375,
+                "height": 18,
+                "characters": "Browse all",
+                "fontFamily": "ui-sans-serif",
+                "fontWeight": 400,
+                "italic": false,
+                "fontSize": 16,
+                "lineHeight": {
+                  "unit": "PIXELS",
+                  "value": 24
+                },
+                "letterSpacing": 0,
+                "textAlign": "CENTER",
+                "fills": [
+                  {
+                    "type": "SOLID",
+                    "color": {
+                      "r": 0.1843137254901961,
+                      "g": 0.3607843137254902,
+                      "b": 0.6196078431372549
+                    },
+                    "opacity": 1,
+                    "raw": "rgb(47, 92, 158)"
+                  }
+                ],
+                "sorb": {
+                  "tokens": {
+                    "fill": "bs.primary"
+                  },
+                  "candidates": {
+                    "fill": [
+                      "bs.primary",
+                      "bs.link-color"
+                    ]
+                  },
+                  "diagnostics": [
+                    {
+                      "kind": "off-role-bind",
+                      "detail": {
+                        "key": "fill",
+                        "role": "text",
+                        "token": "bs.primary"
+                      }
+                    }
+                  ]
+                }
+              }
+            ],
+            "sorb": {
+              "tokens": {
+                "stroke": "bs.primary",
+                "cornerRadius": "radius.300"
+              },
+              "candidates": {
+                "stroke": [
+                  "bs.primary",
+                  "bs.link-color"
+                ],
+                "cornerRadius": [
+                  "radius.300",
+                  "space.200"
+                ]
+              },
+              "diagnostics": [
+                {
+                  "kind": "off-role-bind",
+                  "detail": {
+                    "key": "stroke",
+                    "role": "border",
+                    "token": "bs.primary"
+                  }
+                },
+                {
+                  "kind": "off-role-bind",
+                  "detail": {
+                    "key": "cornerRadius",
+                    "role": "radius",
+                    "token": "radius.300"
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "sorb": {
+          "tokens": {
+            "fill": "button.primary.bg.disabled"
+          },
+          "candidates": {
+            "fill": [
+              "color.white",
+              "color.text.on-action",
+              "color.bg.surface",
+              "color.bg.disabled",
+              "button.primary.bg.disabled",
+              "button.primary.text.default",
+              "button.primary.text.hover",
+              "button.danger.bg.disabled",
+              "button.danger.text.default",
+              "button.danger.text.hover",
+              "button.success.bg.disabled",
+              "button.success.text.default",
+              "button.success.text.hover",
+              "bs.body-bg"
+            ]
+          }
+        }
+      }
+    },
+    {
+      "id": "janesjeans-actions--button-outline-sm",
+      "name": "Button Outline Sm",
+      "title": "JanesJeans/Actions",
+      "hash": "sha256:6f7bc2f466a05e8b3b2208af4c60b444f2d308f2715294f91c00bec42d2d447a",
+      "root": {
+        "type": "FRAME",
+        "name": "div",
+        "x": 0,
+        "y": 0,
+        "width": 1248,
+        "height": 31,
+        "opacity": 1,
+        "clipsContent": false,
+        "fills": [
+          {
+            "type": "SOLID",
+            "color": {
+              "r": 1,
+              "g": 1,
+              "b": 1
+            },
+            "opacity": 1,
+            "raw": "rgb(255, 255, 255)"
+          }
+        ],
+        "strokes": [],
+        "strokeWeight": 0,
+        "cornerRadius": 0,
+        "effects": [],
+        "layout": {
+          "mode": "NONE"
+        },
+        "children": [
+          {
+            "type": "FRAME",
+            "name": "button",
+            "x": 0,
+            "y": 0,
+            "width": 86.84375,
+            "height": 31,
+            "opacity": 1,
+            "clipsContent": false,
+            "fills": [],
+            "strokes": [
+              {
+                "type": "SOLID",
+                "color": {
+                  "r": 0.1843137254901961,
+                  "g": 0.3607843137254902,
+                  "b": 0.6196078431372549
+                },
+                "opacity": 1,
+                "raw": "rgb(47, 92, 158)"
+              }
+            ],
+            "strokeWeight": 1,
+            "cornerRadius": 6,
+            "effects": [],
+            "layout": {
+              "mode": "NONE"
+            },
+            "children": [
+              {
+                "type": "TEXT",
+                "name": "View jeans",
+                "x": 9,
+                "y": 7,
+                "width": 68.84375,
+                "height": 17,
+                "characters": "View jeans",
+                "fontFamily": "ui-sans-serif",
+                "fontWeight": 400,
+                "italic": false,
+                "fontSize": 14,
+                "lineHeight": {
+                  "unit": "PIXELS",
+                  "value": 21
+                },
+                "letterSpacing": 0,
+                "textAlign": "CENTER",
+                "fills": [
+                  {
+                    "type": "SOLID",
+                    "color": {
+                      "r": 0.1843137254901961,
+                      "g": 0.3607843137254902,
+                      "b": 0.6196078431372549
+                    },
+                    "opacity": 1,
+                    "raw": "rgb(47, 92, 158)"
+                  }
+                ],
+                "sorb": {
+                  "tokens": {
+                    "fill": "bs.primary"
+                  },
+                  "candidates": {
+                    "fill": [
+                      "bs.primary",
+                      "bs.link-color"
+                    ]
+                  },
+                  "diagnostics": [
+                    {
+                      "kind": "off-role-bind",
+                      "detail": {
+                        "key": "fill",
+                        "role": "text",
+                        "token": "bs.primary"
+                      }
+                    }
+                  ]
+                }
+              }
+            ],
+            "sorb": {
+              "tokens": {
+                "stroke": "bs.primary"
+              },
+              "candidates": {
+                "stroke": [
+                  "bs.primary",
+                  "bs.link-color"
+                ]
+              },
+              "diagnostics": [
+                {
+                  "kind": "off-role-bind",
+                  "detail": {
+                    "key": "stroke",
+                    "role": "border",
+                    "token": "bs.primary"
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "sorb": {
+          "tokens": {
+            "fill": "button.primary.bg.disabled"
+          },
+          "candidates": {
+            "fill": [
+              "color.white",
+              "color.text.on-action",
+              "color.bg.surface",
+              "color.bg.disabled",
+              "button.primary.bg.disabled",
+              "button.primary.text.default",
+              "button.primary.text.hover",
+              "button.danger.bg.disabled",
+              "button.danger.text.default",
+              "button.danger.text.hover",
+              "button.success.bg.disabled",
+              "button.success.text.default",
+              "button.success.text.hover",
+              "bs.body-bg"
+            ]
+          }
+        }
+      }
+    },
+    {
+      "id": "janesjeans-actions--size-chip",
+      "name": "Size Chip",
+      "title": "JanesJeans/Actions",
+      "hash": "sha256:abd2496d5e70f8d1c4aa6861a63173a5c77ba0cbf34691a87325d93ba93060e6",
+      "root": {
+        "type": "FRAME",
+        "name": "div",
+        "x": 0,
+        "y": 0,
+        "width": 1248,
+        "height": 31,
+        "opacity": 1,
+        "clipsContent": false,
+        "fills": [
+          {
+            "type": "SOLID",
+            "color": {
+              "r": 1,
+              "g": 1,
+              "b": 1
+            },
+            "opacity": 1,
+            "raw": "rgb(255, 255, 255)"
+          }
+        ],
+        "strokes": [],
+        "strokeWeight": 0,
+        "cornerRadius": 0,
+        "effects": [],
+        "layout": {
+          "mode": "NONE"
+        },
+        "children": [
+          {
+            "type": "FRAME",
+            "name": "button",
+            "x": 0,
+            "y": 0,
+            "width": 34.9375,
+            "height": 31,
+            "opacity": 1,
+            "clipsContent": false,
+            "fills": [],
+            "strokes": [
+              {
+                "type": "SOLID",
+                "color": {
+                  "r": 0.1843137254901961,
+                  "g": 0.3607843137254902,
+                  "b": 0.6196078431372549
+                },
+                "opacity": 1,
+                "raw": "rgb(47, 92, 158)"
+              }
+            ],
+            "strokeWeight": 1,
+            "cornerRadius": 6,
+            "effects": [],
+            "layout": {
+              "mode": "NONE"
+            },
+            "children": [
+              {
+                "type": "TEXT",
+                "name": "32",
+                "x": 9,
+                "y": 7,
+                "width": 16.9375,
+                "height": 17,
+                "characters": "32",
+                "fontFamily": "ui-sans-serif",
+                "fontWeight": 400,
+                "italic": false,
+                "fontSize": 14,
+                "lineHeight": {
+                  "unit": "PIXELS",
+                  "value": 21
+                },
+                "letterSpacing": 0,
+                "textAlign": "CENTER",
+                "fills": [
+                  {
+                    "type": "SOLID",
+                    "color": {
+                      "r": 0.1843137254901961,
+                      "g": 0.3607843137254902,
+                      "b": 0.6196078431372549
+                    },
+                    "opacity": 1,
+                    "raw": "rgb(47, 92, 158)"
+                  }
+                ],
+                "sorb": {
+                  "tokens": {
+                    "fill": "bs.primary"
+                  },
+                  "candidates": {
+                    "fill": [
+                      "bs.primary",
+                      "bs.link-color"
+                    ]
+                  },
+                  "diagnostics": [
+                    {
+                      "kind": "off-role-bind",
+                      "detail": {
+                        "key": "fill",
+                        "role": "text",
+                        "token": "bs.primary"
+                      }
+                    }
+                  ]
+                }
+              }
+            ],
+            "sorb": {
+              "tokens": {
+                "stroke": "bs.primary"
+              },
+              "candidates": {
+                "stroke": [
+                  "bs.primary",
+                  "bs.link-color"
+                ]
+              },
+              "diagnostics": [
+                {
+                  "kind": "off-role-bind",
+                  "detail": {
+                    "key": "stroke",
+                    "role": "border",
+                    "token": "bs.primary"
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "sorb": {
+          "tokens": {
+            "fill": "button.primary.bg.disabled"
+          },
+          "candidates": {
+            "fill": [
+              "color.white",
+              "color.text.on-action",
+              "color.bg.surface",
+              "color.bg.disabled",
+              "button.primary.bg.disabled",
+              "button.primary.text.default",
+              "button.primary.text.hover",
+              "button.danger.bg.disabled",
+              "button.danger.text.default",
+              "button.danger.text.hover",
+              "button.success.bg.disabled",
+              "button.success.text.default",
+              "button.success.text.hover",
+              "bs.body-bg"
+            ]
+          }
+        }
+      }
+    }
+  ]
+}
