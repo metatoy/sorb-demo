@@ -17,7 +17,7 @@
   },
   "dependencies": {
     "@metatoy/bootstrap-styled": "^1.0.0",
-    "@sorb/leaf": "^0.2.0",
+    "@sorb/leaf": "^0.5.0",
     "react": "^18.0.0",
     "react-dom": "^18.0.0",
     "react-router-dom": "^7.18.1",
