@@ -1,10 +1,15 @@
 # Sorb example
 
-Reference app for Sorb, the design-token bridge for your running app — every
-control renders from a CSS custom property. Not a workspace member — it depends on
+Reference app for Sorb™, the design-token bridge for your running app — every
+control renders from a CSS custom property. It's a full runnable app (not
+just integration snippets): `index.html` + `main.jsx` wrap a real React app in
+`SorbProvider`, wired the same way [Getting started](https://www.sorbcloud.com/docs/getting-started)
+walks you through. It's also a pnpm workspace member of the umbrella
+`sorb-*` workspace, so local development resolves
 [`@sorb/leaf`](https://www.npmjs.com/package/@sorb/leaf)
 and [`@sorb/juice`](https://www.npmjs.com/package/@sorb/juice)
-straight from npm, exactly as a real consumer would.
+from their sibling checkouts rather than npm — a real consumer installs the
+same two packages straight from npm instead.
 
 ## Files
 
@@ -100,6 +105,7 @@ npm run build-storybook    # static build → storybook-static/
 sorb-seed capture          # walk the Storybook → .sorb/ map + *.sorb.json
 ```
 
-> These files are an integration reference, not a full runnable app — they
-> assume your own `App` and `index.html` exist. See the
-> [root README](../README.md) for the end-to-end workflow.
+See [Getting started](https://www.sorbcloud.com/docs/getting-started) for the
+end-to-end setup this app follows, and the
+[React SDK guide](https://www.sorbcloud.com/docs/react-sdk) for the
+`SorbProvider`/`PreviewBanner` wiring in `main.jsx`.
