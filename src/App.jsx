@@ -15,7 +15,7 @@ import { HERO_SLUG } from './data/catalog'
 // so every surface renders from --bs-* custom properties — one bs-* preview push
 // re-skins the whole shell live.
 export const App = () => (
-  <BrowserRouter>
+  <BrowserRouter basename={import.meta.env.BASE_URL}>
     <Routes>
       <Route element={<SiteLayout />}>
         <Route index element={<LandingPage />} />
