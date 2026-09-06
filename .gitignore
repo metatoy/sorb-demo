@@ -1,7 +1,8 @@
 node_modules/
 *.log
 .DS_Store
-.sorb/
+.sorb/*
+!.sorb/index.json
 src/tokens/generated/
 dist/
 storybook-static/
