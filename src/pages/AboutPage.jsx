@@ -1,3 +1,4 @@
+import straightLegRawSelvedge from '../assets/photos/straight-leg-raw-selvedge.jpg'
 import React from 'react'
 import { Link } from 'react-router-dom'
 import {
@@ -12,21 +13,21 @@ import {
   Image,
   Ratio,
 } from '@metatoy/bootstrap-styled'
-import { products } from '../data/catalog'
+import { products, PHOTO_SOURCES } from '../data/catalog'
 import { DISPLAY_STACK } from '../sorbBsTheme'
 
 // ── Jane's Jeans — About page ────────────────────────────────────────────────
 //
-// The store story + a Photography Credits section that attributes the stock
-// imagery per the Unsplash License (https://unsplash.com/license — attribution
+// The store story + a Photography Credits section that attributes the bundled
+// photography (src/assets/photos, downloaded from Unsplash) per the Unsplash License (https://unsplash.com/license — attribution
 // is not required, but the license asks that photographers be credited when
 // possible). Every custom surface reads var(--bs-*), so one bs-* preview push
 // re-skins this page with the rest of the site.
 
 const ABOUT_IMAGE =
-  'https://images.unsplash.com/photo-1529391409740-59f2cea08bc6?auto=format&fit=crop&w=1600&q=80'
+  straightLegRawSelvedge
 
-// Every Unsplash photo actually rendered on the site, derived from the catalog
+// Every bundled photo actually rendered on the site, derived from the catalog
 // (product images + detail-gallery shots) so the credits never drift from the
 // imagery. Deduped, first-seen label wins.
 const CREDIT_MAP = new Map()
@@ -173,7 +174,7 @@ export const AboutPage = () => (
             Image credits
           </Heading>
           <Text muted style={{ display: 'block' }}>
-            The photography on this demo comes from{' '}
+            The photography on this demo is bundled with the site and comes from{' '}
             <a
               href="https://unsplash.com"
               style={creditLink}
@@ -200,7 +201,7 @@ export const AboutPage = () => (
           {PHOTO_CREDITS.map(({ url, label }, i) => (
             <Col key={url} md={3} sm={6}>
               <a
-                href={url}
+                href={PHOTO_SOURCES.get(url) || url}
                 target="_blank"
                 rel="noopener noreferrer"
                 style={{ textDecoration: 'none', display: 'block' }}
