@@ -1,3 +1,4 @@
+import straightLegRawSelvedge from '../assets/photos/straight-leg-raw-selvedge.jpg'
 import React from 'react'
 import { Link } from 'react-router-dom'
 import {
@@ -30,12 +31,12 @@ import { DISPLAY_STACK } from '../sorbBsTheme'
 // Hero (lifestyle photo of a person in blue jeans + display heading + CTA pair) ·
 // value grid (Icon + Typography) · product highlights (Card grid → /product/:slug).
 // Every custom surface reads var(--bs-*) — never a raw hex — so one bs-* preview
-// push re-skins the whole page with the rest of the site. Imagery = real
-// free-stock jeans photography (Unsplash direct CDN); curl-verified 200 image/*.
+// push re-skins the whole page with the rest of the site. Imagery = bundled
+// photography from sorb-demo-kit (src/assets/photos).
 
-// Lifestyle hero: founder-selected blue-jeans shot (Unsplash, hero-res w=1600).
+// Lifestyle hero: founder-selected blue-jeans shot (bundled).
 const HERO_IMAGE =
-  'https://images.unsplash.com/photo-1529391409740-59f2cea08bc6?auto=format&fit=crop&w=1600&q=80'
+  straightLegRawSelvedge
 
 const VALUE_PROPS = [
   {
